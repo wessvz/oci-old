@@ -27,7 +27,7 @@
 .copyContainer {
   max-width: 600px;
   order: 1;
-  padding: 16px 24px 24px;
+  padding: 32px 24px 32px;
 }
 
 @media (min-width: 768px) {

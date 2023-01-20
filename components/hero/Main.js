@@ -23,12 +23,10 @@ export default function Main() {
       </div>
       <div className={styles.wrapper}>
         <div className={styles.content}>
-          <h1 className={styles.title}>
-            Moving together towards a sustainable world
-          </h1>
+          <h1 className={styles.title}>Working together on smart solutions</h1>
           <p className={styles.subtitle}>
-            Innovative thinking is the driving force behind OCI's production and
-            development
+            Innovative and sustainable thinking is the driving force behind
+            OCI's production and development
           </p>
           <div className={styles.buttons}>
             <LargeButton buttonText="What we do" link="/products" />

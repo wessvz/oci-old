@@ -1,4 +1,10 @@
-import React from "react";
+import styles from "./Panel.module.css";
+import Image from "next/image";
+import Heading from "@/components/layout/content/Heading";
+import MediumButton from "@/components/button/MediumButton";
+import Grid from "../layout/content/Grid";
+import Section from "../layout/content/Section";
+import Kicker from "../layout/content/Kicker";
 
 export default function voorbeeldoud() {
   return (

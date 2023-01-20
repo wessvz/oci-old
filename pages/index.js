@@ -18,7 +18,11 @@ export default function Home() {
       <main className="main">
         <Main />
 
-        <Title />
+        <Title
+          kicker="Specialty"
+          title="Customized assemblies"
+          copy="Smart solutions for connecting energy and water grids to domestic homes, office buildings and industrial sites."
+        />
         <section className={styles.container}>
           <Panel
             kicker="Products"
@@ -41,7 +45,11 @@ export default function Home() {
           />
         </section>
         <Proposition />
-        <Title />
+        <Title
+          kicker="What drives us"
+          title="Strong relationships"
+          copy="Creating sustainable impact by delivering unique value to our customers, partners and employees."
+        />
         <section className={styles.container}>
           <Panel
             order="reverse"

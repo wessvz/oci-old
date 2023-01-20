@@ -7,9 +7,16 @@
   padding: var(--pageMargin);
   margin: 0 auto;
   width: 100%;
-  padding-top: 96px;
-  padding-bottom: 96px;
+  padding-top: 48px;
+  padding-bottom: 48px;
   position: relative;
+}
+
+@media (min-width: 768px) {
+  .flex {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
 }
 
 .flex {

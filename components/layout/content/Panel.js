@@ -1,7 +1,7 @@
 import styles from "./Panel.module.css";
 import Image from "next/image";
 import Heading from "@/components/layout/content/Heading";
-import Subtitle from "@/components/layout/content/Kicker";
+import Kicker from "@/components/layout/content/Kicker";
 import Paragraph from "@/components/layout/content/Paragraph";
 import MediumButton from "@/components/button/MediumButton";
 import { motion, useAnimation } from "framer-motion";
@@ -40,7 +40,7 @@ export default function Panel({
       animate={control}
     >
       <div className={`${styles.copyContainer} ${styles[order]}`}>
-        <Subtitle level={3}>{kicker}</Subtitle>
+        <Kicker level={3}>{kicker}</Kicker>
         <Heading level={3}>{title}</Heading>
         <Paragraph>{copy}</Paragraph>
         <div className={styles.action}>

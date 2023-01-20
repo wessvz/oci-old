@@ -5,6 +5,7 @@ import magazijn from "@/public/images/magazijn.webp";
 import products from "@/public/images/product.webp";
 import Panel from "@/components/layout/content/Panel";
 import Proposition from "@/components/section/Proposition";
+import Title from "@/components/section/Title";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
       </Head>
       <main className="main">
         <Main />
+
+        <Title />
 
         <section className={styles.container}>
           <Panel

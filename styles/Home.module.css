@@ -72,7 +72,7 @@
 
 @media (min-width: 768px) {
   .container {
-    padding: 160px var(--pageMargin);
-    gap: 160px;
+    padding: 140px var(--pageMargin);
+    gap: 140px;
   }
 }

@@ -67,12 +67,12 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  padding: 32px var(--pageMin);
+  padding: 0px var(--pageMin);
 }
 
 @media (min-width: 768px) {
   .container {
-    padding: 140px var(--pageMargin);
+    padding: 200px var(--pageMargin);
     gap: 140px;
   }
 }

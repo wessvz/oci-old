@@ -1,5 +1,5 @@
 .container {
-  padding: 100px var(--pageMin) 56px;
+  padding: 100px var(--pageMin) 100px;
   max-width: 400px;
   margin: 0 auto;
   text-align: center;

@@ -15,16 +15,16 @@
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
+  line-height: 1.2em;
   color: var(--white);
   display: flex;
   align-items: flex-start;
-  align-items: center;
   padding-bottom: 8px;
 }
 
 .text {
   font-size: 18px;
-  line-height: 1.45em;
+  line-height: 1.6em;
   color: var(--white);
   opacity: 0.6;
   margin: 0;

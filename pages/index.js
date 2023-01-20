@@ -19,7 +19,6 @@ export default function Home() {
         <Main />
 
         <Title />
-
         <section className={styles.container}>
           <Panel
             kicker="Products"
@@ -42,7 +41,7 @@ export default function Home() {
           />
         </section>
         <Proposition />
-
+        <Title />
         <section className={styles.container}>
           <Panel
             order="reverse"

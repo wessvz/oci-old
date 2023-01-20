@@ -1,7 +1,7 @@
 .xl {
   color: var(--white);
   font-size: 40px;
-  line-height: 1.1em;
+  line-height: 1.1;
   font-weight: 600;
   letter-spacing: -1px;
   max-width: 500px;
@@ -63,7 +63,7 @@
 .md {
   font-size: 30px;
   font-weight: 600;
-  line-height: 1.25em;
+  line-height: 1.2;
   padding-bottom: 16px;
 }
 

@@ -3,6 +3,7 @@ import Image from "next/image";
 import video from "@/public/images/video-photo.webp";
 import { Play } from "@/public/icons/General";
 import Item from "../content/Item";
+import Heading from "../layout/content/Heading";
 
 export default function Proposition() {
   return (

@@ -4,6 +4,7 @@
 
 .wrapper {
   max-width: var(--pageWidth);
+  padding: var(--pageMargin);
   margin: 0 auto;
   width: 100%;
   padding-top: 96px;
@@ -16,16 +17,35 @@
   position: relative;
   flex-flow: row wrap;
   align-items: center;
+  gap: 48px;
+}
+
+@media (min-width: 768px) {
+  .flex {
+    gap: 64px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .flex {
+    gap: 0;
+  }
 }
 
 .content {
-  flex-basis: 46.66667%;
-  padding-right: 11%;
+  flex-basis: 100%;
+}
+
+@media (min-width: 1024px) {
+  .content {
+    flex-basis: 47%;
+    padding-right: 10%;
+  }
 }
 
 .title {
-  font-size: 32px;
-  line-height: 120%;
+  font-size: 40px;
+  line-height: 1.2em;
   padding-bottom: 40px;
   color: var(--white);
 }
@@ -38,7 +58,15 @@
 }
 
 .video {
-  flex-basis: 53.33333%;
+  flex-basis: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .video {
+    flex-basis: 52%;
+  }
 }
 
 .pictureWrapper {
@@ -49,8 +77,6 @@
 }
 
 .play {
-  color: red;
-  font-size: 40px;
   position: absolute;
   top: 50%;
   left: 50%;

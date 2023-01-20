@@ -1,10 +1,10 @@
 import styles from "../styles/Home.module.css";
 import Head from "next/head";
 import Main from "../components/hero/Main";
-import Proposition from "../components/section/proposition";
 import magazijn from "@/public/images/magazijn.webp";
 import products from "@/public/images/product.webp";
 import Panel from "@/components/layout/content/Panel";
+import Proposition from "@/components/section/Proposition";
 
 export default function Home() {
   return (
@@ -38,7 +38,6 @@ export default function Home() {
             link="/sustainability"
           />
         </section>
-
         <Proposition />
 
         <section className={styles.container}>

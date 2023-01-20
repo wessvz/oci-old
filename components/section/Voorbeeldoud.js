@@ -2,6 +2,7 @@ import styles from "./Panel.module.css";
 import Image from "next/image";
 import Heading from "@/components/layout/content/Heading";
 import MediumButton from "@/components/button/MediumButton";
+import MediumButtonOut from "@/components/button/MediumButtonOut";
 import Grid from "../layout/content/Grid";
 import Section from "../layout/content/Section";
 import Kicker from "../layout/content/Kicker";

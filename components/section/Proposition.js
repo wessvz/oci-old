@@ -1,8 +1,8 @@
 import styles from "./Proposition.module.css";
-import Item from "../content/item";
 import Image from "next/image";
 import video from "@/public/images/video-photo.webp";
 import { Play } from "@/public/icons/General";
+import Item from "../content/Item";
 
 export default function Proposition() {
   return (

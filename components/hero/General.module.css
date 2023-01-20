@@ -1,0 +1,76 @@
+.container {
+  background: var(--heroGradient);
+}
+
+.wrapper {
+  max-width: var(--pageWidth);
+  padding: 200px var(--pageMin) 80px var(--pageMin);
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding: 240px var(--pageMargin) 136px var(--pageMargin);
+  }
+}
+
+.title {
+  color: var(--white);
+  font-size: 40px;
+  line-height: 1.1em;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+@media (min-width: 380px) {
+  .title {
+    font-size: 44px;
+  }
+}
+
+@media (min-width: 640px) {
+  .title {
+    font-size: 56px;
+  }
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 64px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 72px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .title {
+    font-size: 88px;
+  }
+}
+
+.subtitle {
+  font-size: 18px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  color: var(--violetLight);
+  max-width: 400px;
+  line-height: 1.4;
+}
+
+@media (min-width: 640px) {
+  .subtitle {
+    font-size: 20px;
+    max-width: 560px;
+  }
+}
+
+@media (min-width: 768px) {
+  .subtitle {
+    font-size: 22px;
+    padding-bottom: 32px;
+  }
+}

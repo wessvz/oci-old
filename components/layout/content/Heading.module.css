@@ -1,0 +1,88 @@
+.xl {
+  color: var(--white);
+  font-size: 40px;
+  line-height: 1.1em;
+  font-weight: 600;
+  letter-spacing: -1px;
+  max-width: 500px;
+}
+
+@media (min-width: 640px) {
+  .xl {
+    font-size: 56px;
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 768px) {
+  .xl {
+    font-size: 64px;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .xl {
+    font-size: 72px;
+    max-width: 1000px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl {
+    font-size: 88px;
+    max-width: 1100px;
+  }
+}
+
+.lg {
+  font-size: 36px;
+  line-height: var(--lineHeight);
+}
+
+@media (min-width: 640px) {
+  .lg {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lg {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg {
+    font-size: 56px;
+  }
+}
+
+.md {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.25em;
+  padding-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  .md {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .md {
+    font-size: 40px;
+  }
+}
+
+.light {
+  color: var(--white);
+}
+
+.dark {
+  color: var(--title);
+}

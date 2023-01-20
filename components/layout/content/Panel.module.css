@@ -1,0 +1,64 @@
+.panelContainer {
+  padding: 0px;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  display: flex;
+  background-color: var(--white);
+  border-radius: 8px;
+  align-items: center;
+  flex-direction: column;
+  max-width: 600px;
+  border: 1px solid hsla(0, 0%, 51.4%, 0.16);
+  box-shadow: 0px 8px 12px 0px #000f1e0a, 0px 2px 4px 0px #000f1e05;
+}
+
+@media (min-width: 768px) {
+  .panelContainer {
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 72px;
+    max-width: 1320px;
+    padding: 64px;
+    border-radius: 24px;
+  }
+}
+
+.copyContainer {
+  max-width: 600px;
+  order: 1;
+  padding: 16px 24px 24px;
+}
+
+@media (min-width: 768px) {
+  .copyContainer {
+    order: 0;
+  }
+}
+
+.reverse {
+  composes: copyContainer;
+  order: 1;
+}
+
+.imageContainer {
+  max-width: 600px;
+  width: 100%;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0px 0px;
+}
+
+@media (min-width: 768px) {
+  .image {
+    border-radius: 8px;
+  }
+}

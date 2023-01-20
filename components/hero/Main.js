@@ -1,0 +1,40 @@
+import styles from "./Main.module.css";
+import Image from "next/image";
+import LargeButton from "../button/LargeButton";
+import voorbeeld from "../../public/images/voorbeeld.webp";
+
+export default function Main() {
+  return (
+    <section className={styles.container}>
+      <div className={styles.imageWrapper}>
+        <div className={styles.view}>
+          <div className={styles.imageContainer}>
+            <Image
+              alt="Voorbeeld"
+              src={voorbeeld}
+              width={700}
+              height={475}
+              sizes="100vw"
+              className={styles.image}
+            />
+            <div className={styles.overlay}></div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.wrapper}>
+        <div className={styles.content}>
+          <h1 className={styles.title}>
+            Moving together towards a sustainable world
+          </h1>
+          <p className={styles.subtitle}>
+            Innovative thinking is the driving force behind OCI's production and
+            development
+          </p>
+          <div className={styles.buttons}>
+            <LargeButton buttonText="What we do" link="/products" />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

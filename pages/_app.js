@@ -1,12 +1,16 @@
-import "@/styles/globals.css";
+import "../styles/theme.css";
+import "../styles/global.css";
 import { Inter } from "@next/font/google";
+import Layout from "../components/layout/Layout";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function App({ Component, pageProps }) {
   return (
     <main className={inter.className}>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </main>
   );
 }

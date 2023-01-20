@@ -1,0 +1,59 @@
+.base {
+  max-width: var(--pageWidth);
+  margin: 0 auto;
+  padding: 0px var(--pageMin);
+}
+
+.default {
+  max-width: var(--pageWidth);
+  margin: 0 auto;
+  padding: 80px var(--pageMin) 80px var(--pageMin);
+}
+
+@media (min-width: 768px) {
+  .default {
+    padding: 112px var(--pageMargin) 112px var(--pageMargin);
+  }
+}
+
+@media (min-width: 1024px) {
+  .default {
+    padding: 200px var(--pageMargin) 200px var(--pageMargin);
+  }
+}
+
+.min {
+  max-width: var(--pageWidth);
+  margin: 0 auto;
+  padding: 100px var(--pageMin) 80px var(--pageMin);
+}
+
+@media (min-width: 768px) {
+  .min {
+    padding: 80px var(--pageMargin) 80px var(--pageMargin);
+  }
+}
+
+@media (min-width: 1024px) {
+  .min {
+    padding: 160px var(--pageMargin) 160px var(--pageMargin);
+  }
+}
+
+.custom {
+  max-width: var(--pageWidth);
+  margin: 0 auto;
+  padding: var(--paddingSM) var(--pageMin) 80px var(--pageMin);
+}
+
+@media (min-width: 768px) {
+  .custom {
+    padding: var(--paddingMD) var(--pageMargin) 112px var(--pageMargin);
+  }
+}
+
+@media (min-width: 1024px) {
+  .custom {
+    padding: var(--paddingLG) var(--pageMargin) 200px var(--pageMargin);
+  }
+}

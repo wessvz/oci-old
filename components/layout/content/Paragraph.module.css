@@ -1,0 +1,7 @@
+.paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: var(--text);
+  margin-bottom: var(--spaceGap);
+}

@@ -1,0 +1,14 @@
+.wrapper {
+  max-width: var(--pageWidth);
+  padding: 200px var(--pageMin) 140px var(--pageMin);
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding: 240px var(--pageMargin) 240px var(--pageMargin);
+    text-align: center;
+  }
+}

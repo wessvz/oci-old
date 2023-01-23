@@ -43,11 +43,16 @@
   }
 }
 
-.logo {
-  cursor: pointer;
-  font-size: 18px;
-  color: white;
-  font-weight: 600;
+.brand {
+  display: flex;
+  align-items: center;
+  max-width: 88px;
+}
+
+.svg {
+  height: auto;
+  width: 100%;
+  max-width: 88px;
 }
 
 .NavigationMenuList {
@@ -62,7 +67,7 @@
   border: 1px solid hsla(0, 0%, 100%, 0.2);
 }
 
-.NavigationMenuLink {
+.link {
   display: block;
   position: relative;
   text-decoration: none;
@@ -78,11 +83,11 @@
   z-index: 1;
 }
 
-.NavigationMenuLink:hover {
+.link:hover {
   color: var(--white);
 }
 
-.NavigationMenuLink::after {
+.link::after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -98,18 +103,27 @@
   transition-property: opacity, transform;
 }
 
-.NavigationMenuLink:hover::after {
+.link:hover::after {
   opacity: 1;
   transform: scale(1);
 }
 
-.Arrow {
+.active {
+  display: block;
   position: relative;
-  top: 70%;
-  background: var(--tertairyBackground);
-  width: 12px;
-  height: 12px;
-  transform: rotate(45deg);
+  text-decoration: none;
+  padding: 6px 0px;
+  outline: none;
+  user-select: none;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 17px;
+  color: var(--white);
+  border-radius: 0px;
+  border: none;
+  z-index: 1;
+  border-bottom: 2px solid var(--primaryRed);
+  margin-bottom: -2px;
 }
 
 .NavigationMenuContent {
@@ -291,10 +305,4 @@
   to {
     opacity: 0;
   }
-}
-
-.themePlaceholder {
-  height: 36px;
-  width: 36px;
-  margin-right: 24px;
 }

@@ -1,6 +1,5 @@
 .container {
   background-color: var(--primaryDark);
-  border-top: 4px solid var(--primaryRed);
 }
 
 .wrapper {
@@ -11,7 +10,7 @@
 
 @media (min-width: 768px) {
   .wrapper {
-    max-width: 1280px;
+    max-width: var(--pageWidth);
     margin: 0 auto;
     padding: 60px var(--pageMargin) 40px var(--pageMargin);
   }
@@ -35,7 +34,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  grid-template-columns: 3fr 1fr 1fr;
   grid-row-gap: 20px;
   row-gap: 20px;
 }
@@ -56,7 +55,7 @@
 }
 
 .list a {
-  color: var(--white);
+  color: #94a3b8;
   transition: 0.5s;
   font-size: 16px;
 }
@@ -69,7 +68,7 @@
   height: 2px;
   bottom: -3px;
   left: 0;
-  background-color: var(--white);
+  background-color: var(--primaryRed);
   transform-origin: bottom right;
   transition: transform 0.4s ease-out;
 }
@@ -79,11 +78,14 @@
   transform-origin: bottom left;
 }
 
-.logo a {
-  cursor: pointer;
-  font-size: 18px;
-  color: var(--switch);
-  font-weight: 800;
+.logo {
+  position: relative;
+  max-width: 120px;
+}
+
+.svg {
+  height: auto;
+  width: 100%;
 }
 
 .section {
@@ -99,4 +101,5 @@
 .copyright {
   font-size: 12px;
   margin: 0px;
+  color: #94a3b8;
 }

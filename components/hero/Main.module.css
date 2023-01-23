@@ -1,5 +1,5 @@
 .container {
-  background: #001c39;
+  background: var(--secundaryDark);
   overflow: hidden;
   position: relative;
   height: 640px;
@@ -103,8 +103,9 @@
   font-size: 18px;
   padding-top: 22px;
   padding-bottom: 22px;
-  color: #f8f8f8;
   max-width: 300px;
+  color: var(--grey-silver);
+  opacity: 0.75;
 }
 
 @media (min-width: 640px) {

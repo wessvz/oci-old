@@ -9,14 +9,7 @@ export default function Main() {
       <div className={styles.imageWrapper}>
         <div className={styles.view}>
           <div className={styles.imageContainer}>
-            <Image
-              alt="Voorbeeld"
-              src={voorbeeld}
-              width={700}
-              height={475}
-              sizes="100vw"
-              className={styles.image}
-            />
+            <Image alt="Voorbeeld" src={voorbeeld} className={styles.image} />
             <div className={styles.overlay}></div>
           </div>
         </div>

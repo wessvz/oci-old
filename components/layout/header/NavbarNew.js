@@ -2,14 +2,11 @@ import styles from "./Navbar.module.css";
 import Image from "next/image";
 import logo from "@/public/images/logo-oci-white.svg";
 import Link from "next/link";
-import { useRouter } from "next/router";
 import Mobile from "./Mobile";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
+import NextLink from "./NextLink";
 
 export default function Navbar() {
-  const router = useRouter();
-  const currentRoute = router.pathname;
-
   return (
     <NavigationMenu.Root className={styles.NavigationMenuRoot}>
       <div className={styles.wrapper}>
@@ -25,52 +22,36 @@ export default function Navbar() {
             <nav>
               <NavigationMenu.List className={styles.NavigationMenuList}>
                 <NavigationMenu.Item>
-                  <Link
+                  <NextLink
                     href="/products"
-                    className={
-                      currentRoute === "/products" ? styles.active : styles.link
-                    }
+                    className={styles.NavigationMenuLink}
                   >
                     Products
-                  </Link>
+                  </NextLink>
                 </NavigationMenu.Item>
                 <NavigationMenu.Item>
-                  <Link
-                    href="/about"
-                    className={
-                      currentRoute === "/about" ? styles.active : styles.link
-                    }
-                  >
+                  <NextLink href="/about" className={styles.NavigationMenuLink}>
                     About us
-                  </Link>
+                  </NextLink>
                 </NavigationMenu.Item>
                 <NavigationMenu.Item>
-                  <Link
-                    href="/contact"
-                    className={
-                      currentRoute === "/sustainability"
-                        ? styles.active
-                        : styles.link
-                    }
-                  >
+                  <NextLink href="/about" className={styles.NavigationMenuLink}>
                     Sustainability
-                  </Link>
+                  </NextLink>
                 </NavigationMenu.Item>
                 <NavigationMenu.Item>
-                  <Link
+                  <NextLink
                     href="/contact"
-                    className={
-                      currentRoute === "/contact" ? styles.active : styles.link
-                    }
+                    className={styles.NavigationMenuLink}
                   >
                     Contact
-                  </Link>
+                  </NextLink>
                 </NavigationMenu.Item>
 
                 <NavigationMenu.Indicator
                   className={styles.NavigationMenuIndicator}
                 >
-                  <div className={styles.Arrow} />
+                  <div className={styles.NavigationMenuIndicator} />
                 </NavigationMenu.Indicator>
               </NavigationMenu.List>
 

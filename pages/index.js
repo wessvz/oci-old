@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Full Stacks Digital Agency</title>
-        <meta name="description" content="Welkom bij full Stacks" />
+        <title>OCI BV | Smart solutions for energy and water networks</title>
+        <meta name="description" content="Welkom bij OCI BV" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="main">

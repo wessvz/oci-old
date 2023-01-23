@@ -1,7 +1,7 @@
 .container {
   overflow: hidden;
   position: relative;
-  height: 400px;
+  height: 360px;
 }
 
 @media (min-width: 1024px) {
@@ -58,7 +58,7 @@
   height: 100%;
   margin: 0 auto;
   max-width: var(--pageWidth);
-  padding: 80px var(--pageMin) 56px;
+  padding: 80px var(--pageMargin) 32px;
   position: relative;
   z-index: 1;
   display: flex;
@@ -105,10 +105,10 @@
 .subtitle {
   font-size: 18px;
   padding-top: 22px;
-  padding-bottom: 22px;
   max-width: 560px;
   color: var(--grey-silver);
   opacity: 0.7;
+  margin: 0px;
 }
 
 @media (min-width: 640px) {

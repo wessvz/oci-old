@@ -49,8 +49,8 @@
   height: 100%;
   background: linear-gradient(
     180deg,
-    rgba(0, 28, 57, 0.6),
-    var(--secundaryDark)
+    rgba(0, 22, 43, 0.65),
+    var(--primaryDark)
   );
 }
 
@@ -68,7 +68,7 @@
 
 @media (min-width: 768px) {
   .wrapper {
-    padding: 80px var(--pageMargin) 96px;
+    padding: 80px var(--pageMargin) 80px;
   }
 }
 

@@ -1,6 +1,6 @@
 .button {
   padding: 0px;
-  min-height: 44px;
+  min-height: 24px;
   font-size: 16px;
   font-weight: 600;
   color: var(--primaryRed);

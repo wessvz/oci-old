@@ -38,7 +38,7 @@
 }
 
 @media (min-width: 936px) {
-  .third {
+  .mobile {
     display: none;
   }
 }

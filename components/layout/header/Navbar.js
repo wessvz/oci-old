@@ -81,7 +81,7 @@ export default function Navbar() {
               </div>
             </nav>
           </div>
-          <div className={styles.third}>
+          <div className={styles.mobile}>
             <Mobile />
           </div>
         </header>

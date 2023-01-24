@@ -3,8 +3,8 @@
   transform-origin: top center;
   margin: -6px var(--pageMin);
   width: 100%;
-  background: var(--primaryDark);
-  border-radius: 4px;
+  background: var(--white);
+  border-radius: 8px;
   overflow: hidden;
   box-shadow: hsl(206 22% 7% / 35%) 0px 10px 38px -10px,
     hsl(206 22% 7% / 20%) 0px 10px 20px -15px;
@@ -27,24 +27,15 @@
 .ViewportPosition {
   position: absolute;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   width: 100%;
+  max-width: 300px;
   top: 20px;
-  left: 0;
-}
-
-.MobileHeader {
-  min-height: 54px;
-  display: flex;
-  align-items: center;
-  border-radius: 4px;
-  padding-left: 20px;
-  font-weight: 500;
-  color: var(--white);
+  right: 0;
 }
 
 .content {
-  padding: 4px;
+  padding: 6px 12px;
 }
 
 @keyframes scaleIn {
@@ -67,66 +58,6 @@
     opacity: 0;
     transform: rotateX(-10deg) scale(0.95);
   }
-}
-
-.buttonWrapper {
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.list {
-  margin: 16px 16px;
-}
-
-.section {
-  color: #727f96;
-  font-weight: 400;
-  font-size: 14px;
-  margin: 0px 4px 12px 4px;
-}
-
-.menuItemWrapper {
-  display: grid;
-  grid-template-columns: 48px auto;
-  gap: 8px;
-  padding: 10px 0px;
-  border-radius: 5px;
-  transition: background 0.3s;
-  align-items: center;
-  position: relative;
-}
-
-.icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-}
-
-.textWrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.title {
-  font-size: 16px;
-  line-height: 1;
-  padding-bottom: 0px;
-  font-weight: 700;
-  color: var(--title);
-}
-
-.description {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.25em;
-  color: var(--white);
-  margin: 0;
-  white-space: nowrap;
 }
 
 .NavigationTrigger {
@@ -162,7 +93,7 @@
   -ms-transform: translateY(6px) rotate(45deg);
   -o-transform: translateY(6px) rotate(45deg);
   transform: translateY(6px) rotate(45deg);
-  background-color: var(--white);
+  background-color: var(--grey-raven);
 }
 
 [data-state="open"] > .hamburger .line:nth-child(3) {
@@ -170,7 +101,7 @@
   -ms-transform: translateY(-6px) rotate(-45deg);
   -o-transform: translateY(-6px) rotate(-45deg);
   transform: translateY(-6px) rotate(-45deg);
-  background-color: var(--white);
+  background-color: var(--grey-raven);
 }
 
 [data-state="open"] > .hamburger {

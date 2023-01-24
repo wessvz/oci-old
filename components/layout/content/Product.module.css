@@ -1,0 +1,69 @@
+.wrapperOne {
+  background-color: var(--white);
+}
+
+.wrapperTwo {
+  background-color: #edf1f6;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  max-width: var(--pageWidth);
+  padding: 100px var(--pageMargin);
+}
+
+@media (min-width: 768px) {
+  .container {
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: var(--pageWidth);
+    padding: 240px var(--pageMargin);
+    gap: 160px;
+  }
+}
+
+.copyContainer {
+  max-width: 600px;
+  order: 1;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .copyContainer {
+    order: 0;
+  }
+}
+
+.reverse {
+  composes: copyContainer;
+  order: 1;
+}
+
+.imageContainer {
+  max-width: 600px;
+  width: 100%;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0px 0px;
+}
+
+@media (min-width: 768px) {
+  .image {
+    border-radius: 8px;
+  }
+}

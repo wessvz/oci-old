@@ -23,26 +23,10 @@ export default function Mobile() {
             <div className={styles.MobileHeader}></div>
             <nav>
               <ul className={styles.list}>
-                <MenuItem
-                  link="/products"
-                  title="Products"
-                  description="Bereik meer en kom verder"
-                />
-                <MenuItem
-                  link="/products"
-                  title="Sustainability"
-                  description="Applicaties voor het moderne web"
-                />
-                <MenuItem
-                  link="/about"
-                  title="About us"
-                  description="Begin met het waarom"
-                />
-                <MenuItem
-                  link="/contact"
-                  title="Contact"
-                  description="Begin met het waarom"
-                />
+                <MenuItem link="/products" title="Products" />
+                <MenuItem link="/products" title="Sustainability" />
+                <MenuItem link="/about" title="About us" />
+                <MenuItem link="/contact" title="Contact" />
               </ul>
             </nav>
           </NavigationMenu.Content>

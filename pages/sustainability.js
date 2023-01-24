@@ -1,11 +1,11 @@
-import styles from "@/styles/Products.module.css";
+import styles from "../styles/Sustainability.module.css";
 import Head from "next/head";
-import General from "@/components/hero/General";
-import Product from "@/components/layout/content/Product";
 import magazijn from "@/public/images/magazijn.webp";
 import products from "@/public/images/product.webp";
+import Product from "@/components/layout/content/ProductOption";
+import General from "@/components/hero/General";
 
-export default function Products() {
+export default function Sustainability() {
   return (
     <div>
       <Head>
@@ -15,13 +15,12 @@ export default function Products() {
       </Head>
       <main className="main">
         <General
-          title="Products overview"
+          title="Sustainability"
           subtitle="OCI delivers innovative and sustainable solutions for connecting energy and water networks to homes, offices and industrial sites."
         />
 
         <section className={styles.container}>
           <Product
-            level={1}
             kicker="Energy"
             title="Valves and fittings"
             copy="OCI delivers innovative and sustainable solutions for connecting energy and water networks to homes, offices and industrial sites."
@@ -29,7 +28,7 @@ export default function Products() {
             alt="Products made by OCI"
           />
           <Product
-            level={2}
+            order="reverse"
             kicker="Water"
             title="Installation systems"
             copy="OCI delivers innovative and sustainable solutions for connecting energy and water networks to homes, offices and industrial sites."
@@ -37,7 +36,6 @@ export default function Products() {
             alt="Products made by OCI"
           />
           <Product
-            level={1}
             kicker="Gas"
             title="Pipes and hoses"
             copy="OCI delivers innovative and sustainable solutions for connecting energy and water networks to homes, offices and industrial sites."
@@ -45,7 +43,7 @@ export default function Products() {
             alt="Products made by OCI"
           />
           <Product
-            level={2}
+            order="reverse"
             kicker="Liquids"
             title="Refurbished products"
             copy="OCI delivers innovative and sustainable solutions for connecting energy and water networks to homes, offices and industrial sites."

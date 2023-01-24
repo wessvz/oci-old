@@ -57,3 +57,23 @@
     rgba(0, 22, 43, 0.15) 100%
   );
 }
+
+.block {
+  background-color: white;
+  box-shadow: 0 16px 32px 0 #001e3c1f;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 100px var(--pageMin);
+  background-color: var(--white);
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 200px var(--pageMargin);
+    gap: 140px;
+  }
+}

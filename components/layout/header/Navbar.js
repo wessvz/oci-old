@@ -46,7 +46,7 @@ export default function Navbar() {
                 </NavigationMenu.Item>
                 <NavigationMenu.Item>
                   <Link
-                    href="/contact"
+                    href="/sustainability"
                     className={
                       currentRoute === "/sustainability"
                         ? styles.active

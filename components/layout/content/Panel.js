@@ -4,6 +4,7 @@ import Heading from "@/components/layout/content/Heading";
 import Kicker from "@/components/layout/content/Kicker";
 import Paragraph from "@/components/layout/content/Paragraph";
 import MediumButton from "@/components/button/MediumButton";
+import ButtonLink from "@/components/button/ButtonLink";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
@@ -44,7 +45,7 @@ export default function Panel({
         <Heading level={3}>{title}</Heading>
         <Paragraph>{copy}</Paragraph>
         <div className={styles.action}>
-          <MediumButton text={buttonText} link={link} />
+          <ButtonLink text={buttonText} link={link} />
         </div>
       </div>
       <div className={styles.imageContainer}>

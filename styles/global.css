@@ -192,6 +192,8 @@ a {
   font-weight: 500;
   text-decoration: none;
   position: relative;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 
 button {

@@ -3,7 +3,7 @@
   transform-origin: top center;
   margin: -6px var(--pageMin);
   width: 100%;
-  background: var(--white);
+  background: #001c39;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: hsl(206 22% 7% / 35%) 0px 10px 38px -10px,

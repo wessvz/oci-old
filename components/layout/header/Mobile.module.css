@@ -107,7 +107,7 @@
 }
 
 .header {
-  padding: 48px;
+  margin: 64px 0px 40px 0px;
   display: flex;
   align-items: center;
   justify-content: center;

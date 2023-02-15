@@ -116,12 +116,29 @@
 .svg {
   height: auto;
   width: 100%;
-  max-width: 120px;
+  max-width: 104px;
 }
 
 .footer {
-  padding-top: 56px;
+  padding-top: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.button {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: var(--primaryRed);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 40px;
+  padding: 12px 24px 12px 24px;
+  min-height: 56px;
 }

@@ -1,10 +1,8 @@
 import styles from "./Mobile.module.css";
 import { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 import MenuItem from "./MenuItem";
-import LargeButton from "@/components/button/LargeButton";
 import logo from "@/public/images/logo-oci-white.svg";
 
 export default function Mobile() {
@@ -33,9 +31,7 @@ export default function Mobile() {
           </NavigationMenu.Trigger>
           <NavigationMenu.Content className={styles.content}>
             <div className={styles.header}>
-              <Link href="/" onSelect={toggleMenu}>
-                <Image alt="OCI" src={logo} className={styles.svg} />
-              </Link>
+              <Image alt="OCI" src={logo} className={styles.svg} />
             </div>
             <nav>
               <ul className={styles.list}>
@@ -62,10 +58,7 @@ export default function Mobile() {
               </ul>
             </nav>
             <div className={styles.footer}>
-              <LargeButton
-                link="/contact"
-                buttonText="contact opnemen met sales"
-              />
+              <div className={styles.button}>Contact opnemen met sales</div>
             </div>
           </NavigationMenu.Content>
         </NavigationMenu.Item>

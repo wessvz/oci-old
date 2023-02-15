@@ -1,8 +1,15 @@
 import styles from "./Mobile.module.css";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 import MenuItem from "./MenuItem";
+import { useState } from "react";
 
 export default function Mobile() {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+    document.body.style.overflow = isOpen ? "auto" : "hidden";
+  };
+
   return (
     <NavigationMenu.Root>
       <NavigationMenu.List>
@@ -12,6 +19,7 @@ export default function Mobile() {
             onPointerLeave={(event) => event.preventDefault()}
             className={styles.NavigationTrigger}
             aria-label="Menu"
+            onClick={toggleMenu}
           >
             <div className={styles.hamburger}>
               <span className={styles.line}></span>

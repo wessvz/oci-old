@@ -13,6 +13,7 @@
 .NavigationMenuViewport[data-state="open"] {
   animation: scaleIn 200ms ease;
 }
+
 .NavigationMenuViewport[data-state="closed"] {
   animation: scaleOut 200ms ease;
 }

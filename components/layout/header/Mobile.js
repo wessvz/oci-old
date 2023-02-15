@@ -31,10 +31,26 @@ export default function Mobile() {
             <div className={styles.MobileHeader}></div>
             <nav>
               <ul className={styles.list}>
-                <MenuItem link="/about" title="About us" />
-                <MenuItem link="/products" title="Products" />
-                <MenuItem link="/products" title="Sustainability" />
-                <MenuItem link="/contact" title="Contact" />
+                <MenuItem
+                  link="/about"
+                  title="About us"
+                  onSelect={toggleMenu}
+                />
+                <MenuItem
+                  link="/products"
+                  title="Products"
+                  onSelect={toggleMenu}
+                />
+                <MenuItem
+                  link="/products"
+                  title="Sustainability"
+                  onSelect={toggleMenu}
+                />
+                <MenuItem
+                  link="/contact"
+                  title="Contact"
+                  onSelect={toggleMenu}
+                />
               </ul>
             </nav>
           </NavigationMenu.Content>

@@ -1,59 +1,95 @@
-.grid:nth-of-type(3) {
-  order: 4;
+.container {
+  max-width: var(--pageWidth);
+  margin: 0 auto;
+  padding: 50px var(--pageMin) 100px var(--pageMin);
 }
 
-.grid:nth-of-type(4) {
-  order: 3;
-  padding-top: 56px;
+.wrapper {
+  padding-top: 64px;
+  padding-bottom: 40px;
 }
 
-@media (min-width: 768px) {
-  .grid:nth-of-type(3) {
-    order: 3;
-  }
-
-  .grid:nth-of-type(4) {
-    order: 4;
-    padding-top: 0px;
-  }
+.headline {
+  font-size: 40px;
 }
 
-.imageWrapper {
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 28px 28px;
+  grid-template-areas:
+    "one one"
+    "two three"
+    "four four"
+    "five six";
+}
+
+.area {
   position: relative;
-  width: 100%;
+  min-height: 620px;
+  overflow: hidden;
+  min-height: 620px;
+  padding: 52px 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid hsla(0, 0%, 51.4%, 0.16);
+  border-radius: 24px;
+  background-color: #fff;
 }
 
-.image {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
+.one {
+  grid-area: one;
+  composes: area;
+}
+.two {
+  grid-area: two;
+  composes: area;
+}
+.three {
+  grid-area: three;
+  composes: area;
+}
+.four {
+  grid-area: four;
+  composes: area;
+}
+.five {
+  grid-area: five;
+  composes: area;
+}
+.six {
+  grid-area: six;
+  composes: area;
 }
 
-.Text {
-  max-width: 600px;
+.content {
+  max-width: 560px;
 }
 
-.TextL {
-  composes: Text;
+.eyebrow {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #6e6e73;
+  padding-bottom: 8px;
+  font-weight: 600;
+  margin-bottom: 0.4em;
+  line-height: 1.16;
 }
 
-.TextR {
-  composes: Text;
+.title {
+  color: #1d1d1f;
+  font-size: 32px;
+  line-height: 1.16;
+  font-weight: 600;
 }
 
-.action {
-  margin-top: 32px;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 22, 43, 0.05) 0%,
-    rgba(0, 22, 43, 0.15) 100%
-  );
+.desc {
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: var(--text);
+  margin-bottom: var(--spaceGap);
 }

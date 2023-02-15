@@ -1,12 +1,14 @@
 .NavigationMenuViewport {
   position: relative;
   transform-origin: top center;
+  margin: -6px var(--pageMin);
   width: 100%;
   background: var(--white);
+  border-radius: 8px;
   overflow: hidden;
   box-shadow: hsl(206 22% 7% / 35%) 0px 10px 38px -10px,
     hsl(206 22% 7% / 20%) 0px 10px 20px -15px;
-  height: 100vh;
+  height: var(--radix-navigation-menu-viewport-height);
   transition: width, height, 300ms ease;
   z-index: 90;
 }
@@ -27,7 +29,8 @@
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  top: 0;
+  max-width: 300px;
+  top: 20px;
   right: 0;
 }
 

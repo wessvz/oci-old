@@ -23,7 +23,7 @@
 }
 
 .ViewportPosition {
-  position: absolute;
+  position: fixed;
   display: flex;
   justify-content: flex-end;
   width: 100%;

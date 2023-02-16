@@ -35,21 +35,25 @@ export default function Mobile() {
             </div>
             <nav>
               <ul className={styles.list}>
-                <MenuItem link="/about" title="About us" onClick={toggleMenu} />
+                <MenuItem
+                  link="/about"
+                  title="About us"
+                  onSelect={toggleMenu}
+                />
                 <MenuItem
                   link="/products"
                   title="Products"
-                  onClick={toggleMenu}
+                  onSelect={toggleMenu}
                 />
                 <MenuItem
                   link="/contact"
                   title="Contact"
-                  onClick={toggleMenu}
+                  onSelect={toggleMenu}
                 />
                 <MenuItem
                   link="/products"
                   title="Sustainability"
-                  onClick={toggleMenu}
+                  onSelect={toggleMenu}
                 />
               </ul>
             </nav>

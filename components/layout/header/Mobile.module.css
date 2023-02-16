@@ -142,3 +142,16 @@
   padding: 12px 24px 12px 24px;
   min-height: 56px;
 }
+
+.testWrapper {
+  padding: 26px 26px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.testTitle {
+  font-size: 32px;
+  line-height: 1.5;
+  padding-bottom: 0px;
+  font-weight: 700;
+  color: var(--white);
+}

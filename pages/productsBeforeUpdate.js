@@ -5,8 +5,6 @@ import Image from "next/image";
 import apple from "../public/images/products/example-1.jpg";
 import apples from "../public/images/products/example-2.jpg";
 import applez from "../public/images/products/example-3.jpg";
-import pear from "../public/images/products/example-4.jpg";
-import strawberry from "../public/images/products/example-5.jpg";
 
 export default function Products() {
   return (
@@ -21,9 +19,9 @@ export default function Products() {
           title="Products overview"
           subtitle="OCI delivers innovative and sustainable solutions for connecting energy and water networks to homes, offices and industrial sites."
         />
-        <div className={styles.container}>
+        <section className={styles.container}>
           <div className={styles.grid}>
-            <section className={styles.one}>
+            <div className={styles.one}>
               <div className={styles.content}>
                 <h2 className={styles.eyebrow}>Connection systems</h2>
                 <h3 className={styles.title}>Install meters without effort</h3>
@@ -32,14 +30,8 @@ export default function Products() {
                   gas, water, drinking water and electricity meters.
                 </p>
               </div>
-              <Image
-                alt="voorbeeld"
-                src={apple}
-                sizes="100vw"
-                className={styles.imagez}
-              />
-            </section>
-            <section className={styles.two}>
+            </div>
+            <div className={styles.two}>
               <div className={styles.content}>
                 <h2 className={styles.eyebrow}>Fittings</h2>
                 <h3 className={styles.title}>More than 2000 products</h3>
@@ -48,14 +40,18 @@ export default function Products() {
                   field of connection technology.
                 </p>
               </div>
-              <Image
-                alt="voorbeeld"
-                src={applez}
-                sizes="100vw"
-                className={styles.image}
-              />
-            </section>
-            <section className={styles.three}>
+              <div className={styles.imageWrapper}>
+                <div className={styles.imageContainer}>
+                  <Image
+                    alt="voorbeeld"
+                    src={applez}
+                    sizes="100vw"
+                    className={styles.image}
+                  />
+                </div>
+              </div>
+            </div>
+            <div className={styles.three}>
               <div className={styles.content}>
                 <h2 className={styles.eyebrow}>Valves</h2>
                 <h3 className={styles.title}>Innovative designs</h3>
@@ -64,14 +60,18 @@ export default function Products() {
                   Engineered to perform seamlessly in any environment.
                 </p>
               </div>
-              <Image
-                alt="voorbeeld"
-                src={apples}
-                sizes="100vw"
-                className={styles.image}
-              />
-            </section>
-            <section className={styles.four}>
+              <div className={styles.imageWrapper}>
+                <div className={styles.imageContainer}>
+                  <Image
+                    alt="voorbeeld"
+                    src={applez}
+                    sizes="100vw"
+                    className={styles.image}
+                  />
+                </div>
+              </div>
+            </div>
+            <div className={styles.four}>
               <div className={styles.content}>
                 <h2 className={styles.eyebrow}>Piping systems</h2>
                 <h3 className={styles.title}>
@@ -82,14 +82,8 @@ export default function Products() {
                   optimized for challenging installation environments.
                 </p>
               </div>
-              <Image
-                alt="voorbeeld"
-                src={pear}
-                sizes="100vw"
-                className={styles.imagez}
-              />
-            </section>
-            <section className={styles.five}>
+            </div>
+            <div className={styles.five}>
               <div className={styles.content}>
                 <h2 className={styles.eyebrow}>Metal hoses</h2>
                 <h3 className={styles.title}>Tailored solutions</h3>
@@ -98,14 +92,18 @@ export default function Products() {
                   Experience the flexibel possibilities of metal hoses.
                 </p>
               </div>
-              <Image
-                alt="voorbeeld"
-                src={apples}
-                sizes="100vw"
-                className={styles.image}
-              />
-            </section>
-            <section className={styles.six}>
+              <div className={styles.imageWrapper}>
+                <div className={styles.imageContainer}>
+                  <Image
+                    alt="voorbeeld"
+                    src={apple}
+                    sizes="100vw"
+                    className={styles.image}
+                  />
+                </div>
+              </div>
+            </div>
+            <div className={styles.six}>
               <div className={styles.content}>
                 <h2 className={styles.eyebrow}>Plastics and rubber</h2>
                 <h3 className={styles.title}>From idea to realised product</h3>
@@ -114,15 +112,19 @@ export default function Products() {
                   development expertise in plastics and rubber.
                 </p>
               </div>
-              <Image
-                alt="voorbeeld"
-                src={strawberry}
-                sizes="100vw"
-                className={styles.image}
-              />
-            </section>
+              <div className={styles.imageWrapper}>
+                <div className={styles.imageContainer}>
+                  <Image
+                    alt="voorbeeld"
+                    src={apples}
+                    sizes="100vw"
+                    className={styles.image}
+                  />
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+        </section>
       </main>
     </div>
   );

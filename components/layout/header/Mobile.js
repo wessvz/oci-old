@@ -7,10 +7,7 @@ import logo from "@/public/images/logo-oci-white.svg";
 
 export default function Mobile() {
   const [isOpen, setIsOpen] = useState(false);
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-    document.body.style.overflow = isOpen ? "auto" : "hidden";
-  };
+  const close = () => setIsOpen(false);
 
   return (
     <NavigationMenu.Root>
@@ -21,7 +18,7 @@ export default function Mobile() {
             onPointerLeave={(event) => event.preventDefault()}
             className={styles.NavigationTrigger}
             aria-label="Menu"
-            onClick={toggleMenu}
+            onClick={() => setIsOpen(!isOpen)}
           >
             <div className={styles.hamburger}>
               <span className={styles.line}></span>
@@ -35,25 +32,13 @@ export default function Mobile() {
             </div>
             <nav>
               <ul className={styles.list}>
-                <MenuItem
-                  link="/about"
-                  title="About us"
-                  onSelect={toggleMenu}
-                />
-                <MenuItem
-                  link="/products"
-                  title="Products"
-                  onSelect={toggleMenu}
-                />
-                <MenuItem
-                  link="/contact"
-                  title="Contact"
-                  onSelect={toggleMenu}
-                />
+                <MenuItem link="/about" title="About us" onClick={close} />
+                <MenuItem link="/products" title="Products" onClick={close} />
+                <MenuItem link="/contact" title="Contact" onClick={close} />
                 <MenuItem
                   link="/products"
                   title="Sustainability"
-                  onSelect={toggleMenu}
+                  onClick={close}
                 />
               </ul>
             </nav>

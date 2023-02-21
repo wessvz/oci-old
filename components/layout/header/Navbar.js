@@ -3,7 +3,7 @@ import Image from "next/image";
 import logo from "@/public/images/logo-oci-white.svg";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import Mobile from "./MobileUpdate";
+import Mobile from "./Mobile";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 
 export default function Navbar() {

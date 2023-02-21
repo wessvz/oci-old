@@ -3,7 +3,7 @@ import Image from "next/image";
 import logo from "@/public/images/logo-oci-white.svg";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import Mobile from "./MobileUpdate";
+import Mobile from "./Mobile";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 
 export default function Navbar() {
@@ -24,6 +24,16 @@ export default function Navbar() {
           <div className={styles.second}>
             <nav>
               <NavigationMenu.List className={styles.NavigationMenuList}>
+                <NavigationMenu.Item>
+                  <Link
+                    href="/"
+                    className={
+                      currentRoute === "/" ? styles.active : styles.link
+                    }
+                  >
+                    Home
+                  </Link>
+                </NavigationMenu.Item>
                 <NavigationMenu.Item>
                   <Link
                     href="/products"

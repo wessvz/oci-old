@@ -7,6 +7,7 @@ import apples from "../public/images/products/example-2.jpg";
 import applez from "../public/images/products/example-3.jpg";
 import pear from "../public/images/products/example-4.jpg";
 import strawberry from "../public/images/products/example-5.jpg";
+import Dialog from "@/components/products/Modal";
 
 export default function Products() {
   return (
@@ -31,6 +32,10 @@ export default function Products() {
                   We provide components and solutions for the installation of
                   gas, water, drinking water and electricity meters.
                 </p>
+                <Dialog
+                  title="Connection systems"
+                  text="Make changes to your profile here. Click save when you're done.Make changes to your profile here."
+                />
               </div>
               <Image
                 alt="voorbeeld"
@@ -47,6 +52,10 @@ export default function Products() {
                   A complete range that meets all requirements and needs in the
                   field of connection technology.
                 </p>
+                <Dialog
+                  title="Fittings"
+                  text="Make changes to your profile here. Click save when you're done.Make changes to your profile here."
+                />
               </div>
               <Image
                 alt="voorbeeld"
@@ -63,6 +72,10 @@ export default function Products() {
                   Designed to withstand extreme temperatures and pressures.
                   Engineered to perform seamlessly in any environment.
                 </p>
+                <Dialog
+                  title="Valves"
+                  text="Make changes to your profile here. Click save when you're done.Make changes to your profile here."
+                />
               </div>
               <Image
                 alt="voorbeeld"
@@ -81,6 +94,10 @@ export default function Products() {
                   Save time and increase efficiency with gas and heat pipelines
                   optimized for challenging installation environments.
                 </p>
+                <Dialog
+                  title="Piping systems"
+                  text="Make changes to your profile here. Click save when you're done.Make changes to your profile here."
+                />
               </div>
               <Image
                 alt="voorbeeld"
@@ -97,6 +114,10 @@ export default function Products() {
                   Tackling complex conditions with customized solutions.
                   Experience the flexibel possibilities of metal hoses.
                 </p>
+                <Dialog
+                  title="Metal hoses"
+                  text="Make changes to your profile here. Click save when you're done.Make changes to your profile here."
+                />
               </div>
               <Image
                 alt="voorbeeld"
@@ -113,6 +134,10 @@ export default function Products() {
                   Transform your ideas into reality with our end-to-end product
                   development expertise in plastics and rubber.
                 </p>
+                <Dialog
+                  title="Plastics and rubber"
+                  text="Make changes to your profile here. Click save when you're done.Make changes to your profile here."
+                />
               </div>
               <Image
                 alt="voorbeeld"

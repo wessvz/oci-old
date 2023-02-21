@@ -3,7 +3,6 @@ import { useState } from "react";
 import navLinks from "@/data/navLinks";
 import Link from "next/link";
 import Image from "next/image";
-
 import logo from "@/public/images/logo-oci-white.svg";
 
 export default function MobileNav() {
@@ -24,11 +23,11 @@ export default function MobileNav() {
     <div>
       <button
         type="button"
-        className={styles.NavigationTrigger}
+        className={styles.menuButton}
         aria-label="Toggle Menu"
         onClick={onToggleNav}
       >
-        <div className={styles.hamburger}>
+        <div className={`${styles.hamburger} ${isOpen ? styles.active : ""}`}>
           <span className={styles.line}></span>
           <span className={styles.line}></span>
           <span className={styles.line}></span>

@@ -1,57 +1,78 @@
 import styles from "./Mobile.module.css";
 import { useState } from "react";
+import navLinks from "@/data/navLinks";
+import Link from "next/link";
 import Image from "next/image";
-import * as NavigationMenu from "@radix-ui/react-navigation-menu";
-import MenuItem from "./MenuItem";
 import logo from "@/public/images/logo-oci-white.svg";
 
-export default function Mobile() {
+export default function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);
-  const close = () => setIsOpen(false);
+  const onToggleNav = () => {
+    setIsOpen((status) => {
+      if (status) {
+        document.body.style.overflow = "auto";
+      } else {
+        // Prevent scrolling
+        document.body.style.overflow = "hidden";
+      }
+      return !status;
+    });
+  };
 
   return (
-    <NavigationMenu.Root>
-      <NavigationMenu.List>
-        <NavigationMenu.Item>
-          <NavigationMenu.Trigger
-            onPointerMove={(event) => event.preventDefault()}
-            onPointerLeave={(event) => event.preventDefault()}
-            className={styles.NavigationTrigger}
-            aria-label="Menu"
-            onClick={() => setIsOpen(!isOpen)}
+    <div>
+      <button
+        type="button"
+        className={styles.menuButton}
+        aria-label="Toggle Menu"
+        onClick={onToggleNav}
+      >
+        <div className={`${styles.hamburger} ${isOpen ? styles.active : ""}`}>
+          <span className={styles.line}></span>
+          <span className={styles.line}></span>
+          <span className={styles.line}></span>
+        </div>
+      </button>
+      <div
+        className={`${styles.navMenu} ${
+          isOpen ? styles.navMenuOpen : styles.navMenuClosed
+        }`}
+      >
+        <div className={styles.header}>
+          <Link href="/">
+            <Image
+              alt="OCI"
+              src={logo}
+              className={styles.svg}
+              onClick={onToggleNav}
+            />
+          </Link>
+        </div>
+        <nav className={styles.nav}>
+          {navLinks.map((link) => (
+            <div key={link.title} className={styles.wrapper}>
+              <Link
+                href={link.href}
+                className={styles.link}
+                onClick={onToggleNav}
+              >
+                {link.title}
+              </Link>
+            </div>
+          ))}
+        </nav>
+        <div className={styles.footer}>
+          <Link
+            href="/contact"
+            type="button"
+            className={styles.contact}
+            aria-label="Talk with sales"
+            onClick={onToggleNav}
           >
-            <div className={styles.hamburger}>
-              <span className={styles.line}></span>
-              <span className={styles.line}></span>
-              <span className={styles.line}></span>
-            </div>
-          </NavigationMenu.Trigger>
-          <NavigationMenu.Content className={styles.content}>
-            <div className={styles.header}>
-              <Image alt="OCI" src={logo} className={styles.svg} />
-            </div>
-            <nav>
-              <ul className={styles.list}>
-                <MenuItem link="/about" title="About us" onClick={close} />
-                <MenuItem link="/products" title="Products" onClick={close} />
-                <MenuItem link="/contact" title="Contact" onClick={close} />
-                <MenuItem
-                  link="/products"
-                  title="Sustainability"
-                  onClick={close}
-                />
-              </ul>
-            </nav>
-            <div className={styles.footer}>
-              <div className={styles.button}>Contact opnemen met sales</div>
-            </div>
-          </NavigationMenu.Content>
-        </NavigationMenu.Item>
-      </NavigationMenu.List>
-
-      <div className={styles.ViewportPosition}>
-        <NavigationMenu.Viewport className={styles.NavigationMenuViewport} />
+            Contact opnemen met sales
+          </Link>
+        </div>
       </div>
-    </NavigationMenu.Root>
+    </div>
   );
 }

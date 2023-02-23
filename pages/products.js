@@ -2,6 +2,10 @@ import styles from "@/styles/Products.module.css";
 import Head from "next/head";
 import General from "@/components/hero/General";
 import Image from "next/image";
+import fitting from "../public/images/products/fitting.jpg";
+import metalhoses from "../public/images/products/metaalslang.jpg";
+import plastics from "../public/images/products/kunstof.jpg";
+import valves from "../public/images/products/kogelkraan.jpg";
 import apple from "../public/images/products/example-1.jpg";
 import apples from "../public/images/products/example-2.jpg";
 import applez from "../public/images/products/example-3.jpg";
@@ -59,8 +63,8 @@ export default function Products() {
               </div>
               <Image
                 alt="voorbeeld"
-                src={applez}
-                sizes="100vw"
+                src={fitting}
+                sizes="100vh"
                 className={styles.image}
               />
             </section>
@@ -79,7 +83,7 @@ export default function Products() {
               </div>
               <Image
                 alt="voorbeeld"
-                src={apples}
+                src={valves}
                 sizes="100vw"
                 className={styles.image}
               />
@@ -121,7 +125,7 @@ export default function Products() {
               </div>
               <Image
                 alt="voorbeeld"
-                src={apples}
+                src={metalhoses}
                 sizes="100vw"
                 className={styles.image}
               />
@@ -141,7 +145,7 @@ export default function Products() {
               </div>
               <Image
                 alt="voorbeeld"
-                src={strawberry}
+                src={plastics}
                 sizes="100vw"
                 className={styles.image}
               />

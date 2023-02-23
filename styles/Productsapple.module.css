@@ -40,7 +40,7 @@
 
 .area {
   position: relative;
-  min-height: 500px;
+  min-height: 560px;
   overflow: hidden;
   padding: 40px 28px;
   display: flex;
@@ -63,13 +63,6 @@
   grid-area: one;
   composes: area;
 }
-
-@media (min-width: 768px) {
-  .one {
-    min-height: 560px;
-  }
-}
-
 .two {
   grid-area: two;
   composes: area;
@@ -82,18 +75,10 @@
   grid-area: four;
   composes: area;
 }
-
-@media (min-width: 768px) {
-  .four {
-    min-height: 560px;
-  }
-}
-
 .five {
   grid-area: five;
   composes: area;
 }
-
 .six {
   grid-area: six;
   composes: area;
@@ -123,11 +108,12 @@
 }
 
 .desc {
-  margin: 16px 0px 16px 0px;
+  margin-top: 16px;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.6em;
   color: var(--text);
+  margin-bottom: var(--spaceGap);
 }
 
 .image {

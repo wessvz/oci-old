@@ -40,7 +40,7 @@
 
 .area {
   position: relative;
-  min-height: 500px;
+  min-height: 540px;
   overflow: hidden;
   padding: 40px 28px;
   display: flex;

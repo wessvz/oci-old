@@ -51,6 +51,7 @@
   background-color: transparent;
   text-decoration: none;
   transition: all 100ms ease-in-out;
+  padding: 0px;
 }
 
 .button:hover {

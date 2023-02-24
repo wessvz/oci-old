@@ -2,15 +2,13 @@ import styles from "@/styles/Products.module.css";
 import Head from "next/head";
 import General from "@/components/hero/General";
 import Image from "next/image";
-import fitting from "../public/images/products/fitting.jpg";
+import fitting from "../public/images/products/fitting-2.jpg";
+import fittings from "../public/images/products/fitting.jpg";
 import metalhoses from "../public/images/products/metaalslang.jpg";
 import plastics from "../public/images/products/kunstof.jpg";
 import valves from "../public/images/products/kogelkraan.jpg";
 import apple from "../public/images/products/example-1.jpg";
-import apples from "../public/images/products/example-2.jpg";
-import applez from "../public/images/products/example-3.jpg";
 import pear from "../public/images/products/example-4.jpg";
-import strawberry from "../public/images/products/example-5.jpg";
 import Dialog from "@/components/products/Modal";
 
 export default function Products() {
@@ -48,25 +46,29 @@ export default function Products() {
                 className={styles.imagez}
               />
             </section>
-            <section className={styles.two}>
-              <div className={styles.content}>
-                <h2 className={styles.eyebrow}>Fittings</h2>
-                <h3 className={styles.title}>More than 2000 products</h3>
-                <p className={styles.desc}>
-                  A complete range that meets all requirements and needs in the
-                  field of connection technology.
-                </p>
-                <Dialog
-                  title="Fittings"
-                  text="Make changes to your profile here. Click save when you're done.Make changes to your profile here."
+            <section className={styles.contentWrapper}>
+              <div className={styles.copyColumn}>
+                <div className={styles.copyWrapper}>
+                  <h2 className={styles.eyebrow}>Fittings</h2>
+                  <h3 className={styles.title}>More than 2000 products</h3>
+                  <p className={styles.desc}>
+                    A complete range that meets all requirements and needs in
+                    the field of connection technology.
+                  </p>
+                  <Dialog
+                    title="Fittings"
+                    text="Make changes to your profile here. Click save when you're done.Make changes to your profile here."
+                  />
+                </div>
+              </div>
+              <div className={styles.imageColumn}>
+                <Image
+                  alt="voorbeeld"
+                  src={fitting}
+                  sizes="100vh"
+                  className={styles.imagetest}
                 />
               </div>
-              <Image
-                alt="voorbeeld"
-                src={fitting}
-                sizes="100vh"
-                className={styles.image}
-              />
             </section>
             <section className={styles.three}>
               <div className={styles.content}>

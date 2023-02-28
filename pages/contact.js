@@ -2,7 +2,6 @@ import styles from "../styles/Contact.module.css";
 import Head from "next/head";
 import Hero from "../components/contact/Hero";
 import ContactForm from "@/components/contact/ContactForm";
-import office from "@/public/images/office.jpg";
 import Image from "next/image";
 import contact from "@/public/images/contact-placeholder.png";
 import Item from "@/components/contact/Item";

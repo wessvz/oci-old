@@ -22,7 +22,7 @@
   border-radius: 18px;
   align-items: center;
   flex-direction: column;
-  max-width: 480px;
+  max-width: 560px;
   box-shadow: 0px 8px 12px 0px #000f1e0a, 0px 2px 4px 0px #000f1e00;
 }
 
@@ -36,23 +36,34 @@
 }
 
 .copyColumn {
-  max-width: 500px;
   width: 100%;
   padding: 40px 24px 40px 24px;
   margin: auto 0;
   order: 1;
+  flex-basis: 100%;
+  max-width: 100%;
 }
 
 @media (min-width: 768px) {
   .copyColumn {
+    flex-basis: 50%;
+    max-width: 50%;
     padding: 40px 80px 40px 80px;
     order: 0;
   }
 }
 
 .imageColumn {
-  max-width: 500px;
   width: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .imageColumn {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
 }
 
 .imageWrapper {
@@ -69,24 +80,16 @@
 .company {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 10px;
 }
 
-.name {
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 1.1;
-}
-
-@media (min-width: 768px) {
-  .name {
-    font-size: 36px;
-  }
+.svg {
+  height: auto;
+  width: 100%;
+  max-width: 120px;
 }
 
 .group {
-  padding: 0px;
-  margin: 0px;
   font-size: 16px;
   font-weight: 300;
 }

@@ -6,6 +6,7 @@ import Image from "next/image";
 import contact from "@/public/images/contact-placeholder.png";
 import Item from "@/components/contact/Item";
 import { Phone, Envelope } from "@/public/icons/General";
+import logo from "@/public/images/oci-dark.svg";
 
 export default function ContactPage() {
   return (
@@ -23,7 +24,7 @@ export default function ContactPage() {
           <section className={styles.panel}>
             <div className={styles.copyColumn}>
               <div className={styles.company}>
-                <h2 className={styles.name}>OCI</h2>
+                <Image alt="OCI" src={logo} className={styles.svg} />
                 <span className={styles.group}>An Indutrade company</span>
               </div>
               <address className={styles.details}>

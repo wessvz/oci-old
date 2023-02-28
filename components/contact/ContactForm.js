@@ -33,7 +33,13 @@ export default function ContactForm() {
 
   return (
     <section className={styles.container}>
-      <h2 className={styles.title}>Talk to sales</h2>
+      <div className={styles.copy}>
+        <h2 className={styles.title}>Talk to sales</h2>
+        <p className={styles.desc}>
+          Let’s get this conversation started. Tell us a bit about yourself, and
+          we’ll get in touch as soon as we can.
+        </p>
+      </div>
       <form onSubmit={handleSubmit(onSubmit)}>
         <fieldset className={styles.formFieldSet}>
           <div className={styles.row}>
@@ -228,7 +234,7 @@ export default function ContactForm() {
                 </div>
               ) : (
                 <>
-                  <span>Neem contact op</span>
+                  <span>Contact Sales</span>
                   <svg
                     viewBox="0 0 6 9"
                     fill="none"

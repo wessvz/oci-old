@@ -5,7 +5,7 @@
   box-shadow: rgba(0, 35, 75, 0.09) 1px 8px 45px;
   background: var(--white);
   border-radius: 18px;
-  max-width: 480px;
+  max-width: 560px;
 }
 
 @media (min-width: 768px) {
@@ -15,16 +15,35 @@
   }
 }
 
+.copy {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 600px;
+  padding-bottom: 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .copy {
+    text-align: center;
+  }
+}
+
 .title {
   font-size: 32px;
-  text-align: center;
 }
 
 @media (min-width: 768px) {
   .title {
     font-size: 36px;
-    text-align: center;
   }
+}
+
+.desc {
+  font-size: 18px;
+  color: #6e6e73;
 }
 
 .row {
@@ -40,7 +59,6 @@
 }
 
 .formFieldSet {
-  padding-top: 56px;
   display: flex;
   flex-direction: column;
   gap: 32px;

@@ -1,0 +1,80 @@
+.section {
+  padding: 116px 0px 140px 0px;
+}
+
+.container {
+  max-width: var(--pageWidth);
+  margin: 0 auto;
+  padding: 0px var(--pageMin) 0px var(--pageMin);
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0px var(--pageMargin) 0px var(--pageMargin);
+  }
+}
+
+.copyWrapper {
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 56px;
+}
+
+.title {
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.filmContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.deviceWrapper {
+  position: relative;
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+  max-height: 86%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.device {
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+}
+
+.frame {
+  width: 83.8%;
+  margin: 0 auto;
+  display: block;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.valueWrapper {
+  display: flex;
+  gap: 32px;
+}
+
+.desc {
+  color: #86868b;
+  font-size: 24px;
+  line-height: 1.3334133333;
+  font-weight: 600;
+  flex-basis: 66.6666666667%;
+  max-width: 66.6666666667%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}

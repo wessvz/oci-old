@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #fff;
+  text-align: center;
+  border-radius: 18px;
+  width: 100%;
+}
+
+.picture {
+  position: relative;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.copyWrapper {
+  padding: 24px 32px 36px 32px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: var(--lineHeight);
+}
+
+.copy {
+  margin-top: 16px;
+}

@@ -1,0 +1,152 @@
+.DialogOverlay {
+  background: rgba(245, 245, 247, 0.6);
+  backdrop-filter: blur(24px);
+  animation: overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  place-items: center;
+  overflow-y: auto;
+}
+
+.DialogContent {
+  position: relative;
+  width: 90vw;
+  margin: 80px 0px;
+  max-width: 960px;
+  background: var(--white);
+  border-radius: 16px;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+  animation: contentShow 750ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.test {
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.DialogContent:focus {
+  outline: none;
+}
+
+.title {
+  color: #1d1d1f;
+  font-size: 32px;
+  line-height: 1.16;
+  font-weight: 600;
+}
+
+.desc {
+  margin: 16px 0px 16px 0px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: var(--text);
+}
+
+.button {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  bottom: 24px;
+  right: 32px;
+  color: var(--white);
+  background-color: transparent;
+  padding: 0px;
+}
+
+.button:hover,
+.close:hover {
+  opacity: 80%;
+}
+
+.close {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 24px;
+  left: 32px;
+  color: var(--white);
+  background-color: transparent;
+  padding: 0px;
+}
+
+@keyframes overlayShow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes contentShow {
+  from {
+    opacity: 0;
+    transform: scale(0.5) translateY(400px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0px);
+  }
+}
+
+.modalTop {
+  background: #c4233d;
+  padding: 150px 0 90px;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper {
+  position: relative;
+  z-index: 1;
+  padding: 0 130px;
+}
+
+.headline {
+  font-size: 56px;
+  color: var(--white);
+}
+
+.modalCopy {
+  background: #fff;
+  padding: 80px 130px 130px 130px;
+}
+
+@keyframes overlayHide {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes contentHide {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0;
+    transform: scale(0.8) translateY(16%);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0.8) translateY(50%);
+  }
+}
+
+.DialogOverlay[data-state="closed"] {
+  animation: overlayHide 300ms linear;
+}
+
+.DialogContent[data-state="closed"] {
+  animation: contentHide 300ms linear;
+}

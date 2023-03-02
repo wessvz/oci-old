@@ -1,10 +1,10 @@
 import styles from "../styles/About.module.css";
 import Head from "next/head";
 import Hero from "../components/about/Hero";
-import Facts from "@/components/about/Facts";
 import Film from "@/components/about/Film";
 import Values from "@/components/about/Values";
-import Overview from "@/components/about/Overview";
+import Brand from "@/components/about/Brand";
+import Header from "@/components/about/Header";
 
 export default function AboutPage() {
   return (
@@ -16,22 +16,8 @@ export default function AboutPage() {
       </Head>
       <main className="main">
         <Hero />
-
-        <div className={styles.container}>
-          <div className={styles.grid}>
-            <section className={styles.first}>
-              <h2 className={styles.title}>This is OCI</h2>
-            </section>
-            <section className={styles.second}>
-              <h2 className={styles.title}>This is OCI</h2>
-            </section>
-            <section className={styles.third}>
-              <h2 className={styles.facts}>Company facts</h2>
-              <Facts />
-            </section>
-          </div>
-        </div>
-        <Overview />
+        <Header />
+        <Brand />
         <Values />
         <Film />
       </main>

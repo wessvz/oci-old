@@ -1,5 +1,6 @@
 .section {
-  padding: 116px 0px 140px 0px;
+  margin-top: -48px;
+  background: white;
 }
 
 .container {
@@ -18,7 +19,9 @@
   text-align: center;
   width: 900px;
   margin: 0 auto;
-  margin-bottom: 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .title {
@@ -27,7 +30,7 @@
   font-weight: 600;
 }
 
-.desc {
+.copy {
   color: #86868b;
   font-size: 24px;
   line-height: 1.3334133333;
@@ -35,32 +38,12 @@
 }
 
 .figure {
-  padding-bottom: 16px;
+  position: relative;
 }
 
 .svg {
   height: auto;
   width: 100%;
   max-width: 96px;
-}
-
-.test {
-  display: flex;
-  gap: 40px;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.factWrapper {
-  width: 100%;
-  padding: 40px;
-  flex-basis: 40%;
-  max-width: 40%;
-}
-
-.infoWrapper {
-  padding: 56px;
-  border-radius: 18px;
-  flex-basis: 60%;
-  max-width: 60%;
+  z-index: 9;
 }

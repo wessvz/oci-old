@@ -1,0 +1,76 @@
+.section {
+  padding: 140px 0px 224px 0px;
+  background: white;
+}
+
+.container {
+  max-width: var(--pageWidth);
+  margin: 0 auto;
+  padding: 0px var(--pageMin) 0px var(--pageMin);
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0px var(--pageMargin) 0px var(--pageMargin);
+  }
+}
+
+.grid {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.tile {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 18px;
+  width: 100%;
+  padding: 64px 80px 56px 56px;
+}
+
+.red {
+  composes: tile;
+  background: #c4233d;
+}
+
+.white {
+  composes: tile;
+  background: var(--white);
+}
+
+.white .headline {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: var(--lineHeight);
+  color: black;
+}
+
+.red .headline {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: var(--lineHeight);
+  color: var(--white);
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 18px;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}

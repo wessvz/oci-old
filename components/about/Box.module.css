@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--primaryRed);
+  border-radius: 18px;
+  width: 100%;
+  padding: 64px 40px 56px 40px;
+  min-height: 560px;
+}
+
+.picture {
+  position: relative;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: var(--lineHeight);
+  color: var(--white);
+}

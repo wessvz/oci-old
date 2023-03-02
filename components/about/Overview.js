@@ -1,16 +1,23 @@
 import Card from "./Card";
 import Facts from "./Facts";
 import styles from "./Overview.module.css";
+import Image from "next/image";
+import oci from "../../public/images/oci-frame.svg";
 
 export default function Overview() {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
         <div className={styles.copyWrapper}>
-          <h2 className={styles.title}>This is OCI</h2>
+          <figure className={styles.figure}>
+            <Image alt="OCI" src={oci} className={styles.svg} />
+          </figure>
+          <h2 className={styles.title}>
+            Moving markets with meaningful innovations.
+          </h2>
         </div>
         <div className={styles.test}>
-          <div>
+          <div className={styles.infoWrapper}>
             <p className={styles.desc}>
               Pick up an incoming call from your iPhone, kick back with your
               favorite shows on Apple TV, listen to music on your Mac — HomePod

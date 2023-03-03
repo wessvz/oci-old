@@ -15,7 +15,7 @@ export default function Brand() {
             </h3>
             <Modal
               title="Our mission is to simplify and streamline the work of our users."
-              copy={goal}
+              copy={mission}
             />
           </div>
           <div className={styles.img}>
@@ -42,7 +42,7 @@ export default function Brand() {
             </h3>
             <Modal
               title="We aspire to contribute to a sustainable energy system."
-              copy={mission}
+              copy={goal}
             />
           </div>
         </div>

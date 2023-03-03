@@ -1,43 +1,50 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import styles from "./Modal.module.css";
-import { Close } from "@/public/icons/General";
-import { Cross2Icon } from "@radix-ui/react-icons";
 
-export default function Modal({ title, text }) {
+export default function Modal({ title, copy }) {
   return (
     <Dialog.Root>
       <Dialog.Trigger asChild>
-        <button className={`${styles.button} ${styles.buttonArrow}`}>
-          Learn more
+        <button className={styles.button}>
           <svg
-            viewBox="0 0 6 9"
-            fill="none"
+            viewBox="0 0 24 24"
+            fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
-            className={styles.arrowIcon}
           >
-            <g className={styles.arrowHead}>
-              <path
-                d="M1 1C4.5 4 5 4.38484 5 4.5C5 4.61516 4.5 5 1 8"
-                stroke="currentColor"
-                strokeWidth="1.5"
-              />
-            </g>
+            <path d="M3.55552 3.55593C1.88542 5.22603 0.748063 7.35387 0.287283 9.67037C-0.173497 11.9869 0.0629921 14.388 0.966845 16.5701C1.8707 18.7522 3.40132 20.6172 5.36515 21.9294C7.32898 23.2416 9.63783 23.942 11.9997 23.942C14.3616 23.942 16.6704 23.2416 18.6343 21.9294C20.5981 20.6172 22.1287 18.7522 23.0326 16.5701C23.9364 14.388 24.1729 11.9869 23.7121 9.67037C23.2514 7.35387 22.114 5.22603 20.4439 3.55593C18.2044 1.31639 15.1669 0.0582325 11.9997 0.0582325C8.83252 0.0582325 5.79506 1.31639 3.55552 3.55593ZM17.8407 11.0578C18.0879 11.0622 18.3235 11.1635 18.4967 11.3399C18.6699 11.5162 18.7669 11.7536 18.7668 12.0008C18.7668 12.2481 18.6696 12.4854 18.4962 12.6616C18.3228 12.8379 18.0872 12.939 17.84 12.9432L12.9428 12.9432V17.8404C12.9429 18.0905 12.8438 18.3304 12.667 18.5074C12.4903 18.6843 12.2505 18.7838 12.0004 18.784C11.7503 18.7841 11.5104 18.6849 11.3335 18.5082C11.1565 18.3315 11.057 18.0917 11.0569 17.8416V12.943L6.15917 12.9434C5.90905 12.9434 5.6692 12.844 5.49238 12.667C5.31557 12.4901 5.21627 12.2502 5.21633 12.0001C5.2164 11.75 5.31582 11.5101 5.49273 11.3333C5.66963 11.1565 5.90953 11.0572 6.15965 11.0573L11.0569 11.0573L11.0569 6.16006C11.0568 5.90997 11.1562 5.67012 11.333 5.49326C11.5098 5.3164 11.7496 5.21702 11.9997 5.21698C12.2498 5.21695 12.4897 5.31627 12.6665 5.49308C12.8434 5.6699 12.9428 5.90973 12.9428 6.15982L12.9424 11.0574L17.8407 11.0578Z" />
           </svg>
         </button>
       </Dialog.Trigger>
       <Dialog.Portal>
-        <Dialog.Overlay className={styles.DialogOverlay} />
-        <Dialog.Content className={styles.DialogContent}>
-          <Dialog.Title className={styles.title}>{title}</Dialog.Title>
-          <Dialog.Description className={styles.desc}>
-            {text}
-          </Dialog.Description>
-          <Dialog.Close asChild>
-            <button className={styles.IconButton} aria-label="Close">
-              <Cross2Icon />
-            </button>
-          </Dialog.Close>
-        </Dialog.Content>
+        <Dialog.Overlay className={styles.DialogOverlay}>
+          <Dialog.Content className={styles.DialogContent}>
+            <div className={styles.test}>
+              <div className={styles.modalTop}>
+                <div className={styles.wrapper}>
+                  <Dialog.Title className={styles.headline}>
+                    {title}
+                  </Dialog.Title>
+                </div>
+              </div>
+              <div className={styles.modalCopy}>
+                <Dialog.Description className={styles.desc}>
+                  {copy}
+                </Dialog.Description>
+              </div>
+              <Dialog.Close asChild>
+                <button className={styles.close} aria-label="Close">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M12.0005 0.0581055C9.6386 0.0581055 7.32976 0.758485 5.36593 2.07068C3.4021 3.38287 1.87147 5.24794 0.967621 7.43003C0.063768 9.61212 -0.172721 12.0132 0.288059 14.3297C0.748839 16.6462 1.88619 18.7741 3.5563 20.4442C5.2264 22.1143 7.35424 23.2516 9.67074 23.7124C11.9872 24.1732 14.3884 23.9367 16.5704 23.0329C18.7525 22.129 20.6176 20.5984 21.9298 18.6345C23.242 16.6707 23.9424 14.3619 23.9424 12C23.9424 8.83281 22.6842 5.79534 20.4447 3.5558C18.2051 1.31626 15.1677 0.0581055 12.0005 0.0581055ZM16.7971 15.4639C16.9687 15.6418 17.0637 15.88 17.0614 16.1272C17.0592 16.3744 16.9599 16.6108 16.7851 16.7856C16.6102 16.9603 16.3737 17.0594 16.1264 17.0615C15.8792 17.0635 15.6411 16.9684 15.4633 16.7966L12.0005 13.3337L8.53763 16.7966C8.3609 16.9735 8.12112 17.073 7.87103 17.0732C7.62095 17.0733 7.38104 16.9741 7.20408 16.7974C7.02713 16.6207 6.92763 16.3809 6.92747 16.1308C6.92731 15.8807 7.0265 15.6408 7.20323 15.4639L10.6671 12L7.20357 8.53713C7.02675 8.36023 6.92746 8.12033 6.92752 7.87021C6.92759 7.62009 7.02701 7.38024 7.20391 7.20342C7.38082 7.0266 7.62072 6.92731 7.87084 6.92737C8.12096 6.92743 8.36081 7.02686 8.53763 7.20376L12.0005 10.6666L15.4633 7.20376C15.6402 7.0269 15.88 6.92752 16.1301 6.92749C16.3802 6.92746 16.62 7.02678 16.7969 7.20359C16.9737 7.38041 17.0731 7.62024 17.0732 7.87033C17.0732 8.12042 16.9739 8.36027 16.7971 8.53713L13.3337 12L16.7971 15.4639Z" />
+                  </svg>
+                </button>
+              </Dialog.Close>
+            </div>
+          </Dialog.Content>
+        </Dialog.Overlay>
       </Dialog.Portal>
     </Dialog.Root>
   );

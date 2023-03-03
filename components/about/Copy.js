@@ -67,4 +67,70 @@ const goal = (
   </div>
 );
 
-export { mission, goal };
+const environment = (
+  <div className={styles.copy}>
+    <p className={styles.intro}>
+      Research and development (R&D) teams are the fastest growing at Apple. R&D
+      is also an area where diversity continues to lag across the tech industry.
+      We have several ongoing and upcoming initiatives to help break down
+      systemic barriers and bias in R&D and beyond.
+    </p>
+    <h3 className={styles.headline}>
+      Making a difference with underrepresented communities.
+    </h3>
+    <p>
+      In addition to Apple programs like Entrepreneur Camp, Impact Accelerator,
+      and the Apple Developer Academy, Apple partners with external
+      organizations to support and serve people from underrepresented
+      communities. Many of our partnerships also provide opportunities for our
+      engineers and other employees to engage with the next generation of
+      innovators by offering their time as mentors and volunteers.
+    </p>
+  </div>
+);
+
+const innovation = (
+  <div className={styles.copy}>
+    <p className={styles.intro}>
+      Research and development (R&D) teams are the fastest growing at Apple. R&D
+      is also an area where diversity continues to lag across the tech industry.
+      We have several ongoing and upcoming initiatives to help break down
+      systemic barriers and bias in R&D and beyond.
+    </p>
+    <h3 className={styles.headline}>
+      Making a difference with underrepresented communities.
+    </h3>
+    <p>
+      In addition to Apple programs like Entrepreneur Camp, Impact Accelerator,
+      and the Apple Developer Academy, Apple partners with external
+      organizations to support and serve people from underrepresented
+      communities. Many of our partnerships also provide opportunities for our
+      engineers and other employees to engage with the next generation of
+      innovators by offering their time as mentors and volunteers.
+    </p>
+  </div>
+);
+
+const quality = (
+  <div className={styles.copy}>
+    <p className={styles.intro}>
+      Research and development (R&D) teams are the fastest growing at Apple. R&D
+      is also an area where diversity continues to lag across the tech industry.
+      We have several ongoing and upcoming initiatives to help break down
+      systemic barriers and bias in R&D and beyond.
+    </p>
+    <h3 className={styles.headline}>
+      Making a difference with underrepresented communities.
+    </h3>
+    <p>
+      In addition to Apple programs like Entrepreneur Camp, Impact Accelerator,
+      and the Apple Developer Academy, Apple partners with external
+      organizations to support and serve people from underrepresented
+      communities. Many of our partnerships also provide opportunities for our
+      engineers and other employees to engage with the next generation of
+      innovators by offering their time as mentors and volunteers.
+    </p>
+  </div>
+);
+
+export { mission, goal, environment, innovation, quality };

@@ -1,7 +1,7 @@
 import styles from "./Brand.module.css";
 import Image from "next/image";
 import contact from "@/public/images/contact-placeholder.png";
-import Modal from "./Info";
+import Modal from "./Modal";
 import { mission, goal } from "./Copy";
 
 export default function Brand() {

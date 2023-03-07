@@ -2,6 +2,9 @@ import styles from "./Main.module.css";
 import Image from "next/image";
 import LargeButton from "../button/LargeButton";
 import voorbeeld from "../../public/images/voorbeeld.jpg";
+import tuin from "../../public/images/voorbeeld-3.jpg";
+import tekening from "../../public/images/oci-header-voorbeeld.jpg";
+import machine from "../../public/images/voorbeeld-5.jpg";
 
 export default function Main() {
   return (
@@ -9,7 +12,7 @@ export default function Main() {
       <div className={styles.imageWrapper}>
         <div className={styles.view}>
           <div className={styles.imageContainer}>
-            <Image alt="Voorbeeld" src={voorbeeld} className={styles.image} />
+            <Image alt="Voorbeeld" src={machine} className={styles.image} />
             <div className={styles.overlay}></div>
           </div>
         </div>

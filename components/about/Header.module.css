@@ -18,7 +18,7 @@
 
 .copyWrapper {
   text-align: center;
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -26,17 +26,30 @@
 }
 
 .title {
-  font-size: 64px;
-  line-height: 1;
+  font-size: 40px;
+  line-height: 1.025;
   font-weight: 600;
   max-width: 100%;
 }
 
+@media (min-width: 768px) {
+  .title {
+    font-size: 64px;
+    line-height: 1;
+  }
+}
+
 .copy {
   color: #86868b;
-  font-size: 24px;
-  line-height: 1.3334133333;
+  font-size: 20px;
+  line-height: 1.33;
   font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .copy {
+    font-size: 24px;
+  }
 }
 
 .figure {

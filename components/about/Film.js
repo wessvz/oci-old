@@ -1,7 +1,7 @@
 import styles from "./Film.module.css";
 import Image from "next/image";
 import device from "../../public/images/device.png";
-import film from "../../public/images/film-start.jpg";
+import film from "../../public/images/about/film-start.jpg";
 
 export default function Film() {
   return (

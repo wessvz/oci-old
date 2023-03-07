@@ -1,12 +1,19 @@
 import styles from "../styles/Contact.module.css";
+import Image from "next/image";
 import Head from "next/head";
 import Hero from "../components/contact/Hero";
 import ContactForm from "@/components/contact/ContactForm";
-import Image from "next/image";
-import contact from "@/public/images/contact-placeholder.png";
 import Item from "@/components/contact/Item";
 import { Phone, Envelope } from "@/public/icons/General";
 import logo from "@/public/images/oci-dark.svg";
+import applePlaceholder from "@/public/images/about/contact-placeholder.png";
+import applePlaceholder1 from "@/public/images/about/apple-placeholder.jpg";
+import productPlaceholder1 from "@/public/images/about/product-placeholder.jpg";
+import productPlaceholder2 from "@/public/images/about/product-placeholder-2.jpg";
+import productPlaceholder3 from "@/public/images/about/product-placeholder-4.jpg";
+import productPlaceholder4 from "@/public/images/about/voorbeeld-product.jpg";
+import productPlaceholder5 from "@/public/images/about/product-placeholder5.jpg";
+import oci from "@/public/images/about/oci-malden.jpg";
 
 export default function ContactPage() {
   return (
@@ -39,7 +46,7 @@ export default function ContactPage() {
               <div className={styles.imageWrapper}>
                 <Image
                   alt="OCI BV, De Hoge Brug 14, 6581 AJ Malden"
-                  src={contact}
+                  src={applePlaceholder}
                   className={styles.image}
                 />
                 <div className={styles.overlay}></div>
@@ -52,7 +59,7 @@ export default function ContactPage() {
               <div className={styles.imageWrapper}>
                 <Image
                   alt="OCI BV, De Hoge Brug 14, 6581 AJ Malden"
-                  src={contact}
+                  src={productPlaceholder1}
                   className={styles.image}
                 />
                 <div className={styles.overlay}></div>

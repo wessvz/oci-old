@@ -1,6 +1,6 @@
 import styles from "./Hero.module.css";
 import Image from "next/image";
-import voorbeeld from "../../public/images/voorbeeld.webp";
+import oci from "../../public/images/about/oci-malden-achtergrond.jpg";
 
 export default function Hero() {
   return (
@@ -8,7 +8,7 @@ export default function Hero() {
       <div className={styles.imageWrapper}>
         <div className={styles.view}>
           <div className={styles.imageContainer}>
-            <Image alt="Voorbeeld" src={voorbeeld} className={styles.image} />
+            <Image alt="Voorbeeld" src={oci} className={styles.image} />
             <div className={styles.overlay}></div>
           </div>
         </div>

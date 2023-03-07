@@ -14,11 +14,11 @@ export default function Header() {
             Moving markets with meaningful innovations.
           </h2>
           <p className={styles.copy}>
-            At OCI, we understand that sustainability, innovation, and quality
-            are critical components of our customers' success. That's why we are
-            committed to providing the energy and water industry with
-            outstanding products and solutions. We are proud of our reputation
-            as a customer-centric and trustworthy supplier.
+            We believe that sustainability, innovation and quality are critical
+            components of our customers success. That's why we are committed to
+            providing the energy and water industry with outstanding products
+            and solutions. We are proud of our reputation as a customer-centric
+            and trustworthy supplier.
           </p>
         </div>
       </div>

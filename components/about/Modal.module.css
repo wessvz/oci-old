@@ -16,14 +16,20 @@
 .DialogContent {
   backdrop-filter: blur(16px);
   position: relative;
-  width: 90vw;
-  margin: 80px 0px;
+  width: 96vw;
+  margin: 24px 0px;
   max-width: 960px;
   background: var(--white);
   border-radius: 16px;
   box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
   animation: contentShow 750ms cubic-bezier(0.16, 1, 0.3, 1);
   z-index: 9;
+}
+
+@media (min-width: 768px) {
+  .DialogContent {
+    margin: 80px 0px;
+  }
 }
 
 .test {
@@ -99,25 +105,49 @@
 
 .modalTop {
   background: #c4233d;
-  padding: 150px 0 90px;
+  padding: 80px 0 40px;
   position: relative;
   overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .modalTop {
+    padding: 150px 0 90px;
+  }
 }
 
 .wrapper {
   position: relative;
   z-index: 1;
-  padding: 0 130px;
+  padding: 0 40px;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding: 0 130px;
+  }
 }
 
 .headline {
-  font-size: 56px;
+  font-size: 40px;
   color: var(--white);
+}
+
+@media (min-width: 768px) {
+  .headline {
+    font-size: 56px;
+  }
 }
 
 .modalCopy {
   background: #fff;
-  padding: 80px 130px 130px 130px;
+  padding: 40px;
+}
+
+@media (min-width: 768px) {
+  .modalCopy {
+    padding: 80px 130px 130px 130px;
+  }
 }
 
 @keyframes overlayHide {

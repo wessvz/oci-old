@@ -14,6 +14,7 @@ import productPlaceholder3 from "@/public/images/about/product-placeholder-4.jpg
 import productPlaceholder4 from "@/public/images/about/voorbeeld-product.jpg";
 import productPlaceholder5 from "@/public/images/about/product-placeholder5.jpg";
 import oci from "@/public/images/about/oci-malden.jpg";
+import Headline from "@/components/shared/Headline";
 
 export default function ContactPage() {
   return (
@@ -27,7 +28,12 @@ export default function ContactPage() {
         <Hero />
 
         <div className={styles.container}>
-          <ContactForm />
+          <Headline
+            eyebrow="Support"
+            title="Get the help you need"
+            copy="Need assistance? We're here to help. Please reach out to us using the contact information below."
+          />
+
           <section className={styles.panel}>
             <div className={styles.copyColumn}>
               <div className={styles.company}>
@@ -83,6 +89,7 @@ export default function ContactPage() {
               </div>
             </div>
           </section>
+          <ContactForm />
         </div>
       </main>
     </div>

@@ -28,11 +28,7 @@ export default function ContactPage() {
         <Hero />
 
         <div className={styles.container}>
-          <Headline
-            eyebrow="Support"
-            title="Get the help you need"
-            copy="Need assistance? We're here to help. Please reach out to us using the contact information below."
-          />
+          <Headline />
 
           <section className={styles.panel}>
             <div className={styles.copyColumn}>

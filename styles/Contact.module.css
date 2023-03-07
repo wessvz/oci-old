@@ -106,6 +106,7 @@
 
 .title {
   font-size: 32px;
+  letter-spacing: -0.5px;
 }
 
 @media (min-width: 768px) {

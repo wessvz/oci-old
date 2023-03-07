@@ -234,7 +234,7 @@ export default function ContactForm() {
                 </div>
               ) : (
                 <>
-                  <span>Contact Sales</span>
+                  <span>Contact sales</span>
                   <svg
                     viewBox="0 0 6 9"
                     fill="none"

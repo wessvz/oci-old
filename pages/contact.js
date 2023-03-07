@@ -13,6 +13,9 @@ import productPlaceholder2 from "@/public/images/about/product-placeholder-2.jpg
 import productPlaceholder3 from "@/public/images/about/product-placeholder-4.jpg";
 import productPlaceholder4 from "@/public/images/about/voorbeeld-product.jpg";
 import productPlaceholder5 from "@/public/images/about/product-placeholder5.jpg";
+import productPlaceholder6 from "@/public/images/about/product-placeholder-6.jpg";
+import productPlaceholder7 from "@/public/images/about/product-placeholder-7.jpg";
+import productPlaceholder8 from "@/public/images/about/product-placeholder-8.jpg";
 import oci from "@/public/images/about/oci-malden.jpg";
 import Headline from "@/components/shared/Headline";
 
@@ -29,7 +32,6 @@ export default function ContactPage() {
 
         <div className={styles.container}>
           <Headline />
-
           <section className={styles.panel}>
             <div className={styles.copyColumn}>
               <div className={styles.company}>
@@ -48,7 +50,7 @@ export default function ContactPage() {
               <div className={styles.imageWrapper}>
                 <Image
                   alt="OCI BV, De Hoge Brug 14, 6581 AJ Malden"
-                  src={applePlaceholder}
+                  src={productPlaceholder8}
                   className={styles.image}
                 />
                 <div className={styles.overlay}></div>

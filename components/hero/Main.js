@@ -1,7 +1,7 @@
 import styles from "./Main.module.css";
 import Image from "next/image";
 import LargeButton from "../button/LargeButton";
-import voorbeeld from "../../public/images/voorbeeld.webp";
+import voorbeeld from "../../public/images/voorbeeld.jpg";
 
 export default function Main() {
   return (

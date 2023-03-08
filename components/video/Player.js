@@ -7,7 +7,6 @@ export default function Player() {
       url="./video/fossilfree-desktop.mp4"
       loop={true}
       playing={true}
-      controls={true}
       muted={true}
       width="100%"
       height="auto"

@@ -4,6 +4,8 @@ import magazijn from "@/public/images/magazijn.webp";
 import products from "@/public/images/product.webp";
 import Product from "@/components/layout/content/ProductOption";
 import General from "@/components/hero/General";
+import Hero from "@/components/video/Player";
+import Main from "@/components/video/Main";
 
 export default function Sustainability() {
   return (
@@ -14,10 +16,7 @@ export default function Sustainability() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="main">
-        <General
-          title="Sustainability"
-          subtitle="OCI delivers innovative and sustainable solutions for connecting energy and water networks to homes, offices and industrial sites."
-        />
+        <Main />
 
         <section className={styles.container}>
           <Product

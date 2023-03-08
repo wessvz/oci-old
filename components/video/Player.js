@@ -6,6 +6,7 @@ function Player() {
       url="./video/fossilfree-desktop.mp4"
       loop={true}
       playing={true}
+      volume="0"
       width="100%"
       height="auto"
       muted={true}
@@ -13,6 +14,7 @@ function Player() {
         file: {
           attributes: {
             playing: true,
+            volume: 0,
             loop: true,
             muted: true,
           },

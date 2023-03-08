@@ -11,6 +11,7 @@ export default function Player() {
       muted={true}
       width="100%"
       height="auto"
+      playsinline="true"
     />
   );
 }

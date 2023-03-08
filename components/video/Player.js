@@ -1,27 +1,13 @@
-import ReactPlayer from "react-player";
+import dynamic from "next/dynamic";
+const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 
-function Player() {
+export default function Player() {
   return (
     <ReactPlayer
       url="./video/fossilfree-desktop.mp4"
       loop={true}
       playing={true}
-      volume="0"
-      width="100%"
-      height="auto"
       muted={true}
-      config={{
-        file: {
-          attributes: {
-            playing: true,
-            volume: 0,
-            loop: true,
-            muted: true,
-          },
-        },
-      }}
     />
   );
 }
-
-export default Player;

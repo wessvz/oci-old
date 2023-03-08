@@ -6,6 +6,7 @@ import Product from "@/components/layout/content/ProductOption";
 import General from "@/components/hero/General";
 import Hero from "@/components/video/Player";
 import Main from "@/components/video/Main";
+import Player from "@/components/video/Player";
 
 export default function Sustainability() {
   return (
@@ -17,7 +18,9 @@ export default function Sustainability() {
       </Head>
       <main className="main">
         <Main />
-
+        <div className={styles.test}>
+          <Player />
+        </div>
         <section className={styles.container}>
           <Product
             kicker="Energy"

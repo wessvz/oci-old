@@ -9,6 +9,8 @@ export default function Player() {
       playing={true}
       controls={true}
       muted={true}
+      width="100%"
+      height="auto"
     />
   );
 }

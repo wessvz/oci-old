@@ -13,6 +13,7 @@ export default function Main() {
       <div className={styles.imageWrapper}>
         <div className={styles.view}>
           <div className={styles.imageContainer}>
+            <Player />
             <div className={styles.overlay}></div>
           </div>
         </div>

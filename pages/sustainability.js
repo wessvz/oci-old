@@ -18,9 +18,7 @@ export default function Sustainability() {
       </Head>
       <main className="main">
         <Main />
-        <div className={styles.test}>
-          <Player />
-        </div>
+        <div className={styles.test}></div>
         <section className={styles.container}>
           <Product
             kicker="Energy"

@@ -8,6 +8,7 @@ function Player() {
       playing="true"
       width="100%"
       height="auto"
+      muted={true}
     />
   );
 }

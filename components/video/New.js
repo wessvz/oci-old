@@ -1,11 +1,11 @@
-import styles from "./Main.module.css";
-import LargeButton from "../button/LargeButton";
+import styles from "./New.module.css";
 import Player from "./Player";
+import LargeButton from "../button/LargeButton";
 
 export default function Main() {
   return (
     <section className={styles.container}>
-      <div className={styles.videoWrapper}>
+      <div>
         <Player />
         <div className={styles.overlay}></div>
       </div>

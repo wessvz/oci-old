@@ -1,7 +1,8 @@
 .container {
+  position: relative;
+  margin: 0 auto;
   background: var(--secundaryDark);
   overflow: hidden;
-  position: relative;
   height: 640px;
 }
 
@@ -9,38 +10,6 @@
   .container {
     height: 768px;
   }
-}
-
-.videoWrapper {
-  position: relative;
-  display: block;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.view {
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.image {
-  display: block;
-  height: 100%;
-  object-fit: cover;
-  width: 100%;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #000f1ebc;
 }
 
 .wrapper {
@@ -59,6 +28,15 @@
   .wrapper {
     padding: 80px var(--pageMargin) 96px;
   }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000f1e6f;
 }
 
 .title {

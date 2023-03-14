@@ -3,7 +3,7 @@ import Head from "next/head";
 import magazijn from "@/public/images/magazijn.webp";
 import products from "@/public/images/product.webp";
 import Product from "@/components/layout/content/ProductOption";
-import New from "@/components/video/New";
+import Hero from "@/components/video/Main";
 
 export default function Sustainability() {
   return (
@@ -14,7 +14,7 @@ export default function Sustainability() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="main">
-        <New />
+        <Hero />
         <div className={styles.test}></div>
         <section className={styles.container}>
           <Product

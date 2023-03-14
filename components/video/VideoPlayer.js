@@ -1,9 +1,9 @@
 import { useState } from "react";
 import dynamic from "next/dynamic";
-import styles from "./Player.module.css";
+import styles from "./VideoPlayer.module.css";
 import useMediaQuery from "@/lib/hooks/useMediaQuery";
 import Image from "next/image";
-import machine from "../../public/images/voorbeeld-5.jpg";
+import oci from "../../public/images/about/oci-malden-achtergrond.jpg";
 
 const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 
@@ -20,7 +20,7 @@ export default function Player() {
       {loading && (
         <Image
           alt="Voorbeeld"
-          src={machine}
+          src={oci}
           className={styles.image}
           style={{
             opacity: loading ? 1 : 0,

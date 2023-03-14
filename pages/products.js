@@ -1,7 +1,7 @@
 import styles from "@/styles/Products.module.css";
 import Head from "next/head";
 import Headline from "@/components/products/Headline";
-import Hero from "@/components/products/Hero";
+import Hero from "@/components/video/Hero";
 import Overview from "@/components/products/Overview";
 import Cta from "@/components/products/Cta";
 

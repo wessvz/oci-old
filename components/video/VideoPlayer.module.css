@@ -8,16 +8,13 @@
 }
 
 .player video {
-  position: relative;
+  background: transparent;
   object-fit: cover;
-  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 100%;
-  transform: scale(1);
-  transform-origin: center right;
-  transition-delay: 0.3s;
-  transition-duration: 0.3s;
-  transition-timing-function: cubic-bezier(0.32, 0, 1, 0.32);
-  display: inline-block;
+  width: 100%;
 }
 
 .image {

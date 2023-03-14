@@ -12,7 +12,7 @@ export default function Player() {
   const [loading, setLoading] = useState(true);
 
   const handleLoaded = () => {
-    setTimeout(() => setLoading(false), 500);
+    setTimeout(() => setLoading(false), 600);
   };
 
   return (
@@ -24,7 +24,7 @@ export default function Player() {
           className={styles.image}
           style={{
             opacity: loading ? 1 : 0,
-            transition: "opacity 0.5s ease",
+            transition: "opacity 0.3s ease",
           }}
           onLoad={handleLoaded}
         />

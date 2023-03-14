@@ -3,59 +3,44 @@
 }
 
 .wrapper {
-  max-width: var(--pageWidth);
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 32px var(--pageMin) 32px var(--pageMin);
+  padding: var(--pageMin);
 }
 
 @media (min-width: 768px) {
   .wrapper {
+    max-width: var(--pageWidth);
+    margin: 0 auto;
     padding: 60px var(--pageMargin) 40px var(--pageMargin);
   }
 }
 
-.flex {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-
-.company,
-.resources,
-.logo {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .flex {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .brand {
-    width: calc(40% - 32px);
-    order: -1;
-  }
-
-  .company,
-  .resources {
-    width: calc(30% - 16px);
-    order: 1;
+@media (min-width: 768px) {
+  .mobile {
+    display: none;
   }
 }
 
-@media (min-width: 1024px) {
-  .brand {
-    width: calc(60% - 32px);
-    order: 0;
-  }
+.desktop {
+  display: none;
+}
 
-  .company,
-  .resources {
-    width: calc(20% - 16px);
-    order: 1;
+@media (min-width: 768px) {
+  .desktop {
+    display: block;
   }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  grid-row-gap: 20px;
+  row-gap: 20px;
+}
+
+.column {
+  padding: 0px 16px;
 }
 
 .title {
@@ -95,13 +80,7 @@
 
 .logo {
   position: relative;
-  max-width: 88px;
-}
-
-@media (min-width: 640px) {
-  .logo {
-    max-width: 120px;
-  }
+  max-width: 120px;
 }
 
 .svg {
@@ -110,12 +89,12 @@
 }
 
 .section {
-  padding-top: 12px;
+  padding-top: var(--pageMin);
 }
 
-@media (min-width: 560px) {
+@media (min-width: 768px) {
   .section {
-    padding-top: 24px;
+    padding-top: 40px;
   }
 }
 

@@ -7,9 +7,17 @@ export default function Footer() {
   return (
     <footer className={styles.container}>
       <div className={styles.wrapper}>
-        <nav>
-          <ul className={styles.flex}>
-            <li className={styles.company}>
+        <nav className={styles.desktop}>
+          <ul className={styles.grid}>
+            <li className={styles.colomn}>
+              <div className={styles.logo}>
+                <Link href="/">
+                  <Image alt="OCI" src={logo} className={styles.svg} />
+                </Link>
+              </div>
+            </li>
+
+            <li>
               <div className={styles.title}>Company</div>
               <ul className={styles.list}>
                 <li>
@@ -27,7 +35,7 @@ export default function Footer() {
               </ul>
             </li>
 
-            <li className={styles.resources}>
+            <li>
               <div className={styles.title}>Resources</div>
               <ul className={styles.list}>
                 <li>
@@ -39,21 +47,17 @@ export default function Footer() {
                 <li>
                   <Link href="/cookies">Cookie Policy</Link>
                 </li>
+                <li>
+                  <Link href="/contact">Sitemap</Link>
+                </li>
               </ul>
-            </li>
-
-            <li className={styles.brand}>
-              <div className={styles.logo}>
-                <Link href="/">
-                  <Image alt="OCI" src={logo} className={styles.svg} />
-                </Link>
-              </div>
             </li>
           </ul>
         </nav>
         <section className={styles.section}>
           <p className={styles.copyright}>
-            © {new Date().getFullYear()} OCI B.V. Alle rechten voorbehouden.
+            Copyright © {new Date().getFullYear()} OCI B.V. Alle rechten
+            voorbehouden.
           </p>
         </section>
       </div>

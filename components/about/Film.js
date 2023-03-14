@@ -12,7 +12,7 @@ export default function Film() {
         <Title
           level={2}
           eyebrow="Virtual tour"
-          title="Step inside our company."
+          title="Step inside OCI"
           copy="Experience a digital walk through our company in Malden, which is located just a short distance from Nijmegen."
         />
       </div>

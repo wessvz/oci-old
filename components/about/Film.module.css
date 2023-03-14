@@ -1,10 +1,27 @@
 .section {
-  padding: 140px 0px;
+  padding: 80px 0px;
   background: #fbfbfd;
 }
 
+@media (min-width: 768px) {
+  .section {
+    padding: 140px 0px;
+  }
+}
+
 .copyContainer {
-  margin-bottom: 56px;
+  max-width: var(--pageWidth);
+  margin: 0 auto;
+  padding: 0px var(--pageMin) 0px var(--pageMin);
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+@media (min-width: 768px) {
+  .copyContainer {
+    padding: 0px var(--pageMargin) 0px var(--pageMargin);
+    margin-bottom: 56px;
+  }
 }
 
 .filmContainer {

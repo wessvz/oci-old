@@ -12,7 +12,16 @@
   }
 }
 
-.wrapper {
+.mediaContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.contentContainer {
   height: 100%;
   margin: 0 auto;
   max-width: var(--pageWidth);
@@ -25,7 +34,7 @@
 }
 
 @media (min-width: 768px) {
-  .wrapper {
+  .contentContainer {
     padding: 80px var(--pageMargin) 96px;
   }
 }

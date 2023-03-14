@@ -5,11 +5,11 @@ import LargeButton from "../button/LargeButton";
 export default function Main() {
   return (
     <section className={styles.container}>
-      <div>
+      <div className={styles.mediaContainer}>
         <Player />
         <div className={styles.overlay}></div>
       </div>
-      <div className={styles.wrapper}>
+      <div className={styles.contentContainer}>
         <div className={styles.content}>
           <h1 className={styles.title}>Working together on smart solutions</h1>
           <p className={styles.subtitle}>

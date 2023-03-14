@@ -9,41 +9,27 @@ const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 
 export default function Player() {
   const isMobile = useMediaQuery("(max-width: 768px)");
-  const [loading, setLoading] = useState(true);
+  const [showThumbnail, setShowThumbnail] = useState(true);
 
-  const handleLoaded = () => {
-    setTimeout(() => setLoading(false), 500);
+  const handlePlayerReady = () => {
+    setShowThumbnail(false);
   };
 
   return (
     <div className={styles.videoContainer}>
-      {loading && (
-        <Image
-          alt="Voorbeeld"
-          src={machine}
-          className={styles.image}
-          style={{
-            opacity: loading ? 1 : 0,
-            transition: "opacity 0.5s ease",
-          }}
-          onLoad={handleLoaded}
-        />
+      {showThumbnail && (
+        <Image alt="Voorbeeld" src={machine} className={styles.image} />
       )}
       <ReactPlayer
         url={isMobile ? "./video/mobile.mp4" : "./video/desktop.mp4"}
         loop={true}
         playing={true}
         muted={true}
-        onReady={handleLoaded}
         playsinline="true"
         width="100%"
         height="100%"
         className={styles.player}
-        style={{
-          opacity: loading ? 0 : 1,
-          transition: "opacity 0.5s ease",
-          objectFit: "cover",
-        }}
+        onReady={handlePlayerReady}
       />
     </div>
   );

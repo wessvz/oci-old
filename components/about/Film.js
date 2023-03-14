@@ -13,7 +13,7 @@ export default function Film() {
           level={2}
           eyebrow="Virtual tour"
           title="Step inside our company."
-          copy="Experience a digital walk through our company in Malden, located a short distance from Nijmegen, the Netherlands."
+          copy="Experience a digital walk through our company in Malden, which is located just a short distance away from Nijmegen in the Netherlands."
         />
       </div>
 

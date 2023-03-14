@@ -2,15 +2,21 @@ import styles from "./Film.module.css";
 import Image from "next/image";
 import device from "../../public/images/device.png";
 import film from "../../public/images/about/film-start.jpg";
+import Title from "../shared/Title";
+import Headline from "../shared/Headline";
 
 export default function Film() {
   return (
     <section className={styles.section}>
-      <div className={styles.copyWrapper}>
-        <h2 className={styles.title}>
-          Step inside our company by taking a virtual tour.
-        </h2>
+      <div className={styles.copyContainer}>
+        <Title
+          level={2}
+          eyebrow="Virtual tour"
+          title="Step inside our company."
+          copy="Experience a digital walk through our company in Malden, located a short distance from Nijmegen, the Netherlands."
+        />
       </div>
+
       <div className={styles.filmContainer}>
         <div className={styles.deviceWrapper}>
           <Image alt="OCI" src={device} className={styles.device} />

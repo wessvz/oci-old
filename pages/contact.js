@@ -50,7 +50,7 @@ export default function ContactPage() {
               <div className={styles.imageWrapper}>
                 <Image
                   alt="OCI BV, De Hoge Brug 14, 6581 AJ Malden"
-                  src={productPlaceholder8}
+                  src={productPlaceholder6}
                   className={styles.image}
                 />
                 <div className={styles.overlay}></div>

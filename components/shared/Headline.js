@@ -6,7 +6,8 @@ export default function Headline() {
       <h1 className={styles.eyebrow}>Contact us</h1>
       <h2 className={styles.title}>Get the help you need</h2>
       <p className={styles.copy}>
-        Please reach out to us using the contact information below.
+        Have questions about our company or products? Get in touch with our team
+        using the contact information below.
       </p>
     </section>
   );

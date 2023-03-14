@@ -1,14 +1,20 @@
 import styles from "./Card.module.css";
 import Image from "next/image";
-import voorbeeld from "../../public/images/voorbeeld-value.jpg";
 import Modal from "./ModalTwo";
 
-export default function Card({ title, desc, copy, headline, className }) {
+export default function Card({
+  title,
+  desc,
+  copy,
+  headline,
+  image,
+  className,
+}) {
   return (
     <div className={styles.wrapper}>
       <div className={styles.imageWrapper}>
         <picture className={styles.picture}>
-          <Image alt="Voorbeeld" src={voorbeeld} className={styles.img} />
+          <Image alt="Voorbeeld" src={image} className={styles.img} />
         </picture>
       </div>
       <div className={styles.copyWrapper}>

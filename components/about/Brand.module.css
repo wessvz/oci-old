@@ -45,17 +45,17 @@
   overflow: hidden;
   border-radius: 18px;
   width: 100%;
-  padding: 34px 60px 40px 30px;
+  padding: 34px 24% 40px 30px;
 }
 
 @media (min-width: 1280px) {
   .tile {
-    padding: 64px 80px 56px 56px;
+    padding: 64px 24% 56px 56px;
   }
 }
 
 .headline {
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 600;
   line-height: var(--lineHeight);
 }

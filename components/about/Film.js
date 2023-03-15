@@ -4,17 +4,14 @@ import device from "../../public/images/device.png";
 import film from "../../public/images/about/film-start.jpg";
 import Title from "../shared/Title";
 import Headline from "../shared/Headline";
+import Description from "../shared/Description";
 
 export default function Film() {
   return (
     <section className={styles.section}>
       <div className={styles.copyContainer}>
-        <Title
-          level={2}
-          eyebrow="Virtual tour"
-          title="Step inside OCI"
-          copy="Experience a digital walk through our company in Malden, which is located just a short distance from Nijmegen."
-        />
+        <Title eyebrow="Virtual tour" title="Step inside OCI" />
+        <Description copy="Experience a digital walk through our company in Malden, located a short distance from Nijmegen in the Netherlands." />
       </div>
 
       <div className={styles.filmContainer}>

@@ -6,16 +6,19 @@ import innovationValue from "@/public/images/about/innovation-value.jpg";
 import valueQuality from "@/public/images/about/value-quality.jpg";
 import valueEnvironment from "@/public/images/about/value-environment.jpg";
 import valueInnovation from "@/public/images/about/value-innovation.jpg";
+import Title from "../shared/Title";
+import Description from "../shared/Description";
 
 export default function Values() {
   return (
     <section className={styles.section}>
-      <div className={styles.container}>
-        <div className={styles.copyWrapper}>
-          <h2 className={styles.title}>
-            Our values <br /> lead the way.
-          </h2>
+      <div className={styles.copyContainer}>
+        <Title level={2} eyebrow="Values" title="Principles in practice" />
+        <div className={styles.descWrapper}>
+          <Description copy="Our values guide us in every decision. Discover how we prioritize quality, every step of the way." />
         </div>
+      </div>
+      <div className={styles.container}>
         <div className={styles.valueWrapper}>
           <Card
             title="Environment"

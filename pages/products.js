@@ -7,20 +7,18 @@ import Cta from "@/components/products/Cta";
 
 export default function Products() {
   return (
-    <div>
+    <>
       <Head>
         <title>OCI BV | Smart solutions for energy and water networks</title>
         <meta name="description" content="Welkom bij OCI BV" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="main">
-        <Hero />
-        <div className={styles.container}>
-          <Headline />
-          <Overview />
-          <Cta />
-        </div>
-      </main>
-    </div>
+      <Hero />
+      <div className={styles.container}>
+        <Headline />
+        <Overview />
+        <Cta />
+      </div>
+    </>
   );
 }

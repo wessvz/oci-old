@@ -18,19 +18,20 @@ import productPlaceholder7 from "@/public/images/about/product-placeholder-7.jpg
 import productPlaceholder8 from "@/public/images/about/product-placeholder-8.jpg";
 import oci from "@/public/images/about/oci-malden.jpg";
 import Headline from "@/components/shared/Headline";
+import Container from "@/components/layout/Container";
 
 export default function ContactPage() {
   return (
-    <div>
+    <>
       <Head>
         <title>OCI BV | Smart solutions for energy and water networks</title>
         <meta name="description" content="Welkom bij OCI BV" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="main">
-        <Hero />
 
-        <div className={styles.container}>
+      <Hero />
+      <Container>
+        <div className={styles.flex}>
           <Headline />
           <section className={styles.panel}>
             <div className={styles.copyColumn}>
@@ -89,7 +90,7 @@ export default function ContactPage() {
           </section>
           <ContactForm />
         </div>
-      </main>
-    </div>
+      </Container>
+    </>
   );
 }

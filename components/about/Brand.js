@@ -38,10 +38,10 @@ export default function Brand() {
           </div>
           <div className={styles.red}>
             <h3 className={styles.headline}>
-              We aspire to contribute to a sustainable energy system.
+              We aspire to contribute to a sustainable energy and water system.
             </h3>
             <Modal
-              title="We aspire to contribute to a sustainable energy system."
+              title="We aspire to contribute to a sustainable energy and water system."
               copy={goal}
             />
           </div>

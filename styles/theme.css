@@ -17,7 +17,18 @@
 }
 
 :root {
-  --background: #f8f9fa;
+  --overlayMain: #000f1e68;
+}
+
+:root {
+  --background: #f5f5f7;
+}
+
+:root {
+  --backgroundOld: #f8f9fa;
+  --borderOld: 1px solid hsla(0, 0%, 51.4%, 0.16);
+  --boxShadowOld: rgba(0, 35, 75, 0.09) 1px 8px 45px;
+  --boxShadowPanelOld: 0px 8px 12px 0px #000f1e0a, 0px 2px 4px 0px #000f1e00;
 }
 
 :root {
@@ -34,6 +45,9 @@
 }
 
 :root {
+  --width: 16px;
+  --height: 56px;
+  --sectionHeight: 80px;
   --pageMin: 16px;
   --pageMargin: 24px;
   --pageWidth: 1320px;
@@ -44,4 +58,12 @@
   --paddingSM: 24px;
   --paddingMD: 56px;
   --paddingLG: 80px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --height: 88px;
+    --width: 24px;
+    --sectionHeight: 140px;
+  }
 }

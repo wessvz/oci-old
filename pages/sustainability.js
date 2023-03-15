@@ -13,42 +13,41 @@ export default function Sustainability() {
         <meta name="description" content="Welkom bij OCI BV" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="main">
-        <Hero />
-        <div className={styles.test}></div>
-        <section className={styles.container}>
-          <Product
-            kicker="Energy"
-            title="Valves and fittings"
-            copy="OCI delivers innovative and sustainable solutions for connecting energy and water networks to homes, offices and industrial sites."
-            image={products}
-            alt="Products made by OCI"
-          />
-          <Product
-            order="reverse"
-            kicker="Water"
-            title="Installation systems"
-            copy="OCI delivers innovative and sustainable solutions for connecting energy and water networks to homes, offices and industrial sites."
-            image={magazijn}
-            alt="Products made by OCI"
-          />
-          <Product
-            kicker="Gas"
-            title="Pipes and hoses"
-            copy="OCI delivers innovative and sustainable solutions for connecting energy and water networks to homes, offices and industrial sites."
-            image={products}
-            alt="Products made by OCI"
-          />
-          <Product
-            order="reverse"
-            kicker="Liquids"
-            title="Refurbished products"
-            copy="OCI delivers innovative and sustainable solutions for connecting energy and water networks to homes, offices and industrial sites."
-            image={magazijn}
-            alt="Products made by OCI"
-          />
-        </section>
-      </main>
+
+      <Hero />
+      <div className={styles.test}></div>
+      <section className={styles.container}>
+        <Product
+          kicker="Energy"
+          title="Valves and fittings"
+          copy="OCI delivers innovative and sustainable solutions for connecting energy and water networks to homes, offices and industrial sites."
+          image={products}
+          alt="Products made by OCI"
+        />
+        <Product
+          order="reverse"
+          kicker="Water"
+          title="Installation systems"
+          copy="OCI delivers innovative and sustainable solutions for connecting energy and water networks to homes, offices and industrial sites."
+          image={magazijn}
+          alt="Products made by OCI"
+        />
+        <Product
+          kicker="Gas"
+          title="Pipes and hoses"
+          copy="OCI delivers innovative and sustainable solutions for connecting energy and water networks to homes, offices and industrial sites."
+          image={products}
+          alt="Products made by OCI"
+        />
+        <Product
+          order="reverse"
+          kicker="Liquids"
+          title="Refurbished products"
+          copy="OCI delivers innovative and sustainable solutions for connecting energy and water networks to homes, offices and industrial sites."
+          image={magazijn}
+          alt="Products made by OCI"
+        />
+      </section>
     </div>
   );
 }

@@ -14,13 +14,11 @@ export default function AboutPage() {
         <meta name="description" content="About OCI" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="main">
-        <Hero />
-        <Header />
-        <Brand />
-        <Values />
-        <Film />
-      </main>
+      <Hero />
+      <Header />
+      <Brand />
+      <Values />
+      <Film />
     </div>
   );
 }

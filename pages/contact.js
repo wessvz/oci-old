@@ -17,7 +17,7 @@ import productPlaceholder6 from "@/public/images/about/product-placeholder-6.jpg
 import productPlaceholder7 from "@/public/images/about/product-placeholder-7.jpg";
 import productPlaceholder8 from "@/public/images/about/product-placeholder-8.jpg";
 import oci from "@/public/images/about/oci-malden.jpg";
-import Headline from "@/components/shared/Headline";
+import Headline from "@/components/contact/Headline";
 import Container from "@/components/layout/Container";
 
 export default function ContactPage() {

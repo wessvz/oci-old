@@ -1,13 +1,18 @@
 import styles from "./Cta.module.css";
+import Title from "../shared/Title";
+import Description from "../shared/Description";
+import LargeButton from "../button/LargeButton";
 
-export default function Section() {
+export default function Cta() {
   return (
     <section className={styles.container}>
-      <h2 className={styles.title}>Do you have questions? Just ask.</h2>
-      <p className={styles.copy}>
-        We're here to help. Whenever and however you need it.
-      </p>
-      <button>Talk to an Expert</button>
+      <Title eyebrow="Get advise" title="Do you have questions?" />
+      <div className={styles.desc}>
+        <Description copy="We're here to help. Whenever and however you need it. Get in touch with our team now." />
+      </div>
+      <div className={styles.button}>
+        <LargeButton buttonText="Talk to an Expert" link="/contact" />
+      </div>
     </section>
   );
 }

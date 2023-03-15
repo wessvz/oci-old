@@ -4,7 +4,7 @@ import Hero from "../components/about/Hero";
 import Film from "@/components/about/Film";
 import Values from "@/components/about/Values";
 import Brand from "@/components/about/Brand";
-import Header from "@/components/about/Header";
+import Headline from "@/components/about/Headline";
 
 export default function AboutPage() {
   return (
@@ -15,7 +15,7 @@ export default function AboutPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
-      <Header />
+      <Headline />
       <Brand />
       <Values />
       <Film />

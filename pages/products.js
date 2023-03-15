@@ -2,7 +2,7 @@ import styles from "@/styles/Products.module.css";
 import Head from "next/head";
 import Headline from "@/components/products/Headline";
 import Hero from "@/components/video/Hero";
-import Overview from "@/components/products/Overview";
+import Categories from "@/components/products/Categories";
 import Cta from "@/components/products/Cta";
 
 export default function Products() {
@@ -16,7 +16,7 @@ export default function Products() {
       <Hero />
       <div className={styles.container}>
         <Headline />
-        <Overview />
+        <Categories />
         <Cta />
       </div>
     </>

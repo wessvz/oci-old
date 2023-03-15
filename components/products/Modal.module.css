@@ -46,12 +46,13 @@
 
 .button {
   font-size: 18px;
-  font-weight: 400;
-  color: #0071e3;
+  font-weight: 600;
+  color: var(--primaryRed);
   background-color: transparent;
   text-decoration: none;
   transition: all 100ms ease-in-out;
   padding: 0px;
+  letter-spacing: -0.16px;
 }
 
 .button:hover {

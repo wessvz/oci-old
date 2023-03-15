@@ -1,4 +1,4 @@
-import styles from "./Overview.module.css";
+import styles from "./Categories.module.css";
 import Image from "next/image";
 import fitting from "@/public/images/products/fitting-2.jpg";
 import fittings from "@/public/images/products/fitting.jpg";
@@ -8,9 +8,9 @@ import valves from "@/public/images/products/kogelkraan.jpg";
 import apple from "@/public/images/products/example-1.jpg";
 import pear from "@/public/images/products/example-4.jpg";
 import Dialog from "@/components/products/Modal";
-import Headline from "./Section";
+import Title from "./Title";
 
-export default function Overview() {
+export default function Categories() {
   return (
     <>
       <div className={styles.grid}>
@@ -80,7 +80,7 @@ export default function Overview() {
         </section>
       </div>
 
-      <Headline />
+      <Title />
 
       <div className={styles.grid}>
         <section className={styles.four}>

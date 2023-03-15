@@ -3,7 +3,6 @@ import Image from "next/image";
 import device from "../../public/images/device.png";
 import film from "../../public/images/about/film-start.jpg";
 import Title from "../shared/Title";
-import Headline from "../shared/Headline";
 import Description from "../shared/Description";
 
 export default function Film() {

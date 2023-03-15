@@ -46,12 +46,24 @@
 
 .figure {
   position: relative;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+  .figure {
+    margin-bottom: 32px;
+  }
 }
 
 .svg {
   height: auto;
   width: 100%;
-  max-width: 96px;
+  max-width: 80px;
   z-index: 9;
+}
+
+@media (min-width: 768px) {
+  .svg {
+    max-width: 96px;
+  }
 }

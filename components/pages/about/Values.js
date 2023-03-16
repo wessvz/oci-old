@@ -6,8 +6,8 @@ import innovationValue from "@/public/images/about/innovation-value.jpg";
 import valueQuality from "@/public/images/about/value-quality.jpg";
 import valueEnvironment from "@/public/images/about/value-environment.jpg";
 import valueInnovation from "@/public/images/about/value-innovation.jpg";
-import Title from "../shared/Title";
-import Description from "../shared/Description";
+import Title from "../../shared/Title";
+import Description from "../../shared/Description";
 
 export default function Values() {
   return (

@@ -1,9 +1,9 @@
 import styles from "@/styles/Products.module.css";
 import Head from "next/head";
-import Headline from "@/components/products/Headline";
+import Headline from "@/components/pages/products/Headline";
 import Hero from "@/components/video/Hero";
-import Categories from "@/components/products/Categories";
-import Cta from "@/components/products/Cta";
+import Categories from "@/components/pages/products/Categories";
+import Cta from "@/components/pages/products/Cta";
 
 export default function Products() {
   return (

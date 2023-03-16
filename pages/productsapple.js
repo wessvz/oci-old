@@ -7,7 +7,7 @@ import apples from "../public/images/products/example-2.jpg";
 import applez from "../public/images/products/example-3.jpg";
 import pear from "../public/images/products/example-4.jpg";
 import strawberry from "../public/images/products/example-5.jpg";
-import Dialog from "@/components/products/Modal";
+import Dialog from "@/components/pages/products/Modal";
 
 export default function Products() {
   return (

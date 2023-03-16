@@ -1,7 +1,7 @@
 import styles from "./Cta.module.css";
-import Title from "../shared/Title";
-import Description from "../shared/Description";
-import LargeButton from "../button/LargeButton";
+import Title from "../../shared/Title";
+import Description from "../../shared/Description";
+import LargeButton from "../../button/LargeButton";
 
 export default function Cta() {
   return (

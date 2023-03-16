@@ -1,7 +1,7 @@
 import styles from "./Headline.module.css";
 import Image from "next/image";
-import oci from "../../public/images/oci-frame.svg";
-import Description from "../shared/Description";
+import oci from "@/public/images/oci-frame.svg";
+import Description from "../../shared/Description";
 
 export default function Headline() {
   return (

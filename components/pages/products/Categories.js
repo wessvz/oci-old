@@ -7,7 +7,7 @@ import plastics from "@/public/images/products/kunstof.jpg";
 import valves from "@/public/images/products/kogelkraan.jpg";
 import apple from "@/public/images/products/example-1.jpg";
 import pear from "@/public/images/products/example-4.jpg";
-import Dialog from "@/components/products/Modal";
+import Dialog from "@/components/pages/products/Modal";
 import Title from "./Title";
 
 export default function Categories() {

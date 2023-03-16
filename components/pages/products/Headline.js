@@ -1,5 +1,5 @@
 import styles from "./Headline.module.css";
-import Description from "../shared/Description";
+import Description from "../../shared/Description";
 
 export default function Headline() {
   return (

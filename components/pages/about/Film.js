@@ -1,9 +1,9 @@
 import styles from "./Film.module.css";
 import Image from "next/image";
-import device from "../../public/images/device.png";
-import film from "../../public/images/about/film-start.jpg";
-import Title from "../shared/Title";
-import Description from "../shared/Description";
+import device from "@/public/images/device.png";
+import film from "@/public/images/about/film-start.jpg";
+import Title from "../../shared/Title";
+import Description from "../../shared/Description";
 
 export default function Film() {
   return (

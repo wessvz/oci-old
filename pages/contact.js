@@ -1,9 +1,9 @@
 import styles from "../styles/Contact.module.css";
 import Image from "next/image";
 import Head from "next/head";
-import Hero from "../components/contact/Hero";
-import ContactForm from "@/components/contact/ContactForm";
-import Item from "@/components/contact/Item";
+import Hero from "../components/pages/contact/Hero";
+import ContactForm from "@/components/pages/contact/ContactForm";
+import Item from "@/components/pages/contact/Item";
 import { Phone, Envelope } from "@/public/icons/General";
 import logo from "@/public/images/oci-dark.svg";
 import applePlaceholder from "@/public/images/about/contact-placeholder.png";
@@ -17,7 +17,7 @@ import productPlaceholder6 from "@/public/images/about/product-placeholder-6.jpg
 import productPlaceholder7 from "@/public/images/about/product-placeholder-7.jpg";
 import productPlaceholder8 from "@/public/images/about/product-placeholder-8.jpg";
 import oci from "@/public/images/about/oci-malden.jpg";
-import Headline from "@/components/contact/Headline";
+import Headline from "@/components/pages/contact/Headline";
 import Container from "@/components/layout/Container";
 
 export default function ContactPage() {

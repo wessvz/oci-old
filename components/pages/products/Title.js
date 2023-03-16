@@ -1,4 +1,4 @@
-import Description from "../shared/Description";
+import Description from "../../shared/Description";
 import styles from "./Title.module.css";
 
 export default function Title() {

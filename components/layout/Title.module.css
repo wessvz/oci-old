@@ -1,0 +1,54 @@
+.title {
+  color: #1d1d1f;
+  font-weight: 600;
+}
+
+.main {
+  composes: title;
+  font-size: 40px;
+  line-height: 1.1;
+  margin: 0 auto 24px;
+  letter-spacing: -2px;
+}
+
+@media (min-width: 640px) {
+  .main {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main {
+    font-size: 56px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main {
+    font-size: 72px;
+    line-height: 80px;
+    margin: 0 auto 32px;
+  }
+}
+
+.descriptive {
+  composes: title;
+  line-height: 1.16;
+  letter-spacing: -0.8px;
+}
+
+.default {
+  font-size: 32px;
+}
+
+@media (min-width: 640px) {
+  .default {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home {
+    max-width: 240px;
+  }
+}

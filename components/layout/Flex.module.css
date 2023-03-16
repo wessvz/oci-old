@@ -1,0 +1,26 @@
+.default {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: var(--white);
+  border-radius: 18px;
+  align-items: center;
+  max-width: 560px;
+}
+
+@media (min-width: 768px) {
+  .panel {
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+  }
+}

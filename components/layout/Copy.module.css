@@ -1,0 +1,34 @@
+.text {
+  color: #666;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  line-height: 1.5;
+}
+
+.description {
+  composes: text;
+  margin: 16px 0px 20px 0px;
+  font-size: 20px;
+}
+
+.intro {
+  composes: text;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    font-size: 24px;
+  }
+}
+
+.normal {
+  max-width: 560px;
+}
+
+@media (min-width: 768px) {
+  .normal {
+    max-width: 700px;
+  }
+}

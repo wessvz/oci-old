@@ -1,5 +1,14 @@
-.main {
-  max-width: var(--pageWidth);
+.container {
+  position: relative;
+  width: 100%;
+  max-width: var(--layoutWidth);
   margin: 0 auto;
+}
+
+.layout {
   padding: var(--height) var(--width);
+}
+
+.panel {
+  padding: 0 var(--width);
 }

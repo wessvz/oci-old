@@ -1,0 +1,26 @@
+import styles from "./Title.module.css";
+
+export default function Title({ style, children, width, size }) {
+  switch (style) {
+    case 1:
+      return (
+        <h1 className={styles.main + (width ? " " + styles[width] : "")}>
+          {children}
+        </h1>
+      );
+    case 2:
+      return (
+        <h2 className={styles.sub + (width ? " " + styles[width] : "")}>
+          {children}
+        </h2>
+      );
+    case 3:
+      return (
+        <h3 className={styles.descriptive + (size ? " " + styles[size] : "")}>
+          {children}
+        </h3>
+      );
+    default:
+      throw Error("Unknown level: " + style);
+  }
+}

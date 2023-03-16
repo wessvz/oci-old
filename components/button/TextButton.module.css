@@ -1,0 +1,39 @@
+.button {
+  padding: 0px;
+  min-height: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primaryRed);
+  background-color: transparent;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+  border: none;
+}
+
+.button:hover {
+  color: var(--red-hover);
+}
+
+.buttonArrow .arrowIcon {
+  overflow: visible;
+  margin-left: 10px;
+  width: 8px;
+  position: relative;
+  top: 1px;
+}
+.buttonArrow .arrowHead {
+  transform: translateX(0);
+  transition: transform 100ms ease-in-out;
+}
+.buttonArrow .arrowBody {
+  opacity: 0;
+  transform: scaleX(1);
+  transition: transform 100ms ease-in-out, opacity 100ms ease-in-out;
+}
+.buttonArrow:hover .arrowHead {
+  transform: translateX(3px);
+}
+.buttonArrow:hover .arrowBody {
+  opacity: 1;
+  transform: scaleX(2);
+}

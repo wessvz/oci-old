@@ -6,7 +6,7 @@
 }
 
 .layout {
-  padding: var(--height) var(--width);
+  padding: var(--height) 0;
 }
 
 .panel {

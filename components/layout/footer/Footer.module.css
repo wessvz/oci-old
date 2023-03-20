@@ -3,15 +3,14 @@
 }
 
 .wrapper {
-  width: 88%;
   max-width: var(--pageWidth);
   margin: 0 auto;
-  padding: 32px 0;
+  padding: 32px var(--pageMin) 32px var(--pageMin);
 }
 
 @media (min-width: 768px) {
   .wrapper {
-    padding: 60px 0 40px 0;
+    padding: 60px var(--pageMargin) 40px var(--pageMargin);
   }
 }
 

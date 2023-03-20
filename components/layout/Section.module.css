@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  width: 100%;
+  width: 88%;
   max-width: var(--layoutWidth);
   margin: 0 auto;
 }
@@ -10,7 +10,7 @@
 }
 
 .panel {
-  padding: 0 var(--width);
+  padding: 0;
 }
 
 .dark {
@@ -18,5 +18,5 @@
 }
 
 .prop {
-  padding: var(--height) var(--width);
+  padding: var(--height) 0;
 }

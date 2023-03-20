@@ -18,6 +18,14 @@ export default function Section({ style, children }) {
           </div>
         </section>
       );
+    case 3:
+      return (
+        <section className={styles.dark}>
+          <div className={styles.container}>
+            <div className={styles.prop}>{children}</div>
+          </div>
+        </section>
+      );
     default:
       throw Error("Unknown level: " + style);
   }

@@ -32,3 +32,11 @@
     max-width: 700px;
   }
 }
+
+.list {
+  composes: text;
+  color: var(--white);
+  opacity: 0.6;
+  font-size: 20px;
+  margin: 0;
+}

@@ -1,6 +1,6 @@
 import styles from "./Title.module.css";
 
-export default function Title({ style, children, width, size }) {
+export default function Title({ style, children, width, size, color }) {
   switch (style) {
     case 1:
       return (
@@ -16,7 +16,13 @@ export default function Title({ style, children, width, size }) {
       );
     case 3:
       return (
-        <h3 className={styles.descriptive + (size ? " " + styles[size] : "")}>
+        <h3
+          className={
+            styles.descriptive +
+            (size ? " " + styles[size] : "") +
+            (color ? " " + styles[color] : "")
+          }
+        >
           {children}
         </h3>
       );

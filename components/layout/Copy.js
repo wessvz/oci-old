@@ -11,7 +11,7 @@ export default function Copy({ style, children, width }) {
         </p>
       );
     case 3:
-      return <p className={styles.desc}>{children}</p>;
+      return <p className={styles.list}>{children}</p>;
     default:
       throw Error("Unknown level: " + style);
   }

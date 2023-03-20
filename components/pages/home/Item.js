@@ -1,3 +1,4 @@
+import Copy from "@/components/layout/Copy";
 import { Check } from "@/public/icons/Outline";
 import styles from "./Item.module.css";
 
@@ -10,7 +11,7 @@ export default function Item({ title, description }) {
         </span>
         {title}
       </h4>
-      <p className={styles.text}>{description}</p>
+      <Copy style={3}>{description}</Copy>
     </li>
   );
 }

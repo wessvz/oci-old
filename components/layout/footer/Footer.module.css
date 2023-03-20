@@ -59,10 +59,16 @@
 }
 
 .title {
-  font-size: 18px;
+  font-size: 20px;
   padding-bottom: 12px;
   font-weight: 700;
   color: var(--white);
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 20px;
+  }
 }
 
 .list li {
@@ -72,7 +78,13 @@
 .list a {
   color: #94a3b8;
   transition: 0.5s;
-  font-size: 16px;
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  .list a {
+    font-size: 18px;
+  }
 }
 
 .list a::after {
@@ -120,7 +132,7 @@
 }
 
 .copyright {
-  font-size: 12px;
+  font-size: 14px;
   margin: 0px;
   color: #94a3b8;
 }

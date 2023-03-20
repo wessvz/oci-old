@@ -63,7 +63,7 @@
 
 @media (min-width: 768px) {
   :root {
-    --height: 88px;
+    --height: 80px;
     --width: 24px;
     --sectionHeight: 140px;
   }

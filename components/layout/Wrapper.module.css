@@ -3,5 +3,11 @@
 }
 
 .extra {
-  padding: 80px 0px;
+  padding: 24px 0px;
+}
+
+@media (min-width: 768px) {
+  .extra {
+    padding: 80px 0px;
+  }
 }

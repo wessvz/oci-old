@@ -1,8 +1,15 @@
 .default {
   display: flex;
   flex-direction: column;
-  gap: 56px;
-  margin-bottom: 176px;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .default {
+    gap: 56px;
+    padding-bottom: 160px;
+  }
 }
 
 .panel {

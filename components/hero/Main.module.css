@@ -7,7 +7,8 @@
 
 @media (min-width: 1024px) {
   .container {
-    height: 768px;
+    height: 84vh;
+    min-height: 768px;
   }
 }
 
@@ -100,7 +101,7 @@
 }
 
 .subtitle {
-  font-size: 18px;
+  font-size: 20px;
   padding-top: 22px;
   padding-bottom: 22px;
   max-width: 300px;

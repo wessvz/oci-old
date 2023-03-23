@@ -9,10 +9,11 @@ import Wrapper from "@/components/layout/Wrapper";
 import Flex from "@/components/layout/Flex";
 import Panel from "@/components/pages/home/Panel";
 import Proposition from "@/components/pages/home/Proposition";
-import watch2 from "@/public/images/home/watch-2.jpg";
+import watch from "@/public/images/home/watch-2.jpg";
 import tag from "@/public/images/home/airtag.jpg";
 import product from "@/public/images/home/product.jpg";
 import metaalslang from "@/public/images/home/metaalslang.jpg";
+import person from "@/public/images/home/person.jpg";
 
 export default function Home() {
   return (
@@ -76,7 +77,7 @@ export default function Home() {
         <Panel
           eyebrow="Company"
           title="Guided by strong values"
-          copy="Discover why we are committed to provide outstanding services."
+          copy="At OCI we exist to help our customers to work faster and smarter. Discover more about our values and how they shape everything we do."
           cta="Read more about OCI"
           link="/about"
           label="Go to about OCI"
@@ -89,7 +90,7 @@ export default function Home() {
 
       <Section style={1}>
         <Wrapper style={2} space="extra">
-          <Eyebrow style={1}>What drives us</Eyebrow>
+          <Eyebrow style={1}>Commitment</Eyebrow>
           <Title style={1} width="home">
             Strong relationships
           </Title>
@@ -102,12 +103,12 @@ export default function Home() {
       <Flex style={1}>
         <Panel
           eyebrow="People"
-          title="The heart of social entrepreneurship"
-          copy="We strive for a better society and believe that every person is equal. No one is more or less than the other. We may therefore call ourselves a PSO 30+ company."
+          title="Diverse and inclusive workforce"
+          copy="OCI strives for a better society and believes that every person is equal. That is why we are proud to be a certified PSO 30+ company."
           cta="Learn more"
           link="/about"
           label="Go to products"
-          image={watch2}
+          image={watch}
           alt="voorbeeld"
           order="reverse"
         />

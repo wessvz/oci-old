@@ -19,16 +19,16 @@ export default function Proposition() {
           </Title>
           <ul className={styles.itemWrapper}>
             <Item
-              title="Delivering customized solutions"
-              description="In everything we do we focus on our customers. Their success is our success."
+              title="Tailored solutions"
+              description="Each project is unique. That's why we offer customized solutions tailored to the specific needs of our customers."
             />
             <Item
-              title="Accelerating the sustainability shift"
-              description="Supporting our clients’ transition to sustainability."
+              title="Extensive knowledge and expertise"
+              description="We have the knowledge, experience and drive to make any connection from the main grid a success."
             />
             <Item
-              title="Innovative and sustainable solutions"
-              description="We are a trusted partner and create long-term value for our clients."
+              title="Environmentally and socially responsible"
+              description="We are embracing our role in shaping a better future, through conscious decisions and actions."
             />
           </ul>
         </div>

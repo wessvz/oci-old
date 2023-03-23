@@ -15,7 +15,7 @@ export default function Proposition() {
       <div className={styles.flex}>
         <div className={styles.content}>
           <Title style={3} size="default" color="light">
-            How we make a difference
+            Your trusted partner during the energy transition
           </Title>
           <ul className={styles.itemWrapper}>
             <Item

@@ -52,7 +52,7 @@ export default function Home() {
 
       <Section style={1}>
         <Wrapper style={2} space="extra">
-          <Eyebrow style={1}>What we do</Eyebrow>
+          <Eyebrow style={1}>Expertise</Eyebrow>
           <Title style={1} width="home">
             Customized assemblies
           </Title>
@@ -65,9 +65,9 @@ export default function Home() {
       <Flex style={1}>
         <Panel
           eyebrow="Products"
-          title="How we make a difference"
-          copy="OCI delivers innovative and sustainable solutions for connecting energy and water networks to homes, offices and industrial sites."
-          cta="Learn more"
+          title="Designed to perform"
+          copy="Connect and optimize energy and water systems with our products."
+          cta="Explore solutions"
           link="/products"
           label="Go to products"
           image={product}
@@ -75,9 +75,9 @@ export default function Home() {
         />
         <Panel
           eyebrow="Company"
-          title="Discover the world of OCI"
-          copy="Efficiency and sustainability at the forefront. Innovating to transform markets, that's OCI's mission."
-          cta="Learn more"
+          title="Guided by strong values"
+          copy="Discover why we are committed to provide outstanding services."
+          cta="Read more about OCI"
           link="/about"
           label="Go to about OCI"
           image={tag}

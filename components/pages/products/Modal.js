@@ -8,7 +8,7 @@ export default function Modal({ title, text }) {
     <Dialog.Root>
       <Dialog.Trigger asChild>
         <button className={`${styles.button} ${styles.buttonArrow}`}>
-          More info
+          More details
           <svg
             viewBox="0 0 6 9"
             fill="none"

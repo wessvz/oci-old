@@ -30,7 +30,7 @@ export default function Player() {
         />
       )}
       <ReactPlayer
-        url={isMobile ? "./video/mobile.mp4" : "./video/desktop.mp4"}
+        url={isMobile ? "./video/background.mp4" : "./video/background.mp4"}
         loop={true}
         playing={true}
         muted={true}

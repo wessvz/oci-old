@@ -67,7 +67,7 @@ export default function Home() {
         <Panel
           eyebrow="Products"
           title="Designed to perform"
-          copy="Connect and optimize energy and water systems with our products."
+          copy="Connect and optimize energy and water systems with our trusted products. Integrated in almost every home connection in the Netherlands."
           cta="Explore solutions"
           link="/products"
           label="Go to products"

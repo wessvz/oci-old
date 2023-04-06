@@ -23,7 +23,7 @@ export default function Values() {
           <Card
             title="Environment"
             desc="We consider our impact on people and the planet in everything we do."
-            headline="Creating positive impact with clean energy"
+            headline="Our impact on the environment and society"
             copy={environment}
             image={valueEnvironment}
             className="green"

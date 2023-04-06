@@ -1,3 +1,5 @@
+import Copy from "@/components/layout/Copy";
+import Title from "@/components/layout/Title";
 import styles from "./Copy.module.css";
 
 const mission = (
@@ -78,30 +80,45 @@ const mission = (
 const goal = (
   <div className={styles.copy}>
     <p className={styles.intro}>
-      Research and development (R&D) teams are the fastest growing at Apple. R&D
-      is also an area where diversity continues to lag across the tech industry.
-      We have several ongoing and upcoming initiatives to help break down
-      systemic barriers and bias in R&D and beyond.
+      In today's world, sustainability has become a critical issue. Companies
+      are facing growing pressure to operate in an environmentally responsible
+      manner. At OCI, we recognize our role in shaping a sustainable future. We
+      are dedicated to helping our customers take the necessary steps to improve
+      our energy and water networks.
+    </p>
+    <h3 className={styles.headline}>A new era of challenges</h3>
+    <p>
+      The Dutch government has set a target of reducing the use of fossil fuels
+      to zero by 2050. This ambitious goal requires a fundamental shift in the
+      way businesses operate, and we are proud to be at the forefront of this
+      transition. Our customers, which include EU network companies, water
+      companies, and industrial sites, are facing new needs in terms of energy
+      and water systems, and we are here to help them meet these challenges.
     </p>
     <h3 className={styles.headline}>
-      Making a difference with underrepresented communities.
+      Strengthening relationships for the future
     </h3>
-    <p>
-      In addition to Apple programs like Entrepreneur Camp, Impact Accelerator,
-      and the Apple Developer Academy, Apple partners with external
-      organizations to support and serve people from underrepresented
-      communities. Many of our partnerships also provide opportunities for our
-      engineers and other employees to engage with the next generation of
-      innovators by offering their time as mentors and volunteers.
-    </p>
-    <h3 className={styles.headline}>More than 100 scholarships each year.</h3>
     <p className={styles.copy}>
-      Building on the success of the Apple HBCU Scholars program, Apple is
-      committed to expanding opportunities for more students from more
-      communities. With our partners, we continue to create over 100 additional
-      scholarships annually for STEAM students from underrepresented
-      communities. The Apple Scholars program includes financial support,
-      mentorship, and career development experience.
+      OCI is dedicated to building long-lasting relationships with our customers
+      by helping them achieve sustainable redesigns of their products or by
+      developing new, sustainable systems. We believe that by working together
+      to make a difference, we can create a better future for generations to
+      come.
+    </p>
+    <h3 className={styles.headline}>Innovative and sustainable thinking</h3>
+    <p className={styles.copy}>
+      At OCI, we take pride in our innovative and sustainable thinking. We are
+      constantly exploring new technologies and methods to improve our products
+      and services. Our commitment to sustainable development is reflected in
+      everything we do, from the materials we use to the design of our products.
+    </p>
+    <h3 className={styles.headline}>Let's work together</h3>
+    <p className={styles.copy}>
+      Join us on this journey towards a more sustainable future. Let's work
+      together to create a world where we live in harmony with nature. Our
+      tailored solutions and customer-focused approach ensure that you can trust
+      us to help you achieve your goals. Contact us today to learn more about
+      how we can make a positive impact together.
     </p>
   </div>
 );
@@ -109,22 +126,48 @@ const goal = (
 const environment = (
   <div className={styles.copy}>
     <p className={styles.intro}>
-      Research and development (R&D) teams are the fastest growing at Apple. R&D
-      is also an area where diversity continues to lag across the tech industry.
-      We have several ongoing and upcoming initiatives to help break down
-      systemic barriers and bias in R&D and beyond.
+      Environmental responsibility is a core value at OCI. It's not just about
+      reducing our carbon footprint. We believe that a sustainable future is one
+      where every person is valued and given the opportunity to thrive. That's
+      why we are devoted to give value to our society by supporting those who
+      need it most.
     </p>
-    <h3 className={styles.headline}>
-      Making a difference with underrepresented communities.
-    </h3>
-    <p>
-      In addition to Apple programs like Entrepreneur Camp, Impact Accelerator,
-      and the Apple Developer Academy, Apple partners with external
-      organizations to support and serve people from underrepresented
-      communities. Many of our partnerships also provide opportunities for our
-      engineers and other employees to engage with the next generation of
-      innovators by offering their time as mentors and volunteers.
-    </p>
+    <Title style={3} size="default">
+      Everyone is welcome
+    </Title>
+    <Copy style={1}>
+      We work with wonderful people, each with their own story. People who have
+      experienced challenges in their lives and need support around
+      participation and reintegration. We believe that everyone has something
+      valuable to offer. Our goal is to help people reach their full potential.
+    </Copy>
+    <Title style={3} size="default">
+      Certified PSO30+ Company
+    </Title>
+    <Copy style={1}>
+      OCI is proud to be a PSO30+ certified company, which means we are a
+      leading organization in the Netherlands for employment opportunities for
+      the PSO target group. The PSO is a quality mark from TNO that recognizes
+      organizations that excel in social entrepreneurship and prioritize labor
+      participation for vulnerable groups in the labor market.
+    </Copy>
+    <Copy style={1}>
+      The PSO distinguishes five performance levels, with PSO step 3/30+ being
+      the highest. Being certified on this level places OCI among the
+      frontrunners for employment opportunities for the PSO target group in the
+      Netherlands.
+    </Copy>
+    <Title style={3} size="default">
+      Carbon neutral since 2020
+    </Title>
+    <Copy style={1}>
+      In our opinion businesses have a responsibility to be good stewards of
+      planet earth. We are proud to have achieved carbon neutrality since 2020
+      by producing more clean energy than we consume. However, we know that
+      there is more work to be done. Moving forward, we are focused on reducing
+      our carbon footprint even further and achieving carbon neutrality across
+      our entire supply chain by 2030.
+    </Copy>
   </div>
 );
 

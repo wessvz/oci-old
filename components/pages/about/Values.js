@@ -31,7 +31,7 @@ export default function Values() {
           <Card
             title="Innovation"
             desc="Our commitment to innovation powers our journey towards excellence."
-            headline="Creating positive impact with clean energy"
+            headline="Unlocking new possibilities with innovation"
             copy={innovation}
             image={valueInnovation}
             className="blue"

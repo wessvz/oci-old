@@ -1,7 +1,7 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import styles from "./ModalTwo.module.css";
 
-export default function Modal({ title, copy, headline, className }) {
+export default function Modal({ copy, headline, className }) {
   return (
     <Dialog.Root>
       <Dialog.Trigger asChild>

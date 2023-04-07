@@ -174,22 +174,50 @@ const environment = (
 const innovation = (
   <div className={styles.copy}>
     <p className={styles.intro}>
-      Research and development (R&D) teams are the fastest growing at Apple. R&D
-      is also an area where diversity continues to lag across the tech industry.
-      We have several ongoing and upcoming initiatives to help break down
-      systemic barriers and bias in R&D and beyond.
+      Innovation is the cornerstone of progress, and it's never been more
+      important than it is today. With increasing pressure to reduce our carbon
+      footprint and find sustainable solutions for the future, the need for new
+      ideas and technologies has never been greater.
     </p>
-    <h3 className={styles.headline}>
-      Making a difference with underrepresented communities.
-    </h3>
-    <p>
-      In addition to Apple programs like Entrepreneur Camp, Impact Accelerator,
-      and the Apple Developer Academy, Apple partners with external
-      organizations to support and serve people from underrepresented
-      communities. Many of our partnerships also provide opportunities for our
-      engineers and other employees to engage with the next generation of
-      innovators by offering their time as mentors and volunteers.
-    </p>
+    <Title style={3} size="default">
+      A development company
+    </Title>
+    <Copy style={1}>
+      At OCI, we don't just sell products. We're a development company that's
+      constantly creating new solutions that did not exist before. In fact, 40%
+      of our current sales are from products that we have developed in-house. We
+      believe that by staying at the forefront of innovation, we can create
+      solutions that truly make a difference in our industry.
+    </Copy>
+    <Title style={3} size="default">
+      Culture of innovation
+    </Title>
+    <Copy style={1}>
+      Innovation is not just a priority for us; it's a strategic investment. We
+      have a dedicated R&D team that is focused on developing new products and
+      technologies to address the challenges of today and tomorrow. From
+      renewable energy to sustainable water solutions, we're constantly
+      exploring new and better ways to address the challenges of our industry.
+    </Copy>
+    <Title style={3} size="default">
+      Creating tailored solutions
+    </Title>
+    <Copy style={1}>
+      We work closely with our customers to co-create tailored solutions that
+      meet their unique needs and help them achieve their ambitious goals. Our
+      commitment to innovation is built on a deep understanding of our
+      customers' needs, and our ability to provide them with the solutions they
+      need to succeed.
+    </Copy>
+    <Title style={3} size="default">
+      Join our journey
+    </Title>
+    <Copy style={1}>
+      We're on a journey towards a future of exciting new possibilities. Join us
+      and let's create solutions that make a difference and drive progress in
+      our industry. Together, we can create a better, more sustainable future
+      for generations to come.
+    </Copy>
   </div>
 );
 

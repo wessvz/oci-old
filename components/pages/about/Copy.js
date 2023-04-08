@@ -1,24 +1,22 @@
-import Copy from "@/components/layout/Copy";
-import Title from "@/components/layout/Title";
 import styles from "./Copy.module.css";
 
 const mission = (
-  <div>
+  <div className={styles.copy}>
     <p className={styles.intro}>
       A comfortable home is essential for a happy life. Since our founding in
       2008, we've been dedicated to creating products and solutions that make
       our homes more comfortable, healthier, and safer.
     </p>
-    <h3 className={styles.headline}>Entrepreneurial</h3>
-    <p className={styles.copy}>
+    <h3>We are entrepreneurial</h3>
+    <p>
       As an entrepreneurial company, we are always looking for ways to break new
       ground and improve. We are proactive in our approach to innovation and
       take the initiative to get better every day. We make every effort to
       succeed, learn from our mistakes, and do better.
     </p>
 
-    <h3 className={styles.headline}>Collaborative</h3>
-    <p className={styles.copy}>
+    <h3>We are collaborative</h3>
+    <p>
       At OCI, we believe that we are stronger together. We value collaboration
       and teamwork, both within our company and with our external partners. We
       share our knowledge and ask each other questions, giving honest feedback
@@ -35,8 +33,8 @@ const mission = (
       </blockquote>
     </figure>
 
-    <h3 className={styles.headline}>Responsible</h3>
-    <p className={styles.copy}>
+    <h3>We are responsible</h3>
+    <p>
       We set ambitious goals and take responsibility for achieving them. We take
       on development projects from start to finish, and we are committed to
       delivering high-quality products that meet the needs of our customers. We
@@ -44,8 +42,8 @@ const mission = (
       striving for excellence in everything we do.
     </p>
 
-    <h3 className={styles.headline}>Flexible</h3>
-    <p className={styles.copy}>
+    <h3>We are flexible</h3>
+    <p>
       In the ever-changing energy landscape, we know that flexibility is key. We
       embrace change and are always open to new ideas and approaches. We are
       committed to finding smart solutions for the complex challenges of the
@@ -55,21 +53,21 @@ const mission = (
       innovate and grow.
     </p>
 
-    <h3 className={styles.headline}>Let's make impact together</h3>
-    <p className={styles.copy}>
+    <h3>Let's make impact together</h3>
+    <p>
       Our commitment to environment, innovation, and quality drives everything
       we do. We are proud to have contributed to a sustainable energy and water
       system, and we will continue to push the boundaries of what is possible.
     </p>
 
-    <p className={styles.copy}>
+    <p>
       Our customers include Dutch grid operators for heat and gas and water
       utilities, as well as installation companies and industrial players. We
       have earned their trust through our reliability, expertise, and commitment
       to excellence.
     </p>
 
-    <p className={styles.copy}>
+    <p>
       So, whether you are looking for innovative solutions for the new energy
       landscape, or simply seeking to streamline your work, OCI is here to help.
       Contact us today to learn more.
@@ -86,7 +84,7 @@ const goal = (
       are dedicated to helping our customers take the necessary steps to improve
       our energy and water networks.
     </p>
-    <h3 className={styles.headline}>A new era of challenges</h3>
+    <h3>A new era of challenges</h3>
     <p>
       The Dutch government has set a target of reducing the use of fossil fuels
       to zero by 2050. This ambitious goal requires a fundamental shift in the
@@ -95,25 +93,23 @@ const goal = (
       companies, and industrial sites, are facing new needs in terms of energy
       and water systems, and we are here to help them meet these challenges.
     </p>
-    <h3 className={styles.headline}>
-      Strengthening relationships for the future
-    </h3>
-    <p className={styles.copy}>
+    <h3>Strengthening relationships for the future</h3>
+    <p>
       OCI is dedicated to building long-lasting relationships with our customers
       by helping them achieve sustainable redesigns of their products or by
       developing new, sustainable systems. We believe that by working together
       to make a difference, we can create a better future for generations to
       come.
     </p>
-    <h3 className={styles.headline}>Innovative and sustainable thinking</h3>
-    <p className={styles.copy}>
+    <h3>Innovative and sustainable thinking</h3>
+    <p>
       At OCI, we take pride in our innovative and sustainable thinking. We are
       constantly exploring new technologies and methods to improve our products
       and services. Our commitment to sustainable development is reflected in
       everything we do, from the materials we use to the design of our products.
     </p>
-    <h3 className={styles.headline}>Let's work together</h3>
-    <p className={styles.copy}>
+    <h3>Let's work together</h3>
+    <p>
       Join us on this journey towards a more sustainable future. Let's work
       together to create a world where we live in harmony with nature. Our
       tailored solutions and customer-focused approach ensure that you can trust
@@ -132,42 +128,36 @@ const environment = (
       why we are devoted to give value to our society by supporting those who
       need it most.
     </p>
-    <Title style={3} size="default">
-      Everyone is welcome
-    </Title>
-    <Copy style={1}>
+    <h3>Everyone is welcome</h3>
+    <p>
       We work with wonderful people, each with their own story. People who have
       experienced challenges in their lives and need support around
       participation and reintegration. We believe that everyone has something
       valuable to offer. Our goal is to help people reach their full potential.
-    </Copy>
-    <Title style={3} size="default">
-      Certified PSO30+ Company
-    </Title>
-    <Copy style={1}>
+    </p>
+    <h3>Certified PSO30+ Company</h3>
+    <p>
       OCI is proud to be a PSO30+ certified company, which means we are a
       leading organization in the Netherlands for employment opportunities for
       the PSO target group. The PSO is a quality mark from TNO that recognizes
       organizations that excel in social entrepreneurship and prioritize labor
       participation for vulnerable groups in the labor market.
-    </Copy>
-    <Copy style={1}>
+    </p>
+    <p>
       The PSO distinguishes five performance levels, with PSO step 3/30+ being
       the highest. Being certified on this level places OCI among the
       frontrunners for employment opportunities for the PSO target group in the
       Netherlands.
-    </Copy>
-    <Title style={3} size="default">
-      Carbon neutral since 2020
-    </Title>
-    <Copy style={1}>
+    </p>
+    <h3>Carbon neutral since 2020</h3>
+    <p>
       In our opinion businesses have a responsibility to be good stewards of
       planet earth. We are proud to have achieved carbon neutrality since 2020
       by producing more clean energy than we consume. However, we know that
       there is more work to be done. Moving forward, we are focused on reducing
       our carbon footprint even further and achieving carbon neutrality across
       our entire supply chain by 2030.
-    </Copy>
+    </p>
   </div>
 );
 
@@ -179,45 +169,37 @@ const innovation = (
       footprint and find sustainable solutions for the future, the need for new
       ideas and technologies has never been greater.
     </p>
-    <Title style={3} size="default">
-      A development company
-    </Title>
-    <Copy style={1}>
+    <h3>A development company</h3>
+    <p>
       At OCI, we don't just sell products. We're a development company that's
       constantly creating new solutions that did not exist before. In fact, 40%
       of our current sales are from products that we have developed in-house. We
       believe that by staying at the forefront of innovation, we can create
       solutions that truly make a difference in our industry.
-    </Copy>
-    <Title style={3} size="default">
-      Culture of innovation
-    </Title>
-    <Copy style={1}>
+    </p>
+    <h3>Culture of innovation</h3>
+    <p>
       Innovation is not just a priority for us; it's a strategic investment. We
       have a dedicated R&D team that is focused on developing new products and
       technologies to address the challenges of today and tomorrow. From
       renewable energy to sustainable water solutions, we're constantly
       exploring new and better ways to address the challenges of our industry.
-    </Copy>
-    <Title style={3} size="default">
-      Creating tailored solutions
-    </Title>
-    <Copy style={1}>
+    </p>
+    <h3>Creating tailored solutions</h3>
+    <p>
       We work closely with our customers to co-create tailored solutions that
       meet their unique needs and help them achieve their ambitious goals. Our
       commitment to innovation is built on a deep understanding of our
       customers' needs, and our ability to provide them with the solutions they
       need to succeed.
-    </Copy>
-    <Title style={3} size="default">
-      Join our journey
-    </Title>
-    <Copy style={1}>
+    </p>
+    <h3>Join our journey</h3>
+    <p>
       We're on a journey towards a future of exciting new possibilities. Join us
       and let's create solutions that make a difference and drive progress in
       our industry. Together, we can create a better, more sustainable future
       for generations to come.
-    </Copy>
+    </p>
   </div>
 );
 
@@ -229,9 +211,7 @@ const quality = (
       We have several ongoing and upcoming initiatives to help break down
       systemic barriers and bias in R&D and beyond.
     </p>
-    <h3 className={styles.headline}>
-      Making a difference with underrepresented communities.
-    </h3>
+    <h3>Making a difference with underrepresented communities.</h3>
     <p>
       In addition to Apple programs like Entrepreneur Camp, Impact Accelerator,
       and the Apple Developer Academy, Apple partners with external

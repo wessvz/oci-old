@@ -20,9 +20,7 @@ export default function Modal({ copy, headline, className }) {
                   </div>
                 </div>
                 <div className={styles.modalCopy}>
-                  <Dialog.Description className={styles.desc}>
-                    {copy}
-                  </Dialog.Description>
+                  <Dialog.Description>{copy}</Dialog.Description>
                 </div>
                 <Dialog.Close asChild>
                   <button className={styles.close} aria-label="Close">

@@ -1,7 +1,7 @@
 import styles from "./Brand.module.css";
 import Image from "next/image";
 import contact from "@/public/images/contact-placeholder.png";
-import Modal from "./Modal";
+import Modal from "./ModalBrand";
 import { mission, goal } from "./Copy";
 
 export default function Brand() {
@@ -14,8 +14,9 @@ export default function Brand() {
               Our mission is to simplify and streamline the work of our users.
             </h3>
             <Modal
-              title="Our mission is to simplify and streamline the work of our users."
+              headline="Our mission is to simplify and streamline the work of our users."
               copy={mission}
+              className="brand"
             />
           </div>
           <div className={styles.img}>
@@ -41,8 +42,9 @@ export default function Brand() {
               We aspire to contribute to a sustainable energy and water system.
             </h3>
             <Modal
-              title="We aspire to contribute to a sustainable energy and water system."
+              headline="We aspire to contribute to a sustainable energy and water system."
               copy={goal}
+              className="brand"
             />
           </div>
         </div>

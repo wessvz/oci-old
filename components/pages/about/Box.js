@@ -1,5 +1,5 @@
 import styles from "./Box.module.css";
-import Dialog from "./Modal";
+import Dialog from "./ModalBrand";
 
 export default function Box({ headline }) {
   return (

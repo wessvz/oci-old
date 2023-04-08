@@ -1,6 +1,6 @@
 import styles from "./Card.module.css";
 import Image from "next/image";
-import Modal from "./ModalTwo";
+import Modal from "./ModalValues";
 
 export default function Card({
   title,
@@ -9,6 +9,7 @@ export default function Card({
   headline,
   image,
   className,
+  button,
 }) {
   return (
     <div className={styles.wrapper}>

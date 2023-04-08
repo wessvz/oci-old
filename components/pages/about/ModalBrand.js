@@ -1,11 +1,19 @@
 import * as Dialog from "@radix-ui/react-dialog";
-import styles from "./ModalTwo.module.css";
+import styles from "./Modal.module.css";
 
-export default function Modal({ copy, headline, className }) {
+export default function Modal({ copy, headline }) {
   return (
     <Dialog.Root>
       <Dialog.Trigger asChild>
-        <button className={styles.button}>Learn more</button>
+        <button className={styles.plus}>
+          <svg
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M3.55552 3.55593C1.88542 5.22603 0.748063 7.35387 0.287283 9.67037C-0.173497 11.9869 0.0629921 14.388 0.966845 16.5701C1.8707 18.7522 3.40132 20.6172 5.36515 21.9294C7.32898 23.2416 9.63783 23.942 11.9997 23.942C14.3616 23.942 16.6704 23.2416 18.6343 21.9294C20.5981 20.6172 22.1287 18.7522 23.0326 16.5701C23.9364 14.388 24.1729 11.9869 23.7121 9.67037C23.2514 7.35387 22.114 5.22603 20.4439 3.55593C18.2044 1.31639 15.1669 0.0582325 11.9997 0.0582325C8.83252 0.0582325 5.79506 1.31639 3.55552 3.55593ZM17.8407 11.0578C18.0879 11.0622 18.3235 11.1635 18.4967 11.3399C18.6699 11.5162 18.7669 11.7536 18.7668 12.0008C18.7668 12.2481 18.6696 12.4854 18.4962 12.6616C18.3228 12.8379 18.0872 12.939 17.84 12.9432L12.9428 12.9432V17.8404C12.9429 18.0905 12.8438 18.3304 12.667 18.5074C12.4903 18.6843 12.2505 18.7838 12.0004 18.784C11.7503 18.7841 11.5104 18.6849 11.3335 18.5082C11.1565 18.3315 11.057 18.0917 11.0569 17.8416V12.943L6.15917 12.9434C5.90905 12.9434 5.6692 12.844 5.49238 12.667C5.31557 12.4901 5.21627 12.2502 5.21633 12.0001C5.2164 11.75 5.31582 11.5101 5.49273 11.3333C5.66963 11.1565 5.90953 11.0572 6.15965 11.0573L11.0569 11.0573L11.0569 6.16006C11.0568 5.90997 11.1562 5.67012 11.333 5.49326C11.5098 5.3164 11.7496 5.21702 11.9997 5.21698C12.2498 5.21695 12.4897 5.31627 12.6665 5.49308C12.8434 5.6699 12.9428 5.90973 12.9428 6.15982L12.9424 11.0574L17.8407 11.0578Z" />
+          </svg>
+        </button>
       </Dialog.Trigger>
       <Dialog.Portal>
         <Dialog.Overlay className={styles.DialogOverlay}>
@@ -24,17 +32,15 @@ export default function Modal({ copy, headline, className }) {
               </Dialog.Close>
             </div>
             <div className={styles.modalWrapper}>
-              <div className={styles[className]}>
-                <div className={styles.modalTop}>
-                  <div className={styles.wrapper}>
-                    <Dialog.Title className={styles.headline}>
-                      {headline}
-                    </Dialog.Title>
-                  </div>
+              <div className={styles.modalTop}>
+                <div className={styles.wrapper}>
+                  <Dialog.Title className={styles.headline}>
+                    {headline}
+                  </Dialog.Title>
                 </div>
-                <div className={styles.modalCopy}>
-                  <Dialog.Description>{copy}</Dialog.Description>
-                </div>
+              </div>
+              <div className={styles.modalCopy}>
+                <Dialog.Description>{copy}</Dialog.Description>
               </div>
             </div>
           </Dialog.Content>

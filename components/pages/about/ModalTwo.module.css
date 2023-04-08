@@ -80,7 +80,7 @@
   width: 24px;
   height: 24px;
   top: 24px;
-  left: 24px;
+  left: 12px;
   color: #1d1d1f;
   background-color: transparent;
   padding: 0px;
@@ -130,7 +130,7 @@
 .wrapper {
   position: relative;
   z-index: 1;
-  padding: 0 24px;
+  padding: 0 40px;
 }
 
 @media (min-width: 768px) {
@@ -175,7 +175,7 @@
 
 .modalCopy {
   background: #fff;
-  padding: 64px 24px 112px 24px;
+  padding: 40px 40px 112px 40px;
 }
 
 @media (min-width: 768px) {

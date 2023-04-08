@@ -33,12 +33,9 @@
   }
 }
 
-.modalWrapper {
-  overflow: hidden;
-}
-
 @media (min-width: 768px) {
   .modalWrapper {
+    overflow: hidden;
     border-radius: 16px;
   }
 }
@@ -219,4 +216,19 @@
 
 .DialogContent[data-state="closed"] {
   animation: contentHide 300ms linear;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  height: 0;
+}
+
+.knop {
+  margin-top: 20px;
+  margin-left: 20px;
+  position: relative;
+  display: inline-block;
 }

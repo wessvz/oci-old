@@ -1,0 +1,18 @@
+.copy {
+  margin-top: 24px;
+}
+
+.copy p {
+  color: #86868b;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  line-height: 1.4;
+  margin-bottom: var(--spaceGap);
+}
+
+@media (min-width: 768px) {
+  .copy p {
+    font-size: 24px;
+  }
+}

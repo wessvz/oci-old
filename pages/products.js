@@ -2,10 +2,10 @@ import styles from "@/styles/Products.module.css";
 import Head from "next/head";
 import Headline from "@/components/pages/products/Headline";
 import Hero from "@/components/video/Hero";
-import Categories from "@/components/pages/products/Categories";
+import Products from "@/components/pages/products/Categories";
 import Cta from "@/components/pages/products/Cta";
 
-export default function Products() {
+export default function ProductsPage() {
   return (
     <>
       <Head>
@@ -40,7 +40,7 @@ export default function Products() {
       <Hero />
       <div className={styles.container}>
         <Headline />
-        <Categories />
+        <Products />
         <Cta />
       </div>
     </>

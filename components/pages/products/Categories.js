@@ -1,10 +1,11 @@
 import styles from "./Categories.module.css";
+import { connections, fittings, valves, piping, hoses, plastics } from "./Copy";
 import Image from "next/image";
 import fitting from "@/public/images/products/fitting-2.jpg";
-import fittings from "@/public/images/products/fitting.jpg";
+import fittingProduct from "@/public/images/products/fitting.jpg";
 import metalhoses from "@/public/images/products/metaalslang.jpg";
-import plastics from "@/public/images/products/kunstof.jpg";
-import valves from "@/public/images/products/kogelkraan.jpg";
+import plasticProduct from "@/public/images/products/kunstof.jpg";
+import valvesProduct from "@/public/images/products/kogelkraan.jpg";
 import apple from "@/public/images/products/example-1.jpg";
 import pear from "@/public/images/products/example-4.jpg";
 import Dialog from "@/components/pages/products/Modal";
@@ -22,10 +23,7 @@ export default function Categories() {
               We provide components and solutions for the installation of gas,
               water, drinking water and electricity meters.
             </p>
-            <Dialog
-              title="Connection systems"
-              text="Make changes to your profile here. Click save when you're done.Make changes to your profile here."
-            />
+            <Dialog category="Connection systems" description={connections} />
           </div>
           <Image
             alt="voorbeeld"
@@ -43,10 +41,7 @@ export default function Categories() {
                 A complete range that meets all requirements and needs in the
                 field of connection technology.
               </p>
-              <Dialog
-                title="Fittings"
-                text="Make changes to your profile here. Click save when you're done.Make changes to your profile here."
-              />
+              <Dialog category="Fittings" description={fittings} />
             </div>
           </div>
           <div className={styles.imageColumn}>
@@ -66,14 +61,11 @@ export default function Categories() {
               Designed to withstand extreme temperatures and pressures.
               Engineered to perform seamlessly in any environment.
             </p>
-            <Dialog
-              title="Valves"
-              text="Make changes to your profile here. Click save when you're done.Make changes to your profile here."
-            />
+            <Dialog category="Valves" description={valves} />
           </div>
           <Image
             alt="voorbeeld"
-            src={valves}
+            src={valvesProduct}
             sizes="100vw"
             className={styles.image}
           />
@@ -93,10 +85,7 @@ export default function Categories() {
               Save time and increase efficiency with gas and heat pipelines
               optimized for challenging installation environments.
             </p>
-            <Dialog
-              title="Piping systems"
-              text="Make changes to your profile here. Click save when you're done.Make changes to your profile here."
-            />
+            <Dialog category="Piping systems" description={piping} />
           </div>
           <Image
             alt="voorbeeld"
@@ -113,10 +102,7 @@ export default function Categories() {
               Tackling complex conditions with customized solutions. Experience
               the flexibel possibilities of metal hoses.
             </p>
-            <Dialog
-              title="Metal hoses"
-              text="Make changes to your profile here. Click save when you're done.Make changes to your profile here."
-            />
+            <Dialog category="Metal hoses" description={hoses} />
           </div>
           <Image
             alt="voorbeeld"
@@ -133,14 +119,11 @@ export default function Categories() {
               Transform your ideas into reality with our end-to-end product
               development expertise in plastics and rubber.
             </p>
-            <Dialog
-              title="Plastics and rubber"
-              text="Make changes to your profile here. Click save when you're done.Make changes to your profile here."
-            />
+            <Dialog category="Plastics and rubber" description={plastics} />
           </div>
           <Image
             alt="voorbeeld"
-            src={plastics}
+            src={plasticProduct}
             sizes="100vw"
             className={styles.image}
           />

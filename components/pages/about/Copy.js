@@ -206,19 +206,39 @@ const innovation = (
 const quality = (
   <div className={styles.copy}>
     <p className={styles.intro}>
-      Research and development (R&D) teams are the fastest growing at Apple. R&D
-      is also an area where diversity continues to lag across the tech industry.
-      We have several ongoing and upcoming initiatives to help break down
-      systemic barriers and bias in R&D and beyond.
+      Delivering products of the highest quality is our top priority at OCI.
+      With a focus on safety and reliability, we ensure that our products meet
+      the strictest standards for use in drinking water and gas networks.
     </p>
-    <h3>Making a difference with underrepresented communities.</h3>
+    <h3>Keep raising the bar</h3>
     <p>
-      In addition to Apple programs like Entrepreneur Camp, Impact Accelerator,
-      and the Apple Developer Academy, Apple partners with external
-      organizations to support and serve people from underrepresented
-      communities. Many of our partnerships also provide opportunities for our
-      engineers and other employees to engage with the next generation of
-      innovators by offering their time as mentors and volunteers.
+      To achieve the highest standards of quality, we take a proactive approach.
+      Our quality management system is rigorous and focused on continuous
+      improvement. It's not just about holding the necessary ISO certificates
+      and official product approvals. We're always seeking ways tot improve our
+      organization, from production processes to services. Eeach employee plays
+      a role in maintaining and improving quality standards, so we can deliver
+      high-quality products consistently.
+    </p>
+    <h3>Supplier Quality Control</h3>
+    <p>
+      We understand that our suppliers are an integral part of our commitment to
+      quality. To ensure that they meet our high standards, we test them in
+      several areas, including production facilities and material passports.
+      This thorough process guarantees that we only work with suppliers who
+      provide quality products and services. We believe that by maintaining
+      strict supplier quality control, we can deliver the highest quality
+      products to our customers.
+    </p>
+    <h3>Striving for Perfection</h3>
+    <p>
+      OCI is dedicated to achieving excellence in all that we do. We firmly
+      believe in the importance of continuous growth and development, and are
+      always seeking ways to exceed customer expectations. To achieve this, we
+      constantly monitor and refine our processes, striving for innovation and
+      efficiency. By maintaining this mindset, we can consistently deliver
+      top-quality products and services that our customers can rely on with
+      confidence.
     </p>
   </div>
 );

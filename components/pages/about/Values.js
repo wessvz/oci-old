@@ -23,7 +23,7 @@ export default function Values() {
           <Card
             title="Environment"
             desc="We consider our impact on people and the planet in everything we do."
-            headline="Our impact on the environment and society"
+            headline="Creating positive impact"
             copy={environment}
             image={valueEnvironment}
             className="green"
@@ -31,7 +31,7 @@ export default function Values() {
           <Card
             title="Innovation"
             desc="Our commitment to innovation powers our journey towards excellence."
-            headline="Unlocking new possibilities with innovation"
+            headline="Unlocking new possibilities"
             copy={innovation}
             image={valueInnovation}
             className="blue"
@@ -39,7 +39,7 @@ export default function Values() {
           <Card
             title="Quality"
             desc="From sourcing to recycling, we apply the highest standards."
-            headline="Creating positive impact with clean energy"
+            headline="The highest standards"
             copy={quality}
             image={valueQuality}
             className="red"

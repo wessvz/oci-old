@@ -22,7 +22,7 @@
 }
 
 .DialogOverlay {
-  background: rgba(245, 245, 247, 0.6);
+  background: var(--overlayMain);
   backdrop-filter: blur(16px);
   animation: overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
   position: fixed;

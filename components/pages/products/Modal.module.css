@@ -119,6 +119,7 @@
 
 .icon {
   position: absolute;
+  color: #1d1d1f;
 }
 
 @keyframes overlayShow {
@@ -154,8 +155,9 @@
 }
 
 .category {
-  font-size: 36px;
+  font-size: 40px;
   color: #1d1d1f;
+  line-height: 1.1;
 }
 
 @media (min-width: 768px) {
@@ -166,7 +168,7 @@
 
 .modalCopy {
   background: var(--white);
-  padding: 80px 24px 80px 24px;
+  padding: 80px 40px 80px 40px;
 }
 
 @media (min-width: 768px) {

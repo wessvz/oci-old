@@ -1,7 +1,7 @@
 .container {
   max-width: var(--pageWidth);
   margin: 0 auto;
-  padding: 56px var(--pageMin) 56px var(--pageMin);
+  padding: 80px var(--pageMin) 56px var(--pageMin);
 }
 
 @media (min-width: 768px) {

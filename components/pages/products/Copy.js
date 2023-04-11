@@ -31,6 +31,31 @@ const fittings = (
       landscape, or simply seeking to streamline your work, OCI is here to help.
       Contact us today to learn more.
     </p>
+
+    <p>
+      Our customers include Dutch grid operators for heat and gas and water
+      utilities, as well as installation companies and industrial players. We
+      have earned their trust through our reliability, expertise, and commitment
+      to excellence.
+    </p>
+
+    <p>
+      So, whether you are looking for innovative solutions for the new energy
+      landscape, or simply seeking to streamline your work, OCI is here to help.
+      Contact us today to learn more.
+    </p>
+    <p>
+      Our customers include Dutch grid operators for heat and gas and water
+      utilities, as well as installation companies and industrial players. We
+      have earned their trust through our reliability, expertise, and commitment
+      to excellence.
+    </p>
+
+    <p>
+      So, whether you are looking for innovative solutions for the new energy
+      landscape, or simply seeking to streamline your work, OCI is here to help.
+      Contact us today to learn more.
+    </p>
   </div>
 );
 

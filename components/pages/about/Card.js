@@ -9,7 +9,6 @@ export default function Card({
   headline,
   image,
   className,
-  button,
 }) {
   return (
     <div className={styles.wrapper}>

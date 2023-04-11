@@ -5,9 +5,9 @@
 .copy p {
   color: #86868b;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: -0.5px;
-  line-height: 1.4;
+  line-height: 1.5;
   margin-bottom: var(--spaceGap);
 }
 

@@ -74,7 +74,7 @@
 
 .red {
   composes: tile;
-  background: #c4233d;
+  background: linear-gradient(135deg, #fd365b 0%, #8e0d37 100%);
 }
 
 .white {

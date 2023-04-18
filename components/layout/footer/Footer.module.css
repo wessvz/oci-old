@@ -5,7 +5,7 @@
 .wrapper {
   max-width: var(--pageWidth);
   margin: 0 auto;
-  padding: 32px var(--pageMin) 32px var(--pageMin);
+  padding: 40px var(--pageMargin) 40px var(--pageMargin);
 }
 
 @media (min-width: 768px) {
@@ -59,7 +59,7 @@
 }
 
 .title {
-  font-size: 20px;
+  font-size: 18px;
   padding-bottom: 12px;
   font-weight: 700;
   color: var(--white);
@@ -78,7 +78,7 @@
 .list a {
   color: #94a3b8;
   transition: 0.5s;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 @media (min-width: 768px) {

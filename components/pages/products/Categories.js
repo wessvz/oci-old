@@ -1,7 +1,8 @@
 import styles from "./Categories.module.css";
 import { connections, fittings, valves, piping, hoses, plastics } from "./Copy";
 import Image from "next/image";
-import fitting from "@/public/images/products/fitting-2.jpg";
+import fitting from "@/public/images/products/fitting-oci.webp";
+import fittingOud from "@/public/images/products/fitting-2.jpg";
 import fittingProduct from "@/public/images/products/fitting.jpg";
 import metalhoses from "@/public/images/products/metaalslang.jpg";
 import plasticProduct from "@/public/images/products/kunstof.jpg";
@@ -58,8 +59,8 @@ export default function Categories() {
             <h2 className={styles.eyebrow}>Valves</h2>
             <h3 className={styles.title}>Innovative designs</h3>
             <p className={styles.desc}>
-              Designed to withstand extreme temperatures and pressures.
-              Engineered to perform seamlessly in any environment.
+              Designed to perform in any environment. Engineered to withstand
+              extreme temperatures and pressures.
             </p>
             <Dialog category="Valves" description={valves} />
           </div>
@@ -114,7 +115,7 @@ export default function Categories() {
         <section className={styles.six}>
           <div className={styles.content}>
             <h2 className={styles.eyebrow}>Plastics and rubber</h2>
-            <h3 className={styles.title}>From idea to realised product</h3>
+            <h3 className={styles.title}>From idea to realized product</h3>
             <p className={styles.desc}>
               Transform your ideas into reality with our end-to-end product
               development expertise in plastics and rubber.

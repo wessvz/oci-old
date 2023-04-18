@@ -18,5 +18,5 @@
 }
 
 .prop {
-  padding: var(--height) var(--width);
+  padding: var(--height) var(--pageMargin);
 }

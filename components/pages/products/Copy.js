@@ -29,37 +29,69 @@ const connections = (
 const fittings = (
   <div className={styles.copy}>
     <p>
-      OCI's fittings are designed to perform seamlessly in any environment, from
-      extreme temperatures to high pressures, and everything in between.
+      Looking for high-quality fittings that you can rely on? Look no further
+      than OCI. Our wide range of fittings is designed to meet your unique needs
+      for drinking water, heating, gas, geothermal, fire prevention, and more.
     </p>
 
     <p>
-      Our industry-leading manufacturing processes ensure the safety and
-      reliability of our products, while our enthusiastic experts are always
-      ready to help you find the right solution for your needs.
+      We understand that finding the right fittings for your project can be
+      overwhelming. That's why we've made it easy for you to choose from our
+      extensive range of top-quality materials, including stainless steel,
+      carbon steel, brass, copper, and bronze. Our fittings are built to last,
+      ensuring that you have a reliable solution that meets your specific
+      requirements.
     </p>
 
-    <p>Choose OCI for fittings that work when and where you need them.</p>
+    <p>
+      We know that your time is valuable, which is why our fittings are not only
+      high-quality, but also easy to install and maintain. And if you need any
+      advice or support, our team of experts is always available to assist you.
+    </p>
+
+    <p>
+      At OCI, we are committed to providing exceptional products and services to
+      our customers. Our focus on innovation and quality means that you can
+      trust us to deliver the best possible solutions for your project. And with
+      our cost-effective fittings, you can ensure the success of your project
+      without breaking the bank.
+    </p>
+
+    <p>
+      Choose OCI for fittings that are tailored to your unique needs and
+      expectations, and experience the peace of mind that comes with working
+      with a reliable and knowledgeable partner.
+    </p>
   </div>
 );
 
 const valves = (
   <div className={styles.copy}>
     <p>
-      Choose OCI for a complete range of valves that meet all your requirements
-      and demands in connection technology.
+      When it comes to fluid control, OCI is the name to trust. Our valves are
+      engineered to the highest standards, using only the best materials and
+      manufacturing techniques to deliver top-quality performance.
     </p>
 
     <p>
-      Our range is suitable for numerous applications, including drinking water,
-      heating, gas, geothermal, and fire prevention, and is available in
-      different materials like stainless steel, carbon steel, brass, copper, and
-      bronze.
+      Whether you're dealing with basic or complex applications, OCI's range of
+      valves can handle it all. From low to high pressures, hot to cold
+      temperatures, our valves are versatile and reliable for every type of
+      fluid.
     </p>
 
     <p>
-      With OCI, you can expect nothing but the best quality and service in every
-      aspect of our work.
+      What sets OCI apart is our dedication to customization. We understand that
+      every application is unique, and we work closely with you to design valves
+      that meet your exact needs. Whether you require a specific size, material,
+      or design, we've got you covered.
+    </p>
+
+    <p>
+      At OCI, safety and reliability are our top priorities. Our valves are
+      built to last, ensuring you have a dependable product that meets your high
+      standards. Contact us today to discover how our valves can benefit your
+      business.
     </p>
   </div>
 );
@@ -67,18 +99,30 @@ const valves = (
 const piping = (
   <div className={styles.copy}>
     <p>
-      Save time and increase efficiency with OCI's optimized gas and heat
-      pipelines that are designed for challenging installation environments.
+      Are you tired of struggling with hard-to-reach areas when installing
+      piping systems for gas and heat? OCI has the solution you've been
+      searching for.
     </p>
 
     <p>
-      Our piping systems are commonly used in remediation situations, where
-      difficult access to spaces can make installation a challenge.
+      Our innovative piping systems are designed to make installation a breeze,
+      even for the most challenging spaces. Installers are raving about the ease
+      of installation, and our customers are experiencing enormous time savings
+      as a result.
     </p>
 
     <p>
-      With OCI's quality products and services, you can be sure that your job
-      will be done on time and on budget, without any hassle.
+      But that's not all. When you choose OCI, you're not just getting a
+      product. You're getting a partner who is dedicated to simplifying and
+      streamlining your work. We go beyond just supplying components by taking
+      care of the logistics chain right down to the job site. That means you can
+      focus on your work, knowing that everything else is taken care of.
+    </p>
+
+    <p>
+      With OCI, you're getting a piping system that is easy to install,
+      high-quality, and backed by great customer service. Make your work simpler
+      and more efficient with OCI's innovative piping systems for gas and heat.
     </p>
   </div>
 );
@@ -86,19 +130,25 @@ const piping = (
 const hoses = (
   <div className={styles.copy}>
     <p>
-      Experience the flexible capabilities of metal hoses with OCI's custom
-      solutions that address complex conditions.
+      OCI's metal hoses are built to withstand even the toughest environments
+      and deliver outstanding performance. Whether you need them for underground
+      installations, crawl spaces, or measurement areas, our hoses will perform
+      under pressure.
     </p>
 
     <p>
-      Our range of flexible hoses is suitable for a variety of applications,
-      from underground to crawl spaces to measurement areas.
+      With a wide range of connection options and pressure classes ranging from
+      300 mbar to 40 bar, our flexible hoses are designed to meet your unique
+      needs and requirements. The stainless steel braiding option provides
+      additional protection against abrasion, while the unbraided option is
+      ideal for applications where flexibility is key.
     </p>
 
     <p>
-      With pressure classes ranging from 300 mbar to 40 bar and a variety of
-      connection options, angled, tapered, insulated, and more, OCI has
-      everything you need for a flexible and reliable solution.
+      Choose OCI's metal hoses for your toughest applications and experience the
+      difference for yourself. With or without stainless steel braiding, our
+      hoses are designed to deliver outstanding performance, durability, and
+      flexibility.
     </p>
   </div>
 );

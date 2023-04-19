@@ -3,18 +3,25 @@ import styles from "./Copy.module.css";
 const connections = (
   <div className={styles.copy}>
     <p>
-      Make sure your gas, water, drinking water, and electricity meters are
-      functioning properly and easily changeable with OCI's comprehensive range
-      of components and solutions.
+      Introducing OCI's Connection Systems – the perfect solution for your gas,
+      water, and electricity meters. Our innovative components and tailored
+      solutions make it easy for you to install and change meters with ease.
     </p>
     <p>
-      Our products are suitable for properties up to G25 for gas connections,
-      Q3-25 for drinking water, and CW-label 6 for district heating, and can be
-      used in both new and old situations.
+      Our connection systems are suitable for properties up to G25 for gas
+      connections, Q3-25 for drinking water connections, and CW-label 6 for
+      district heating connections. Whether you are building a new property or
+      renovating an existing one, OCI's connection systems have got you covered.
     </p>
     <p>
-      Trust OCI to provide you with top-quality solutions that simplify and
-      streamline your work.
+      With OCI's Connection Systems, you can enjoy peace of mind knowing that
+      you have access to exceptional customer service and competitive pricing.
+      Plus, our innovative and sustainable solutions will help you save time and
+      money in the long run.
+    </p>
+    <p>
+      Choose OCI's Connection Systems for a hassle-free experience and discover
+      the ease of meter installation and maintenance.
     </p>
   </div>
 );

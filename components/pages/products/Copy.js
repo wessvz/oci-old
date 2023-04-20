@@ -156,20 +156,29 @@ const hoses = (
 const plastics = (
   <div className={styles.copy}>
     <p>
-      OCI's end-to-end product development expertise in plastics and rubber
-      makes it easy to turn your ideas into reality.
+      Need help bringing your product ideas to life? OCI is the reliable partner
+      you can count on.
     </p>
 
     <p>
-      Our range includes meter boards for E, sealing plugs for basements, seals
-      for many mediums, and more. Whether we handle the design and production
-      ourselves or work with partners, you can trust OCI to provide you with
-      reliable solutions that meet your needs.
+      Our high-quality plastics and rubber products are crafted with the finest
+      materials and designed to meet your exact needs. From meter boards to
+      sealing plugs and seals, we offer a wide range of solutions to help you
+      achieve your goals.
     </p>
 
     <p>
-      Choose OCI for high-quality plastics and rubber products that are tailored
-      to your requirements.
+      With OCI, you can trust that your product will be delivered on time and to
+      your exact specifications. Our in-house production management and trusted
+      partner network ensure that you receive only the best products, backed by
+      our commitment to reliability and exceptional service.
+    </p>
+
+    <p>
+      Our plastics and rubber products are increasingly used in the industry and
+      are proven to be reliable, durable, and long-lasting. Partner with OCI for
+      unparalleled product development expertise, exceptional quality, and
+      reliable supply chain solutions for all your plastics and rubber needs.
     </p>
   </div>
 );

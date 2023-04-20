@@ -31,7 +31,7 @@ export default function Footer() {
               <div className={styles.title}>Resources</div>
               <ul className={styles.list}>
                 <li>
-                  <Link href="/algemene-voorwaarden">Terms & Conditions</Link>
+                  <Link href="/terms">Terms & Conditions</Link>
                 </li>
                 <li>
                   <Link href="/privacy">Privacy Statement</Link>

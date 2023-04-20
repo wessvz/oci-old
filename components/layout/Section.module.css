@@ -20,3 +20,8 @@
 .prop {
   padding: var(--height) var(--pageMargin);
 }
+
+.resources {
+  composes: container;
+  max-width: 800px;
+}

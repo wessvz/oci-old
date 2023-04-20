@@ -2,6 +2,11 @@ import styles from "./Categories.module.css";
 import { connections, fittings, valves, piping, hoses, plastics } from "./Copy";
 import Image from "next/image";
 import fitting from "@/public/images/products/fitting-oci.webp";
+import valve from "@/public/images/products/valves-oci.webp";
+import connectionsystem from "@/public/images/products/connection-system-oci.jpg";
+import connectionsyste from "@/public/images/products/connection-system.jpg";
+import connectionsystemNew from "@/public/images/products/connection-systems-new.jpg";
+import connection from "@/public/images/products/connection-oci.webp";
 import fittingOud from "@/public/images/products/fitting-2.jpg";
 import fittingProduct from "@/public/images/products/fitting.jpg";
 import metalhoses from "@/public/images/products/metaalslang.jpg";
@@ -16,24 +21,26 @@ export default function Categories() {
   return (
     <>
       <div className={styles.grid}>
-        <section className={styles.one}>
-          <div className={styles.content}>
-            <h2 className={styles.eyebrow}>Connection systems</h2>
-            <h3 className={styles.title}>Install meters without effort</h3>
-            <p className={styles.desc}>
-              We provide components and solutions for the installation of gas,
-              water, drinking water and electricity meters.
-            </p>
-            <Dialog category="Connection systems" description={connections} />
+        <section className={styles.connection}>
+          <div className={styles.copyColumn}>
+            <div className={styles.copyWrapper}>
+              <h2 className={styles.eyebrow}>Connection systems</h2>
+              <h3 className={styles.title}>Install meters without effort</h3>
+              <p className={styles.desc}>
+                We provide components and solutions for the installation of gas,
+                water, drinking water and electricity meters.
+              </p>
+              <Dialog category="Connection systems" description={connections} />
+            </div>
           </div>
           <Image
-            alt="voorbeeld"
-            src={apple}
-            sizes="100vw"
-            className={styles.imagez}
+            alt="Connection Systems"
+            src={connectionsystem}
+            sizes="100vh"
+            className={styles.image}
           />
         </section>
-        <section className={styles.contentWrapper}>
+        <section className={styles.fitting}>
           <div className={styles.copyColumn}>
             <div className={styles.copyWrapper}>
               <h2 className={styles.eyebrow}>Fittings</h2>
@@ -50,26 +57,30 @@ export default function Categories() {
               alt="voorbeeld"
               src={fitting}
               sizes="100vh"
-              className={styles.imagetest}
+              className={styles.image}
             />
           </div>
         </section>
-        <section className={styles.three}>
-          <div className={styles.content}>
-            <h2 className={styles.eyebrow}>Valves</h2>
-            <h3 className={styles.title}>Innovative designs</h3>
-            <p className={styles.desc}>
-              Designed to perform in any environment. Engineered to withstand
-              extreme temperatures and pressures.
-            </p>
-            <Dialog category="Valves" description={valves} />
+        <section className={styles.valve}>
+          <div className={styles.copyColumn}>
+            <div className={styles.copyWrapper}>
+              <h2 className={styles.eyebrow}>Valves</h2>
+              <h3 className={styles.title}>Innovative designs</h3>
+              <p className={styles.desc}>
+                Designed to perform in any environment. Engineered to withstand
+                extreme temperatures and pressures.
+              </p>
+              <Dialog category="Valves" description={valves} />
+            </div>
           </div>
-          <Image
-            alt="voorbeeld"
-            src={valvesProduct}
-            sizes="100vw"
-            className={styles.image}
-          />
+          <div className={styles.imageColumn}>
+            <Image
+              alt="Valves"
+              src={valve}
+              sizes="100vh"
+              className={styles.image}
+            />
+          </div>
         </section>
       </div>
 
@@ -109,7 +120,7 @@ export default function Categories() {
             alt="voorbeeld"
             src={metalhoses}
             sizes="100vw"
-            className={styles.image}
+            className={styles.imageOud}
           />
         </section>
         <section className={styles.six}>
@@ -126,7 +137,7 @@ export default function Categories() {
             alt="voorbeeld"
             src={plasticProduct}
             sizes="100vw"
-            className={styles.image}
+            className={styles.imageOud}
           />
         </section>
       </div>

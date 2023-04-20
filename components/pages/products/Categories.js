@@ -5,7 +5,7 @@ import fitting from "@/public/images/products/fitting-oci.webp";
 import valve from "@/public/images/products/valves-oci.webp";
 import connectionsystem from "@/public/images/products/connection-system-oci.jpg";
 import connectionsyste from "@/public/images/products/connection-system.jpg";
-import connectionsystemNew from "@/public/images/products/connection-systems-new.jpg";
+import connectionsystemNew from "@/public/images/products/connection-system-new.jpg";
 import connection from "@/public/images/products/connection-oci.webp";
 import fittingOud from "@/public/images/products/fitting-2.jpg";
 import fittingProduct from "@/public/images/products/fitting.jpg";
@@ -35,7 +35,7 @@ export default function Categories() {
           </div>
           <Image
             alt="Connection Systems"
-            src={connectionsystem}
+            src={connectionsystemNew}
             sizes="100vh"
             className={styles.image}
           />

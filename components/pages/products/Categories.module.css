@@ -143,13 +143,27 @@
   }
 }
 
-.imageBig {
+.mobileImage {
+  composes: image;
+  display: none;
+}
+
+.desktopImage {
+  composes: image;
   display: block;
+  max-height: 520px;
   height: 100%;
   width: auto;
-  max-height: 520px;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .desktopImage {
+    display: none;
+  }
+
+  .mobileImage {
+    display: block;
+  }
 }
 
 @media (min-width: 936px) {

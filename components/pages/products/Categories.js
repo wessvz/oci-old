@@ -4,8 +4,8 @@ import Image from "next/image";
 import fitting from "@/public/images/products/fitting-oci.webp";
 import valve from "@/public/images/products/valves-oci.webp";
 import connectionsystem from "@/public/images/products/connection-system-oci.jpg";
-import connectionsyste from "@/public/images/products/connection-system.jpg";
-import connectionsystemNew from "@/public/images/products/connection-system-mobile.jpg";
+import connectionsystemDesktop from "@/public/images/products/connection-system-oci-desktop.jpg";
+import connectionsystemMobile from "@/public/images/products/connection-system-mobile.jpg";
 import connection from "@/public/images/products/connection-oci.webp";
 import fittingOud from "@/public/images/products/fitting-2.jpg";
 import fittingProduct from "@/public/images/products/fitting.jpg";
@@ -35,9 +35,15 @@ export default function Categories() {
           </div>
           <Image
             alt="Connection Systems"
-            src={connectionsystemNew}
+            src={connectionsystemDesktop}
             sizes="100vh"
-            className={styles.image}
+            className={styles.desktopImage}
+          />
+          <Image
+            alt="Connection Systems"
+            src={connectionsystemMobile}
+            sizes="100vh"
+            className={styles.mobileImage}
           />
         </section>
         <section className={styles.fitting}>

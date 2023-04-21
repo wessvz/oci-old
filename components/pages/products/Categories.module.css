@@ -181,8 +181,8 @@
     "connection"
     "fitting"
     "valve"
-    "four"
-    "five"
+    "piping"
+    "hoses"
     "six";
 }
 
@@ -193,8 +193,8 @@
     grid-template-areas:
       "connection connection"
       "fitting valve"
-      "four four"
-      "five six";
+      "piping piping"
+      "hoses six";
   }
 }
 
@@ -224,8 +224,8 @@
 }
 
 @media (min-width: 768px) {
-  .one {
-    min-height: 560px;
+  .connection {
+    min-height: 520px;
   }
 }
 
@@ -239,20 +239,20 @@
   composes: contentWrapper;
 }
 
-.four {
-  grid-area: four;
-  composes: area;
+.piping {
+  grid-area: piping;
+  composes: big;
 }
 
 @media (min-width: 768px) {
-  .four {
-    min-height: 560px;
+  .piping {
+    min-height: 520px;
   }
 }
 
-.five {
-  grid-area: five;
-  composes: area;
+.hoses {
+  grid-area: hoses;
+  composes: contentWrapper;
 }
 
 .six {

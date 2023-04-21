@@ -1,20 +1,16 @@
 import styles from "./Categories.module.css";
-import { connections, fittings, valves, piping, hoses, plastics } from "./Copy";
 import Image from "next/image";
-import fitting from "@/public/images/products/fitting-oci.webp";
-import valve from "@/public/images/products/valves-oci.webp";
-import connectionsystem from "@/public/images/products/connection-system-oci.jpg";
+import Dialog from "@/components/pages/products/Modal";
+import { connections, fittings, valves, piping, hoses, plastics } from "./Copy";
 import connectionsystemDesktop from "@/public/images/products/connection-system-oci-desktop.jpg";
 import connectionsystemMobile from "@/public/images/products/connection-system-mobile.jpg";
-import connection from "@/public/images/products/connection-oci.webp";
-import fittingOud from "@/public/images/products/fitting-2.jpg";
-import fittingProduct from "@/public/images/products/fitting.jpg";
+import pipingsystemDesktop from "@/public/images/products/piping-system-oci.jpg";
+import fitting from "@/public/images/products/fitting-oci.webp";
+import valve from "@/public/images/products/valves-oci.webp";
+import metalHoses from "@/public/images/products/metal-hoses-oci.jpg";
 import metalhoses from "@/public/images/products/metaalslang.jpg";
 import plasticProduct from "@/public/images/products/kunstof.jpg";
-import valvesProduct from "@/public/images/products/kogelkraan.jpg";
-import apple from "@/public/images/products/example-1.jpg";
-import pear from "@/public/images/products/example-4.jpg";
-import Dialog from "@/components/pages/products/Modal";
+
 import Title from "./Title";
 
 export default function Categories() {
@@ -34,13 +30,13 @@ export default function Categories() {
             </div>
           </div>
           <Image
-            alt="Connection Systems"
+            alt="OCI - Connection Systems"
             src={connectionsystemDesktop}
             sizes="100vh"
             className={styles.desktopImage}
           />
           <Image
-            alt="Connection Systems"
+            alt="OCI - Connection Systems"
             src={connectionsystemMobile}
             sizes="100vh"
             className={styles.mobileImage}
@@ -60,7 +56,7 @@ export default function Categories() {
           </div>
           <div className={styles.imageColumn}>
             <Image
-              alt="voorbeeld"
+              alt="OCI - Fittings"
               src={fitting}
               sizes="100vh"
               className={styles.image}
@@ -81,7 +77,7 @@ export default function Categories() {
           </div>
           <div className={styles.imageColumn}>
             <Image
-              alt="Valves"
+              alt="OCI - Valves"
               src={valve}
               sizes="100vh"
               className={styles.image}
@@ -93,42 +89,56 @@ export default function Categories() {
       <Title />
 
       <div className={styles.grid}>
-        <section className={styles.four}>
-          <div className={styles.content}>
-            <h2 className={styles.eyebrow}>Piping systems</h2>
-            <h3 className={styles.title}>
-              Flexibility as the guiding principle
-            </h3>
-            <p className={styles.desc}>
-              Save time and increase efficiency with gas and heat pipelines
-              optimized for challenging installation environments.
-            </p>
-            <Dialog category="Piping systems" description={piping} />
+        <section className={styles.piping}>
+          <div className={styles.copyColumn}>
+            <div className={styles.copyWrapper}>
+              <h2 className={styles.eyebrow}>Piping systems</h2>
+              <h3 className={styles.title}>
+                Flexibility as the guiding principle
+              </h3>
+              <p className={styles.desc}>
+                Save time and increase efficiency with gas and heat pipelines
+                optimized for challenging installation environments.
+              </p>
+              <Dialog category="Piping systems" description={piping} />
+            </div>
           </div>
           <Image
-            alt="voorbeeld"
-            src={pear}
+            alt="OCI - Piping Systems"
+            src={pipingsystemDesktop}
             sizes="100vw"
-            className={styles.imagez}
+            className={styles.desktopImage}
           />
-        </section>
-        <section className={styles.five}>
-          <div className={styles.content}>
-            <h2 className={styles.eyebrow}>Metal hoses</h2>
-            <h3 className={styles.title}>Tailored solutions</h3>
-            <p className={styles.desc}>
-              Tackling complex conditions with customized solutions. Experience
-              the flexibel possibilities of metal hoses.
-            </p>
-            <Dialog category="Metal hoses" description={hoses} />
-          </div>
           <Image
-            alt="voorbeeld"
-            src={metalhoses}
-            sizes="100vw"
-            className={styles.imageOud}
+            alt="OCI - Piping Systems"
+            src={connectionsystemMobile}
+            sizes="100vh"
+            className={styles.mobileImage}
           />
         </section>
+
+        <section className={styles.hoses}>
+          <div className={styles.copyColumn}>
+            <div className={styles.copyWrapper}>
+              <h2 className={styles.eyebrow}>Metal hoses</h2>
+              <h3 className={styles.title}>Tailored solutions</h3>
+              <p className={styles.desc}>
+                Tackling complex conditions with customized solutions.
+                Experience the flexibel possibilities of metal hoses.
+              </p>
+              <Dialog category="Metal hoses" description={hoses} />
+            </div>
+          </div>
+          <div className={styles.imageColumn}>
+            <Image
+              alt="voorbeeld"
+              src={metalHoses}
+              sizes="100vh"
+              className={styles.image}
+            />
+          </div>
+        </section>
+
         <section className={styles.six}>
           <div className={styles.content}>
             <h2 className={styles.eyebrow}>Plastics and rubber</h2>

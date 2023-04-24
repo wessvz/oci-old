@@ -3,7 +3,7 @@ import Image from "next/image";
 import Dialog from "@/components/pages/products/Modal";
 import { connections, fittings, valves, piping, hoses, plastics } from "./Copy";
 import connectionsystemDesk from "@/public/images/products/connection-system-oci-desk.webp";
-import connectionsystemMob from "@/public/images/products/connection-system-oci-mob.webp";
+import connectionsystemMob from "@/public/images/products/connection-system-mob-oci.webp";
 import connectionsystemMobile from "@/public/images/products/connection-system-mobile.jpg";
 import pipingsystemDesktop from "@/public/images/products/piping-system-oci.jpg";
 import fitting from "@/public/images/products/fitting-oci.webp";

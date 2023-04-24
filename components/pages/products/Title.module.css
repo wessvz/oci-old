@@ -1,11 +1,12 @@
 .container {
   margin: 0 auto;
   text-align: center;
+  padding: 24px;
 }
 
 @media (min-width: 768px) {
   .container {
-    padding-bottom: 34px;
+    padding: 64px 24px;
   }
 }
 

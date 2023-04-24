@@ -22,7 +22,7 @@ export default function Categories() {
   });
   return (
     <>
-      <div className={styles.grid}>
+      <div className={styles.top}>
         <section className={styles.connection}>
           <div className={styles.copyColumn}>
             <div className={styles.copyWrapper}>
@@ -109,7 +109,7 @@ export default function Categories() {
 
       <Title />
 
-      <div className={styles.grid}>
+      <div className={styles.bottom}>
         <section className={styles.piping}>
           <div className={styles.copyColumn}>
             <div className={styles.copyWrapper}>

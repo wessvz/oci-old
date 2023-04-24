@@ -3,22 +3,43 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 24px;
-  grid-template-areas:
-    "connection"
-    "fitting"
-    "valve"
-    "piping"
-    "hoses"
-    "plastics";
 }
 
 @media (min-width: 936px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
+  }
+}
+
+.top {
+  composes: grid;
+  grid-template-areas:
+    "connection"
+    "fitting"
+    "valve";
+}
+
+@media (min-width: 936px) {
+  .top {
+    composes: grid;
     grid-template-areas:
       "connection connection"
-      "fitting valve"
+      "fitting valve";
+  }
+}
+
+.bottom {
+  grid-template-areas:
+    "piping"
+    "hoses"
+    "plastics";
+}
+
+@media (min-width: 936px) {
+  .bottom {
+    composes: grid;
+    grid-template-areas:
       "piping piping"
       "hoses plastics";
   }
@@ -209,7 +230,6 @@
   display: block;
   height: auto;
   width: 100%;
-  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }

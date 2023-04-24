@@ -7,6 +7,8 @@ import connectionsystemMob from "@/public/images/products/connection-system-mob-
 import connectionsystemMobile from "@/public/images/products/connection-system-mobile.jpg";
 import pipingsystemDesktop from "@/public/images/products/piping-system-oci.jpg";
 import pipingsystemMob from "@/public/images/products/piping-system-oci-mob.jpg";
+import pipingsystemMob2 from "@/public/images/products/piping-system-mob-oci.jpg";
+import pipingsystemMobile from "@/public/images/products/piping-system-oci-mobile.jpg";
 import fitting from "@/public/images/products/fitting-oci.webp";
 import valve from "@/public/images/products/valves-oci.webp";
 import metalhoses from "@/public/images/products/metal-hoses-oci.webp";
@@ -112,7 +114,7 @@ export default function Categories() {
           />
           <Image
             alt="OCI - Piping Systems"
-            src={pipingsystemMob}
+            src={pipingsystemMob2}
             sizes="100vh"
             className={styles.mobileImage}
           />

@@ -2,13 +2,13 @@ import styles from "./Categories.module.css";
 import Image from "next/image";
 import Dialog from "@/components/pages/products/Modal";
 import { connections, fittings, valves, piping, hoses, plastics } from "./Copy";
-import connectionsystemDesktop from "@/public/images/products/connection-system-oci-desktop.jpg";
+import connectionsystemDesk from "@/public/images/products/connection-system-oci-desk.webp";
+import connectionsystemMob from "@/public/images/products/connection-system-oci-mob.webp";
 import connectionsystemMobile from "@/public/images/products/connection-system-mobile.jpg";
 import pipingsystemDesktop from "@/public/images/products/piping-system-oci.jpg";
 import fitting from "@/public/images/products/fitting-oci.webp";
 import valve from "@/public/images/products/valves-oci.webp";
-import metalHoses from "@/public/images/products/metal-hoses-oci.jpg";
-import metalhoses from "@/public/images/products/metaalslang.jpg";
+import metalhoses from "@/public/images/products/metal-hoses-oci.webp";
 import plasticProduct from "@/public/images/products/kunstof.jpg";
 
 import Title from "./Title";
@@ -31,13 +31,13 @@ export default function Categories() {
           </div>
           <Image
             alt="OCI - Connection Systems"
-            src={connectionsystemDesktop}
+            src={connectionsystemDesk}
             sizes="100vh"
             className={styles.desktopImage}
           />
           <Image
             alt="OCI - Connection Systems"
-            src={connectionsystemMobile}
+            src={connectionsystemMob}
             sizes="100vh"
             className={styles.mobileImage}
           />
@@ -131,8 +131,8 @@ export default function Categories() {
           </div>
           <div className={styles.imageColumn}>
             <Image
-              alt="voorbeeld"
-              src={metalHoses}
+              alt="metal hoses"
+              src={metalhoses}
               sizes="100vh"
               className={styles.image}
             />

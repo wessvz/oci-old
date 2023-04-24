@@ -17,7 +17,7 @@ import Title from "./Title";
 
 export default function Categories() {
   const { isMobile, isTablet, isDesktop } = useWindowSize({
-    mobileBreakpoint: 940,
+    mobileBreakpoint: 768,
     tabletBreakpoint: 1024,
   });
   return (
@@ -35,30 +35,32 @@ export default function Categories() {
               <Dialog category="Connection systems" description={connections} />
             </div>
           </div>
-          <div className={styles.imageColumn}>
-            <div className={styles.imageWrapper}>
-              {isMobile && (
-                <Image
-                  alt="OCI - Connection Systems"
-                  src={connectionsystemMob}
-                  className={styles.image}
-                />
-              )}
-              {isTablet && (
-                <Image
-                  alt="OCI - Connection Systems"
-                  src={connectionsystemTab}
-                  className={styles.image}
-                />
-              )}
-              {isDesktop && (
-                <Image
-                  alt="OCI - Connection Systems"
-                  src={connectionsystemDesk}
-                  className={styles.image}
-                />
-              )}
-            </div>
+          <div
+            className={`${styles.imageColumn} ${
+              isMobile || isTablet ? styles.centeredImageColumn : ""
+            }`}
+          >
+            {isMobile && (
+              <Image
+                alt="OCI - Connection Systems"
+                src={connectionsystemMob}
+                className={styles.image}
+              />
+            )}
+            {isTablet && (
+              <Image
+                alt="OCI - Connection Systems"
+                src={connectionsystemTab}
+                className={styles.image}
+              />
+            )}
+            {isDesktop && (
+              <Image
+                alt="OCI - Connection Systems"
+                src={connectionsystemDesk}
+                className={styles.image}
+              />
+            )}
           </div>
         </section>
         <section className={styles.fitting}>
@@ -123,19 +125,27 @@ export default function Categories() {
             </div>
           </div>
           <div className={styles.imageColumn}>
-            <div className={styles.imageWrapper}>
-              <Image
-                alt="OCI - Piping Systems"
-                src={pipingsystemDesktop}
-                className={styles.image}
-              />
+            {isMobile && (
               <Image
                 alt="OCI - Piping Systems"
                 src={pipingsystemMob2}
-                sizes="100vh"
-                className={styles.mobileImage}
+                className={styles.image}
               />
-            </div>
+            )}
+            {isTablet && (
+              <Image
+                alt="OCI - Piping Systems"
+                src={pipingsystemMob2}
+                className={styles.image}
+              />
+            )}
+            {isDesktop && (
+              <Image
+                alt="OCI - Piping Systems"
+                src={pipingsystemDesktop}
+                className={styles.pipingDesk}
+              />
+            )}
           </div>
         </section>
 

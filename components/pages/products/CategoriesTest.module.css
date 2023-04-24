@@ -91,6 +91,12 @@
   }
 }
 
+@media (min-width: 936px) {
+  .row {
+    min-height: 400px;
+  }
+}
+
 .connection {
   grid-area: connection;
   composes: row;
@@ -135,7 +141,7 @@
 @media (min-width: 640px) {
   .copyColumn {
     text-align: center;
-    padding: 56px 56px 16px 56px;
+    padding: 56px 56px 32px 56px;
   }
 }
 
@@ -169,7 +175,7 @@
 
 .copyWrapper {
   width: 100%;
-  max-width: 440px;
+  max-width: 560px;
   z-index: 1;
 }
 
@@ -193,31 +199,22 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 936px) {
+  .centeredImageColumn {
+    align-items: center;
+  }
+}
+
 .image {
   display: block;
   height: auto;
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
 
-@media (min-width: 936px) {
-  .image {
-    max-width: 640px;
-  }
-}
-
-.mob {
+.pipingDesk {
   composes: image;
-}
-
-.tab {
-  composes: image;
-  display: none;
-}
-
-.desk {
-  composes: image;
-  display: none;
+  margin-right: 0;
 }

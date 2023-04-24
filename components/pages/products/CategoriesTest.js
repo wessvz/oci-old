@@ -1,23 +1,25 @@
-import styles from "./Categories.module.css";
+import styles from "./CategoriesTest.module.css";
 import Image from "next/image";
+import useWindowSize from "@/lib/hooks/useWindowSize";
 import Dialog from "@/components/pages/products/Modal";
 import { connections, fittings, valves, piping, hoses, plastics } from "./Copy";
-import connectionsystemDesk from "@/public/images/products/connection-system-oci-desk.webp";
+import connectionsystemDesk from "@/public/images/products/connection-system-oci-desk.jpg";
+import connectionsystemTab from "@/public/images/products/connection-system-tab.jpg";
+import connectionsystemDesktop from "@/public/images/products/connection-system-oci-desk.webp";
 import connectionsystemMob from "@/public/images/products/connection-system-mob-oci.webp";
-import connectionsystemMobile from "@/public/images/products/connection-system-mobile.jpg";
 import pipingsystemDesktop from "@/public/images/products/piping-system-oci.jpg";
-import pipingsystemMob from "@/public/images/products/piping-system-oci-mob.jpg";
 import pipingsystemMob2 from "@/public/images/products/piping-system-mob-oci.jpg";
-import pipingsystemMobile from "@/public/images/products/piping-system-oci-mobile.jpg";
 import fitting from "@/public/images/products/fitting-oci.webp";
 import valve from "@/public/images/products/valves-oci.webp";
 import metalhoses from "@/public/images/products/metal-hoses-oci.webp";
 import plastic from "@/public/images/products/plastics-oci.jpg";
-import plasticProduct from "@/public/images/products/kunstof.jpg";
-
 import Title from "./Title";
 
 export default function Categories() {
+  const { isMobile, isTablet, isDesktop } = useWindowSize({
+    mobileBreakpoint: 940,
+    tabletBreakpoint: 1024,
+  });
   return (
     <>
       <div className={styles.grid}>
@@ -33,18 +35,31 @@ export default function Categories() {
               <Dialog category="Connection systems" description={connections} />
             </div>
           </div>
-          <Image
-            alt="OCI - Connection Systems"
-            src={connectionsystemDesk}
-            sizes="100vh"
-            className={styles.desktopImage}
-          />
-          <Image
-            alt="OCI - Connection Systems"
-            src={connectionsystemMob}
-            sizes="100vh"
-            className={styles.mobileImage}
-          />
+          <div className={styles.imageColumn}>
+            <div className={styles.imageWrapper}>
+              {isMobile && (
+                <Image
+                  alt="OCI - Connection Systems"
+                  src={connectionsystemMob}
+                  className={styles.image}
+                />
+              )}
+              {isTablet && (
+                <Image
+                  alt="OCI - Connection Systems"
+                  src={connectionsystemTab}
+                  className={styles.image}
+                />
+              )}
+              {isDesktop && (
+                <Image
+                  alt="OCI - Connection Systems"
+                  src={connectionsystemDesk}
+                  className={styles.image}
+                />
+              )}
+            </div>
+          </div>
         </section>
         <section className={styles.fitting}>
           <div className={styles.copyColumn}>

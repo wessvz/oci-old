@@ -183,7 +183,7 @@
     "valve"
     "piping"
     "hoses"
-    "six";
+    "plastics";
 }
 
 @media (min-width: 936px) {
@@ -194,7 +194,7 @@
       "connection connection"
       "fitting valve"
       "piping piping"
-      "hoses six";
+      "hoses plastics";
   }
 }
 
@@ -255,9 +255,9 @@
   composes: contentWrapper;
 }
 
-.six {
-  grid-area: six;
-  composes: area;
+.plastics {
+  grid-area: plastics;
+  composes: contentWrapper;
 }
 
 .content {
@@ -291,25 +291,4 @@
   line-height: 1.5;
   color: #666;
   letter-spacing: -0.5px;
-}
-
-.imageOud {
-  position: absolute;
-  left: 0;
-  top: auto;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: auto;
-  max-width: none;
-}
-
-.imagez {
-  position: absolute;
-  right: 0;
-  top: auto;
-  bottom: 0;
-  width: 56%;
-  height: auto;
-  max-width: none;
 }

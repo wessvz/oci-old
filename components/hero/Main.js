@@ -1,11 +1,7 @@
 import styles from "./Main.module.css";
 import Image from "next/image";
 import LargeButton from "../button/LargeButton";
-import voorbeeld from "../../public/images/voorbeeld.jpg";
-import tuin from "../../public/images/voorbeeld-3.jpg";
-import tekening from "../../public/images/oci-header-voorbeeld.jpg";
 import machine from "../../public/images/voorbeeld-5.jpg";
-import bg from "../../public/images/bg-example.jpg";
 
 export default function Main() {
   return (

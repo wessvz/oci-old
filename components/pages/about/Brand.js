@@ -1,6 +1,11 @@
 import styles from "./Brand.module.css";
 import Image from "next/image";
 import contact from "@/public/images/contact-placeholder.png";
+import pipes from "@/public/images/about/pipes.jpg";
+import products from "@/public/images/about/products.jpg";
+import connection from "@/public/images/about/connection.jpg";
+import product1 from "@/public/images/about/product-test.jpg";
+import innovation from "@/public/images/about/innovation.jpg";
 import Modal from "./ModalBrand";
 import { mission, goal } from "./Copy";
 
@@ -21,18 +26,14 @@ export default function Brand() {
           </div>
           <div className={styles.img}>
             <div className={styles.imageWrapper}>
-              <Image
-                alt="OCI BV, De Hoge Brug 14, 6581 AJ Malden"
-                src={contact}
-                className={styles.image}
-              />
+              <Image alt="Pipes" src={product1} className={styles.image} />
             </div>
           </div>
           <div className={styles.img}>
             <div className={styles.imageWrapper}>
               <Image
-                alt="OCI BV, De Hoge Brug 14, 6581 AJ Malden"
-                src={contact}
+                alt="Innovation"
+                src={innovation}
                 className={styles.image}
               />
             </div>

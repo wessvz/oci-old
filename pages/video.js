@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Hero from "../components/pages/sustainability/Hero";
+import Hero from "@/components/video/Main";
 import Section from "@/components/layout/Section";
 import Title from "@/components/layout/Title";
 import Eyebrow from "@/components/layout/Eyebrow";
@@ -45,14 +45,14 @@ export default function Sustainability() {
       </Head>
       <Hero />
       <Section style={1}>
-        <Wrapper style={2}>
-          <Eyebrow style={1}>Sustainability</Eyebrow>
+        <Wrapper style={2} space="extra">
+          <Eyebrow style={1}>Expertise</Eyebrow>
           <Title style={1} width="home">
-            Innovation at every step
+            Customized assemblies
           </Title>
           <Copy style={2} width="normal">
-            We’re already carbon neutral across our corporate operations and are
-            on the way to making carbon neutral products by 2030.
+            Smart solutions for connecting energy and water grids to domestic
+            homes, office buildings and industrial sites.
           </Copy>
         </Wrapper>
       </Section>

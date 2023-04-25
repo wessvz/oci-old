@@ -17,6 +17,7 @@ import person from "@/public/images/home/person.jpg";
 import valves from "@/public/images/home/valves-oci.jpg";
 import products1 from "@/public/images/home/products-1.jpg";
 import products2 from "@/public/images/home/products-2.jpg";
+import products3 from "@/public/images/home/products-home-small.jpg";
 
 export default function Home() {
   return (
@@ -76,6 +77,8 @@ export default function Home() {
           label="Go to products"
           image={products2}
           alt="voorbeeld"
+          width={800}
+          height={600}
         />
         <Panel
           eyebrow="Company"
@@ -84,8 +87,10 @@ export default function Home() {
           cta="Read more about OCI"
           link="/about"
           label="Go to about OCI"
-          image={products1}
+          image={products3}
           alt="voorbeeld"
+          width={800}
+          height={600}
           order="reverse"
         />
       </Flex>
@@ -113,6 +118,8 @@ export default function Home() {
           label="Go to products"
           image={watch}
           alt="voorbeeld"
+          width={800}
+          height={600}
           order="reverse"
         />
         <Panel
@@ -123,6 +130,8 @@ export default function Home() {
           link="/about"
           label="Go to about OCI"
           image={metaalslang}
+          width={800}
+          height={600}
           alt="voorbeeld"
         />
       </Flex>

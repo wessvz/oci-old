@@ -1,7 +1,7 @@
 import styles from "./Figure.module.css";
 import Image from "next/image";
 
-export default function Figure({ style, children, src, alt }) {
+export default function Figure({ style, children, src, alt, width, height }) {
   switch (style) {
     case 1:
       return (
@@ -10,8 +10,8 @@ export default function Figure({ style, children, src, alt }) {
             alt={alt}
             src={src}
             className={styles.image}
-            width={2000}
-            height={1600}
+            width={width}
+            height={height}
           />
           <div className={styles.overlay}></div>
         </div>

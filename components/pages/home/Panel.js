@@ -17,6 +17,8 @@ export default function Panel({
   image,
   alt,
   order,
+  height,
+  width,
 }) {
   return (
     <Section style={2}>
@@ -32,7 +34,13 @@ export default function Panel({
           </TextButton>
         </Column>
         <Column style="image">
-          <Figure style={1} src={image} alt={alt}></Figure>
+          <Figure
+            style={1}
+            src={image}
+            alt={alt}
+            width={width}
+            height={height}
+          ></Figure>
         </Column>
       </Flex>
     </Section>

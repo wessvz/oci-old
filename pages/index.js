@@ -17,7 +17,10 @@ import person from "@/public/images/home/person.jpg";
 import valves from "@/public/images/home/valves-oci.jpg";
 import products1 from "@/public/images/home/products-1.jpg";
 import products2 from "@/public/images/home/products-2.jpg";
-import products3 from "@/public/images/home/products-home-small.jpg";
+import products3 from "@/public/images/home/products-3.jpg";
+import products4 from "@/public/images/home/products-4.jpg";
+import products5 from "@/public/images/home/products-5.jpg";
+import products6 from "@/public/images/home/products-6.jpg";
 
 export default function Home() {
   return (
@@ -75,7 +78,7 @@ export default function Home() {
           cta="Explore solutions"
           link="/products"
           label="Go to products"
-          image={products2}
+          image={products1}
           alt="voorbeeld"
           width={800}
           height={600}
@@ -87,7 +90,7 @@ export default function Home() {
           cta="Read more about OCI"
           link="/about"
           label="Go to about OCI"
-          image={products3}
+          image={products2}
           alt="voorbeeld"
           width={800}
           height={600}
@@ -116,7 +119,7 @@ export default function Home() {
           cta="Learn more"
           link="/about"
           label="Go to products"
-          image={watch}
+          image={products5}
           alt="voorbeeld"
           width={800}
           height={600}
@@ -129,7 +132,7 @@ export default function Home() {
           cta="Learn more"
           link="/about"
           label="Go to about OCI"
-          image={metaalslang}
+          image={products6}
           width={800}
           height={600}
           alt="voorbeeld"

@@ -9,13 +9,9 @@ import Flex from "@/components/layout/Flex";
 import Panel from "@/components/pages/home/Panel";
 import Proposition from "@/components/pages/home/Proposition";
 import watch2 from "@/public/images/home/watch-2.jpg";
-import watch from "@/public/images/home/watch.jpg";
 import tag from "@/public/images/home/airtag.jpg";
 import product from "@/public/images/home/product.jpg";
 import metaalslang from "@/public/images/home/metaalslang.jpg";
-import metaalslangen from "@/public/images/home/metaalslangen.jpg";
-import metaalslangen2 from "@/public/images/home/metaalslangen-2.jpg";
-import kogelkraan from "@/public/images/home/kogelkraan.jpg";
 
 export default function Sustainability() {
   return (

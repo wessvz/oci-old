@@ -3,10 +3,7 @@ import Image from "next/image";
 import { Play } from "@/public/icons/General";
 import Item from "./Item";
 import Section from "@/components/layout/Section";
-import Wrapper from "@/components/layout/Wrapper";
 import Title from "@/components/layout/Title";
-import video from "@/public/images/home/overlay.jpg";
-import test from "@/public/images/home/overlay-test.jpg";
 import overlay from "@/public/images/home/overlay-test-3.jpg";
 
 export default function Proposition() {

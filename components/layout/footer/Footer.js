@@ -16,10 +16,10 @@ export default function Footer() {
                   <Link href="/products">Products</Link>
                 </li>
                 <li>
-                  <Link href="/about">About us</Link>
+                  <Link href="/sustainability">Sustainability</Link>
                 </li>
                 <li>
-                  <Link href="/sustainability">Sustainability</Link>
+                  <Link href="/about">About us</Link>
                 </li>
                 <li>
                   <Link href="/contact">Contact</Link>

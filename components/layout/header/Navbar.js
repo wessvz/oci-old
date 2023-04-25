@@ -44,16 +44,7 @@ export default function Navbar() {
                     Products
                   </Link>
                 </NavigationMenu.Item>
-                <NavigationMenu.Item>
-                  <Link
-                    href="/about"
-                    className={
-                      currentRoute === "/about" ? styles.active : styles.link
-                    }
-                  >
-                    About us
-                  </Link>
-                </NavigationMenu.Item>
+
                 <NavigationMenu.Item>
                   <Link
                     href="/sustainability"
@@ -64,6 +55,16 @@ export default function Navbar() {
                     }
                   >
                     Sustainability
+                  </Link>
+                </NavigationMenu.Item>
+                <NavigationMenu.Item>
+                  <Link
+                    href="/about"
+                    className={
+                      currentRoute === "/about" ? styles.active : styles.link
+                    }
+                  >
+                    About us
                   </Link>
                 </NavigationMenu.Item>
                 <NavigationMenu.Item>

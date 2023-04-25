@@ -6,7 +6,13 @@ export default function Figure({ style, children, src, alt }) {
     case 1:
       return (
         <div className={styles.wrapper}>
-          <Image alt={alt} src={src} className={styles.image} />
+          <Image
+            alt={alt}
+            src={src}
+            className={styles.image}
+            width={2000}
+            height={1600}
+          />
           <div className={styles.overlay}></div>
         </div>
       );

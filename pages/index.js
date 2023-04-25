@@ -14,6 +14,9 @@ import tag from "@/public/images/home/airtag.jpg";
 import product from "@/public/images/home/product.jpg";
 import metaalslang from "@/public/images/home/metaalslang.jpg";
 import person from "@/public/images/home/person.jpg";
+import valves from "@/public/images/home/valves-oci.jpg";
+import products1 from "@/public/images/home/products-1.jpg";
+import products2 from "@/public/images/home/products-2.jpg";
 
 export default function Home() {
   return (
@@ -71,7 +74,7 @@ export default function Home() {
           cta="Explore solutions"
           link="/products"
           label="Go to products"
-          image={product}
+          image={products2}
           alt="voorbeeld"
         />
         <Panel
@@ -81,7 +84,7 @@ export default function Home() {
           cta="Read more about OCI"
           link="/about"
           label="Go to about OCI"
-          image={tag}
+          image={products1}
           alt="voorbeeld"
           order="reverse"
         />

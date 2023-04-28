@@ -9,18 +9,13 @@ import Wrapper from "@/components/layout/Wrapper";
 import Flex from "@/components/layout/Flex";
 import Panel from "@/components/pages/home/Panel";
 import Proposition from "@/components/pages/home/Proposition";
-import watch from "@/public/images/home/watch-2.jpg";
-import tag from "@/public/images/home/airtag.jpg";
-import product from "@/public/images/home/product.jpg";
-import metaalslang from "@/public/images/home/metaalslang.jpg";
-import person from "@/public/images/home/person.jpg";
-import valves from "@/public/images/home/valves-oci.jpg";
 import products1 from "@/public/images/home/products-oci-1.jpg";
 import products2 from "@/public/images/home/products-oci-2.jpg";
 import products3 from "@/public/images/home/products-3.jpg";
 import products4 from "@/public/images/home/products-4.jpg";
 import products5 from "@/public/images/home/products-5.jpg";
 import products6 from "@/public/images/home/products-6.jpg";
+import Hero from "@/components/video/Main";
 
 export default function Home() {
   return (
@@ -55,8 +50,7 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#ff0000" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-
-      <Main />
+      <Hero />
 
       <Section style={1}>
         <Wrapper style={2} space="extra">

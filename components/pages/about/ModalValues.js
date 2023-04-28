@@ -2,7 +2,7 @@ import * as Dialog from "@radix-ui/react-dialog";
 import styles from "./Modal.module.css";
 import { useState } from "react";
 
-export default function Modal({ copy, headline, className }) {
+export default function Modal({ copy, headline }) {
   const [isHovering, setIsHovering] = useState(false);
   const handleClose = () => {
     setIsHovering(false);
@@ -53,17 +53,15 @@ export default function Modal({ copy, headline, className }) {
               </Dialog.Close>
             </div>
             <div className={styles.modalWrapper}>
-              <div className={styles[className]}>
-                <div className={styles.modalTop}>
-                  <div className={styles.wrapper}>
-                    <Dialog.Title className={styles.headline}>
-                      {headline}
-                    </Dialog.Title>
-                  </div>
+              <div className={styles.modalTop}>
+                <div className={styles.wrapper}>
+                  <Dialog.Title className={styles.headline}>
+                    {headline}
+                  </Dialog.Title>
                 </div>
-                <div className={styles.modalCopy}>
-                  <Dialog.Description>{copy}</Dialog.Description>
-                </div>
+              </div>
+              <div className={styles.modalCopy}>
+                <Dialog.Description>{copy}</Dialog.Description>
               </div>
             </div>
           </Dialog.Content>

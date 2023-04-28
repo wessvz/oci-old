@@ -21,8 +21,8 @@
 }
 
 .DialogOverlay {
-  background: rgba(245, 245, 247, 0.6);
-  backdrop-filter: blur(16px);
+  background: var(--overlayMain);
+  backdrop-filter: blur(24px);
   animation: overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
   position: fixed;
   top: 0;
@@ -145,7 +145,7 @@
 }
 
 .modalTop {
-  background: #c4233d;
+  background: #e8e8ed;
   padding: 112px 0 64px;
   position: relative;
   overflow: hidden;
@@ -171,7 +171,7 @@
 
 .headline {
   font-size: 36px;
-  color: var(--white);
+  color: var(--title);
 }
 
 @media (min-width: 768px) {

@@ -26,7 +26,6 @@ export default function Values() {
             headline="Creating positive impact"
             copy={environment}
             image={valueEnvironment}
-            className="green"
           />
           <Card
             title="Innovation"
@@ -34,7 +33,6 @@ export default function Values() {
             headline="Unlocking new possibilities"
             copy={innovation}
             image={valueInnovation}
-            className="blue"
           />
           <Card
             title="Quality"
@@ -42,7 +40,6 @@ export default function Values() {
             headline="The highest standards"
             copy={quality}
             image={valueQuality}
-            className="red"
           />
         </div>
       </div>

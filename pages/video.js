@@ -9,6 +9,7 @@ import Panel from "@/components/pages/home/Panel";
 import Copy from "@/components/layout/Copy";
 import products1 from "@/public/images/home/products-oci-1.jpg";
 import products2 from "@/public/images/home/products-oci-2.jpg";
+import products3 from "@/public/images/home/products-oci-3.jpg";
 
 export default function Sustainability() {
   return (
@@ -88,7 +89,7 @@ export default function Sustainability() {
           cta="Learn more"
           link="/about"
           label="Go to products"
-          image={products5}
+          image={products3}
           alt="voorbeeld"
           width={800}
           height={600}

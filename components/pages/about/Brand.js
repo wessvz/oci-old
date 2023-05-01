@@ -15,7 +15,7 @@ export default function Brand() {
               Our mission is to simplify and streamline the work of our users.
             </h3>
             <Modal
-              headline="Our mission is to simplify and streamline the work of our users."
+              headline="We empower our users by simplifying and streamlining their work."
               copy={mission}
               className="brand"
             />
@@ -47,7 +47,7 @@ export default function Brand() {
               We aspire to contribute to a sustainable energy and water system.
             </h3>
             <Modal
-              headline="We aspire to contribute to a sustainable energy and water system."
+              headline="How OCI is contributing to a sustainable energy and water system."
               copy={goal}
               className="brand"
             />

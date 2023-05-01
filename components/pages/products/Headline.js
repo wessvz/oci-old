@@ -7,7 +7,7 @@ export default function Headline() {
       <h1 className={styles.eyebrow}>Products</h1>
       <h2 className={styles.title}>Upgrade your performance</h2>
       <div className={styles.descWrapper}>
-        <Description copy="Discover our extensive range of ball valves, fittings, piping systems and a sophisticated range of plastic products and installation materials." />
+        <Description copy="Discover our extensive range of ball valves, fittings, pipelines and a sophisticated range of plastic products and installation materials." />
       </div>
     </section>
   );

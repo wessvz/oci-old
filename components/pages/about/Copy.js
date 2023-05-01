@@ -3,9 +3,10 @@ import styles from "./Copy.module.css";
 const mission = (
   <div className={styles.copy}>
     <p className={styles.intro}>
-      A comfortable home is essential for a happy life. Since our founding in
-      2008, we've been dedicated to creating products and solutions that make
-      our homes more comfortable, healthier, and safer.
+      A comfortable home is essential for a happy life. Since our founding, we
+      have been dedicated to helping our customers work smarter, not harder.
+      Together we are creating products that make our homes more comfortable,
+      healthier, and safer.
     </p>
     <h3>We are entrepreneurial</h3>
     <p>
@@ -23,15 +24,6 @@ const mission = (
       to make as much progress as possible. Our development strength is now
       known to many contacts, and we are proud of the reputation we have built.
     </p>
-
-    <figure className={styles.quote}>
-      <blockquote>
-        <span className={styles.quoteText}>
-          Engineering is not just about calculations and designs, it's about
-          making a positive impact on the world around us.
-        </span>
-      </blockquote>
-    </figure>
 
     <h3>We are responsible</h3>
     <p>
@@ -56,8 +48,9 @@ const mission = (
     <h3>Let's make impact together</h3>
     <p>
       Our commitment to environment, innovation, and quality drives everything
-      we do. We are proud to have contributed to a sustainable energy and water
-      system, and we will continue to push the boundaries of what is possible.
+      we do. We are proud to contribute to realize a sustainable energy and
+      water system, and we will continue to push the boundaries of what is
+      possible.
     </p>
 
     <p>

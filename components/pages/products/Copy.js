@@ -8,14 +8,14 @@ const connections = (
       solutions make it easy for you to install and change meters with ease.
     </p>
     <p>
-      Our connection systems are suitable for properties up to G25 for gas
+      Our connection systems are suitable for installations up to G25 for gas
       connections, Q3-25 for drinking water connections, and CW-label 6 for
       district heating connections. Whether you are building a new property or
       renovating an existing one, OCI's connection systems have got you covered.
     </p>
     <p>
       With OCI's Connection Systems, you can enjoy peace of mind knowing that
-      you have access to exceptional customer service and competitive pricing.
+      you have access to reliable customer service and competitive pricing.
       Plus, our innovative and sustainable solutions will help you save time and
       money in the long run.
     </p>
@@ -36,31 +36,32 @@ const fittings = (
 
     <p>
       We understand that finding the right fittings for your project can be
-      overwhelming. That's why we've made it easy for you to choose from our
-      extensive range of top-quality materials, including stainless steel,
-      carbon steel, brass, copper, and bronze. Our fittings are built to last,
-      ensuring that you have a reliable solution that meets your specific
+      challenging. That's why we've made it our mission to provide you with
+      top-quality options that are built to last. Our fittings are made from
+      materials such as stainless steel, carbon steel, brass, copper, and
+      bronze. This allows you to choose the perfect solution for your specific
       requirements.
     </p>
 
     <p>
-      We know that your time is valuable, which is why our fittings are not only
-      high-quality, but also easy to install and maintain. And if you need any
-      advice or support, our team of experts is always available to assist you.
+      At OCI, we believe that the installation and maintenance of fittings
+      should be as hassle-free as possible. That's why we've designed our
+      fittings to be not only high-quality, but also easy to install and
+      maintain. And if you have any questions or need advice, our team of
+      experts is always ready to help.
     </p>
 
     <p>
-      At OCI, we are committed to providing exceptional products and services to
-      our customers. Our focus on innovation and quality means that you can
-      trust us to deliver the best possible solutions for your project. And with
-      our cost-effective fittings, you can ensure the success of your project
-      without breaking the bank.
+      We're committed to delivering the best possible products and services to
+      our customers. With our focus on innovation and quality, you can trust us
+      to provide you with solutions that are both effective and cost-efficient.
+      And with our range of fittings, you can be confident that you're getting
+      the best possible products for your project.
     </p>
 
     <p>
-      Choose OCI for fittings that are tailored to your unique needs and
-      expectations, and experience the peace of mind that comes with working
-      with a reliable and knowledgeable partner.
+      Choose OCI for fittings that are tailored to your unique needs, and
+      discover why we're a trusted partner for so many customers.
     </p>
   </div>
 );
@@ -106,9 +107,9 @@ const piping = (
 
     <p>
       Our innovative piping systems are designed to make installation a breeze,
-      even for the most challenging spaces. Installers are raving about the ease
-      of installation, and our customers are experiencing enormous time savings
-      as a result.
+      even for the most challenging spaces. Installers and contractors are
+      raving about the ease of installation, and our customers are experiencing
+      enormous time savings as a result.
     </p>
 
     <p>
@@ -130,25 +131,27 @@ const piping = (
 const hoses = (
   <div className={styles.copy}>
     <p>
-      OCI's metal hoses are built to withstand even the toughest environments
-      and deliver outstanding performance. Whether you need them for underground
-      installations, crawl spaces, or measurement areas, our hoses will perform
-      under pressure.
+      Are you searching for a metal hose that can withstand even the toughest
+      applications? OCI has the solution you've been looking for.
+    </p>
+
+    <p>
+      Our metal hoses are specifically designed to deliver outstanding
+      performance, even in the most challenging environments. From underground
+      installations to crawl spaces and measurement areas, our hoses are built
+      to last and perform under pressure.
     </p>
 
     <p>
       With a wide range of connection options and pressure classes ranging from
-      300 mbar to 40 bar, our flexible hoses are designed to meet your unique
-      needs and requirements. The stainless steel braiding option provides
-      additional protection against abrasion, while the unbraided option is
-      ideal for applications where flexibility is key.
+      300 mbar to 40 bar, you can count on our hoses to deliver the performance
+      you need.
     </p>
-
     <p>
-      Choose OCI's metal hoses for your toughest applications and experience the
-      difference for yourself. With or without stainless steel braiding, our
-      hoses are designed to deliver outstanding performance, durability, and
-      flexibility.
+      But it's not just about the product. We're dedicated to your success and
+      committed to providing excellent service and support. Experience the
+      difference for yourself and choose OCI's metal hoses for even the toughest
+      applications.
     </p>
   </div>
 );
@@ -156,29 +159,31 @@ const hoses = (
 const plastics = (
   <div className={styles.copy}>
     <p>
-      Need help bringing your product ideas to life? OCI is the reliable partner
-      you can count on.
+      Looking for high-quality plastics and rubber products? OCI has got you
+      covered. Our product development power in plastics and rubber makes it
+      easy to turn your ideas into reality.
     </p>
 
     <p>
-      Our high-quality plastics and rubber products are crafted with the finest
-      materials and designed to meet your exact needs. From meter boards to
-      sealing plugs and seals, we offer a wide range of solutions to help you
-      achieve your goals.
+      From meter boards to sealing plugs and seals, we offer a wide range of
+      solutions to meet your needs. Our products are crafted with the highest
+      quality materials and are available in a variety of designs. With our
+      in-house production management and trusted partner network, you can rest
+      assured that your product will be delivered on time and to your exact
+      specifications.
     </p>
 
     <p>
-      With OCI, you can trust that your product will be delivered on time and to
-      your exact specifications. Our in-house production management and trusted
-      partner network ensure that you receive only the best products, backed by
-      our commitment to reliability and exceptional service.
+      We understand that reliability is key in your supply chain, which is why
+      we offer only the best products to ensure optimal end results. Our
+      plastics and rubber products are increasingly being used in the industry
+      and are proven to be reliable and durable.
     </p>
 
     <p>
-      Our plastics and rubber products are increasingly used in the industry and
-      are proven to be reliable, durable, and long-lasting. Partner with OCI for
+      Partner with OCI for your plastics and rubber needs and experience
       unparalleled product development expertise, exceptional quality, and
-      reliable supply chain solutions for all your plastics and rubber needs.
+      reliable supply chain solutions.
     </p>
   </div>
 );

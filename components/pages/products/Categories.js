@@ -91,7 +91,7 @@ export default function Categories() {
               <h3 className={styles.title}>Innovative designs</h3>
               <p className={styles.desc}>
                 Designed to perform in any environment. Engineered to withstand
-                extreme temperatures and pressures.
+                high temperatures and pressures.
               </p>
               <Dialog category="Valves" description={valves} />
             </div>
@@ -119,7 +119,7 @@ export default function Categories() {
               </h3>
               <p className={styles.desc}>
                 Save time and increase efficiency with gas and heat pipelines
-                optimized for challenging installation environments.
+                optimized for challenging installation applications.
               </p>
               <Dialog category="Piping systems" description={piping} />
             </div>
@@ -177,8 +177,8 @@ export default function Categories() {
               <h2 className={styles.eyebrow}>Plastics and rubber</h2>
               <h3 className={styles.title}>From idea to realized product</h3>
               <p className={styles.desc}>
-                Transform your ideas into reality with our end-to-end product
-                development expertise in plastics and rubber.
+                Transform your ideas into reality with our product development
+                power in plastics and rubber.
               </p>
               <Dialog category="Plastics and rubber" description={plastics} />
             </div>

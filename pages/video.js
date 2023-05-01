@@ -7,9 +7,8 @@ import Wrapper from "@/components/layout/Wrapper";
 import Flex from "@/components/layout/Flex";
 import Panel from "@/components/pages/home/Panel";
 import Copy from "@/components/layout/Copy";
-import products1 from "@/public/images/home/products-1.jpg";
-import products2 from "@/public/images/home/products-2.jpg";
-import products5 from "@/public/images/home/products-5.jpg";
+import products1 from "@/public/images/home/products-oci-1.jpg";
+import products2 from "@/public/images/home/products-oci-2.jpg";
 
 export default function Sustainability() {
   return (

@@ -27,6 +27,7 @@ export default function Player() {
             transition: "opacity 0.5s ease",
           }}
           onLoad={handleLoaded}
+          priority
         />
       )}
       <ReactPlayer

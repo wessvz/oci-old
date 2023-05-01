@@ -7,16 +7,19 @@ import Wrapper from "@/components/layout/Wrapper";
 import Flex from "@/components/layout/Flex";
 import Panel from "@/components/pages/home/Panel";
 import Copy from "@/components/layout/Copy";
-import products1 from "@/public/images/home/products-1.jpg";
-import products2 from "@/public/images/home/products-2.jpg";
-import products5 from "@/public/images/home/products-5.jpg";
+import products1 from "@/public/images/home/products-oci-1.jpg";
+import products2 from "@/public/images/home/products-oci-2.jpg";
+import products4 from "@/public/images/home/products-oci-4.jpg";
 
 export default function Sustainability() {
   return (
     <>
       <Head>
-        <title>OCI BV | Smart solutions for energy and water networks</title>
-        <meta name="description" content="Welkom bij OCI BV" />
+        <title>OCI | Smart solutions for energy and water networks</title>
+        <meta
+          name="description"
+          content="OCI specializes in custom assemblies. We create smart solutions for connecting energy and water grids in domestic homes, office buildings and industrial sites."
+        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -89,11 +92,10 @@ export default function Sustainability() {
           cta="Learn more"
           link="/about"
           label="Go to products"
-          image={products5}
+          image={products4}
           alt="voorbeeld"
           width={800}
           height={600}
-          order="reverse"
         />
       </Flex>
     </>

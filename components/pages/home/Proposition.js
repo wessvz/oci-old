@@ -4,7 +4,7 @@ import { Play } from "@/public/icons/General";
 import Item from "./Item";
 import Section from "@/components/layout/Section";
 import Title from "@/components/layout/Title";
-import overlay from "@/public/images/home/overlay-test-3.jpg";
+import overlay from "@/public/images/home/overlay.jpg";
 
 export default function Proposition() {
   return (

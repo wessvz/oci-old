@@ -11,19 +11,20 @@ import Panel from "@/components/pages/home/Panel";
 import Proposition from "@/components/pages/home/Proposition";
 import products1 from "@/public/images/home/products-oci-1.jpg";
 import products2 from "@/public/images/home/products-oci-2.jpg";
-import products3 from "@/public/images/home/products-3.jpg";
-import products4 from "@/public/images/home/products-4.jpg";
-import products5 from "@/public/images/home/products-5.jpg";
-import products6 from "@/public/images/home/products-6.jpg";
+import products3 from "@/public/images/home/products-oci-3.jpg";
+import products4 from "@/public/images/home/products-oci-4.jpg";
+
 import Hero from "@/components/video/Main";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>OCI BV | Smart solutions for energy and water networks</title>
-        <meta name="description" content="Welkom bij OCI BV" />
-
+        <title>OCI | Smart solutions for energy and water networks</title>
+        <meta
+          name="description"
+          content="OCI specializes in custom assemblies. We create smart solutions for connecting energy and water grids in domestic homes, office buildings and industrial sites."
+        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -59,7 +60,7 @@ export default function Home() {
             Customized assemblies
           </Title>
           <Copy style={2} width="normal">
-            Smart solutions for connecting energy and water grids to domestic
+            Smart solutions for connecting energy and water grids in domestic
             homes, office buildings and industrial sites.
           </Copy>
         </Wrapper>
@@ -73,19 +74,19 @@ export default function Home() {
           link="/products"
           label="Go to products"
           image={products1}
-          alt="voorbeeld"
+          alt="Ball valves, fittings and other products from product range of OCI."
           width={800}
           height={600}
         />
         <Panel
           eyebrow="Company"
           title="Guided by strong values"
-          copy="At OCI we exist to help our customers to work faster and smarter. Discover more about our values and how they shape everything we do."
+          copy="At OCI, we exist to help our customers to work faster and smarter. Discover more about our values and how they shape everything we do."
           cta="Read more about OCI"
           link="/about"
           label="Go to about OCI"
           image={products2}
-          alt="voorbeeld"
+          alt="Fitting, ball valve and rubber products from OCI."
           width={800}
           height={600}
           order="reverse"
@@ -108,13 +109,13 @@ export default function Home() {
       <Flex style={1}>
         <Panel
           eyebrow="People"
-          title="Diverse and inclusive workforce"
+          title="Social entrepreneurship"
           copy="OCI strives for a better society and believes that every person is equal. That is why we are proud to be a certified PSO 30+ company."
           cta="Learn more"
           link="/about"
           label="Go to products"
-          image={products5}
-          alt="voorbeeld"
+          image={products3}
+          alt="Metal hose, ball valve and other products from OCI BV."
           width={800}
           height={600}
           order="reverse"
@@ -126,10 +127,10 @@ export default function Home() {
           cta="Learn more"
           link="/about"
           label="Go to about OCI"
-          image={products6}
+          image={products4}
           width={800}
           height={600}
-          alt="voorbeeld"
+          alt="Ball valves and metal hose from the product range of OCI."
         />
       </Flex>
     </>

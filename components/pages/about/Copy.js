@@ -124,9 +124,9 @@ const environment = (
     <h3>Everyone is welcome</h3>
     <p>
       We work with wonderful people, each with their own story. People who have
-      experienced challenges in their lives and need support around
-      participation and reintegration. We believe that everyone has something
-      valuable to offer. Our goal is to help people reach their full potential.
+      experienced challenges in their lives. We believe that everyone has
+      something valuable to offer. Our goal is to help people reach their full
+      potential.
     </p>
     <h3>Certified PSO30+ Company</h3>
     <p>
@@ -145,11 +145,17 @@ const environment = (
     <h3>Carbon neutral since 2020</h3>
     <p>
       In our opinion businesses have a responsibility to be good stewards of
-      planet earth. We are proud to have achieved carbon neutrality since 2020
-      by producing more clean energy than we consume. However, we know that
-      there is more work to be done. Moving forward, we are focused on reducing
-      our carbon footprint even further and achieving carbon neutrality across
-      our entire supply chain by 2030.
+      planet earth. We are proud that we produce more clean energy than we
+      consume. However, we know that there is more work to be done. Moving
+      forward, we are focused on reducing our carbon footprint even further with
+      overall ambition to be carbon neutral for scope 1 and 2 by 2030.
+    </p>
+    <p>
+      Aligning with the Science Based Targets initiative’s requirements will
+      mean calibrating existing targets for scope 1 and 2, adding targets for
+      scope 3 and also developing a road map towards net zero emissions by 2050
+      at the latest, contributing to limiting global warming to below 1.5
+      degrees.
     </p>
   </div>
 );
@@ -157,10 +163,9 @@ const environment = (
 const innovation = (
   <div className={styles.copy}>
     <p className={styles.intro}>
-      Innovation is the cornerstone of progress, and it's never been more
-      important than it is today. With increasing pressure to reduce our carbon
-      footprint and find sustainable solutions for the future, the need for new
-      ideas and technologies has never been greater.
+      Innovation plays a crucial role in progress, especially in the current era
+      of increased pressure to reduce our carbon footprint and find sustainable
+      solutions.
     </p>
     <h3>A development company</h3>
     <p>
@@ -172,11 +177,11 @@ const innovation = (
     </p>
     <h3>Culture of innovation</h3>
     <p>
-      Innovation is not just a priority for us; it's a strategic investment. We
+      Innovation is not just a priority for us, it's a strategic investment. We
       have a dedicated R&D team that is focused on developing new products and
-      technologies to address the challenges of today and tomorrow. From
-      renewable energy to sustainable water solutions, we're constantly
-      exploring new and better ways to address the challenges of our industry.
+      technologies to address the challenges of today and tomorrow. From future
+      forms of energy to sustainable water solutions, we're constantly exploring
+      new and better ways to address the challenges of our industry.
     </p>
     <h3>Creating tailored solutions</h3>
     <p>
@@ -217,11 +222,11 @@ const quality = (
     <p>
       We understand that our suppliers are an integral part of our commitment to
       quality. To ensure that they meet our high standards, we test them in
-      several areas, including production facilities and material passports.
-      This thorough process guarantees that we only work with suppliers who
-      provide quality products and services. We believe that by maintaining
-      strict supplier quality control, we can deliver the highest quality
-      products to our customers.
+      several areas, including production facilities and certificates. This
+      thorough process guarantees that we only work with suppliers who provide
+      quality products and services. We believe that by maintaining strict
+      supplier quality control, we can deliver the highest quality products to
+      our customers.
     </p>
     <h3>Striving for Perfection</h3>
     <p>

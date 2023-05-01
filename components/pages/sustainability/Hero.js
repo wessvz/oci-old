@@ -1,6 +1,6 @@
 import styles from "./Hero.module.css";
 import Image from "next/image";
-import oci from "@/public/images/about/oci-malden-achtergrond.jpg";
+import oci from "@/public/images/sustainability/hero-sustainability.jpg";
 
 export default function Main() {
   return (

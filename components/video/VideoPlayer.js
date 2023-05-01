@@ -22,10 +22,6 @@ export default function Player() {
           alt="Voorbeeld"
           src={oci}
           className={styles.image}
-          style={{
-            opacity: loading ? 1 : 0,
-            transition: "opacity 0.5s ease",
-          }}
           onLoad={handleLoaded}
           priority
         />
@@ -42,8 +38,10 @@ export default function Player() {
         className={styles.player}
         style={{
           opacity: loading ? 0 : 1,
-          transition: "opacity 0.5s ease",
+          transition: "opacity 1s ease",
           objectFit: "cover",
+          position: "absolute",
+          zIndex: 1,
         }}
       />
     </div>

@@ -16,7 +16,7 @@ export default function Headline() {
         <Description
           copy="We believe that sustainability, innovation and quality are critical
           components of our customers' success. That's why we are committed to
-          providing the energy and water industry with outstanding products and
+          providing the energy and water industry with impressive products and
           solutions."
         />
       </div>

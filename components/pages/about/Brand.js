@@ -15,7 +15,7 @@ export default function Brand() {
               Our mission is to simplify and streamline the work of our users.
             </h3>
             <Modal
-              headline="We empower our users by simplifying and streamlining their work."
+              headline="We simplify and streamline your work."
               copy={mission}
               className="brand"
             />

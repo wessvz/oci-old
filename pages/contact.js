@@ -8,7 +8,6 @@ import { Phone, Envelope } from "@/public/icons/General";
 import logo from "@/public/images/oci-dark.svg";
 import productPlaceholder1 from "@/public/images/about/product-placeholder.webp";
 import productPlaceholder6 from "@/public/images/about/product-placeholder-6.webp";
-import oci from "@/public/images/about/oci-malden.jpg";
 import Headline from "@/components/pages/contact/Headline";
 import Container from "@/components/layout/Container";
 

@@ -5,11 +5,12 @@ import Title from "@/components/layout/Title";
 import Eyebrow from "@/components/layout/Eyebrow";
 import Wrapper from "@/components/layout/Wrapper";
 import Flex from "@/components/layout/Flex";
-import Panel from "@/components/pages/home/Panel";
+import Panel from "@/components/pages/sustainability/Panel";
+import Cta from "@/components/pages/sustainability/Cta";
 import Copy from "@/components/layout/Copy";
-import products1 from "@/public/images/home/products-oci-1.jpg";
-import products2 from "@/public/images/home/products-oci-2.jpg";
-import products4 from "@/public/images/home/products-oci-4.jpg";
+import valley from "@/public/images/sustainability/valley-amsterdam.jpg";
+import almere from "@/public/images/sustainability/district-heating-almere.jpg";
+import family from "@/public/images/sustainability/family.jpg";
 
 export default function Sustainability() {
   return (
@@ -67,36 +68,37 @@ export default function Sustainability() {
           cta="Explore solutions"
           link="/products"
           label="Go to products"
-          image={products1}
+          image={valley}
           alt="voorbeeld"
           width={800}
           height={600}
         />
         <Panel
-          eyebrow="Company"
+          eyebrow="Operations"
           title="Guided by strong values"
           copy="At OCI we exist to help our customers to work faster and smarter. Discover more about our values and how they shape everything we do."
           cta="Read more about OCI"
           link="/about"
           label="Go to about OCI"
-          image={products2}
+          image={family}
           alt="voorbeeld"
           width={800}
           height={600}
           order="reverse"
         />
         <Panel
-          eyebrow="People"
+          eyebrow="Suppliers"
           title="Diverse and inclusive workforce"
           copy="OCI strives for a better society and believes that every person is equal. That is why we are proud to be a certified PSO 30+ company."
           cta="Learn more"
           link="/about"
           label="Go to products"
-          image={products4}
+          image={almere}
           alt="voorbeeld"
           width={800}
           height={600}
         />
+        <Cta />
       </Flex>
     </>
   );

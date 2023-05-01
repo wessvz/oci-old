@@ -47,7 +47,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--overlayMain);
+  background-color: #000f1e6f;
+  z-index: 2;
 }
 
 .wrapper {

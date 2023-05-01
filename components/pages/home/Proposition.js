@@ -5,6 +5,7 @@ import Item from "./Item";
 import Section from "@/components/layout/Section";
 import Title from "@/components/layout/Title";
 import overlay from "@/public/images/home/overlay.jpg";
+import VideoDialog from "./VideoDialog";
 
 export default function Proposition() {
   return (
@@ -34,7 +35,7 @@ export default function Proposition() {
             <Image alt="Voorbeeld" src={overlay} className={styles.image} />
             <div className={styles.overlay}></div>
             <div className={styles.play}>
-              <Play />
+              <VideoDialog />
             </div>
           </div>
         </div>

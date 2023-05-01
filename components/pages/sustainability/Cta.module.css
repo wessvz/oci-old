@@ -1,0 +1,12 @@
+.container {
+  max-width: var(--pageWidth);
+  margin: 0 auto;
+  padding: var(--height) var(--width) var(--height) var(--width);
+  text-align: center;
+}
+
+.desc {
+  margin: 0 auto;
+  max-width: 600px;
+  margin-bottom: 32px;
+}

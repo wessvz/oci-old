@@ -4,6 +4,7 @@ import styles from "./Player.module.css";
 import useMediaQuery from "@/lib/hooks/useMediaQuery";
 import Image from "next/image";
 import machine from "../../public/images/voorbeeld-5.jpg";
+import placeholder from "../../public/images/home/placeholder.jpg";
 
 const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 
@@ -20,7 +21,7 @@ export default function Player() {
       {loading && (
         <Image
           alt="Voorbeeld"
-          src={machine}
+          src={placeholder}
           className={styles.image}
           style={{
             opacity: loading ? 1 : 0,

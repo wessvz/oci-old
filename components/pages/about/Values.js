@@ -1,11 +1,9 @@
 import Card from "./Card";
 import styles from "./Values.module.css";
 import { environment, innovation, quality } from "./Copy";
-import environmentValue from "@/public/images/about/enviroment-value.jpg";
-import innovationValue from "@/public/images/about/innovation-value.jpg";
 import valueQuality from "@/public/images/about/value-quality.jpg";
 import valueEnvironment from "@/public/images/about/value-environment.jpg";
-import valueInnovation from "@/public/images/about/value-innovation.jpg";
+import valueInnovation from "@/public/images/about/value-innovatie.jpg";
 import Title from "../../shared/Title";
 import Description from "../../shared/Description";
 

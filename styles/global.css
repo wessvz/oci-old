@@ -113,14 +113,6 @@ body {
   min-height: 100vh;
 }
 
-html {
-  scrollbar-width: none;
-}
-
-body::-webkit-scrollbar {
-  display: none;
-}
-
 .main {
   overflow: hidden;
 }

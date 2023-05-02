@@ -1,11 +1,9 @@
 import styles from "./Proposition.module.css";
-import Image from "next/image";
-import { Play } from "@/public/icons/General";
 import Item from "./Item";
 import Section from "@/components/layout/Section";
 import Title from "@/components/layout/Title";
+import Company from "@/components/video/Company";
 import overlay from "@/public/images/home/overlay.jpg";
-import TourVideo from "@/components/video/VideoTour";
 
 export default function Proposition() {
   return (
@@ -32,11 +30,7 @@ export default function Proposition() {
         </div>
         <div className={styles.video}>
           <div className={styles.pictureWrapper}>
-            <Image alt="Voorbeeld" src={overlay} className={styles.image} />
-            <div className={styles.overlay}></div>
-            <div className={styles.play}>
-              <TourVideo />
-            </div>
+            <Company image={overlay} player="home" style="radius" />
           </div>
         </div>
       </div>

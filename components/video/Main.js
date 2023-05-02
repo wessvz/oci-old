@@ -11,7 +11,9 @@ export default function Main() {
       </div>
       <div className={styles.contentContainer}>
         <div className={styles.content}>
-          <h1 className={styles.title}>Working together on smart solutions</h1>
+          <h1 className={styles.title}>
+            Working together on smart energy solutions
+          </h1>
           <p className={styles.subtitle}>
             Innovative and sustainable thinking is the driving force behind
             OCI's production and development

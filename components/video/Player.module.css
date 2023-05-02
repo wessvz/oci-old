@@ -7,6 +7,20 @@
   display: block;
 }
 
+.image {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.5s ease 0.5s;
+}
+
 .player video {
   background: transparent;
   object-fit: cover;
@@ -14,12 +28,5 @@
   top: 0;
   left: 0;
   height: 100%;
-  width: 100%;
-}
-
-.image {
-  display: block;
-  height: 100%;
-  object-fit: cover;
   width: 100%;
 }

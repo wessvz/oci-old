@@ -132,7 +132,7 @@ const hoses = (
   <div className={styles.copy}>
     <p>
       Are you searching for a metal hose that can withstand even the toughest
-      applications? OCI has the solution you've been looking for.
+      applications? OCI is the reliable partner you can count on.
     </p>
 
     <p>

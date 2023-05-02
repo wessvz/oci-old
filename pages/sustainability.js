@@ -49,7 +49,7 @@ export default function Sustainability() {
       </Head>
       <Hero />
       <Section style={1}>
-        <Wrapper style={2}>
+        <Wrapper style={2} space="medium">
           <Eyebrow style={1}>Sustainability</Eyebrow>
           <Title style={1} width="home">
             Innovation at every step
@@ -64,7 +64,7 @@ export default function Sustainability() {
         <Panel
           eyebrow="Company"
           title="Closer to carbon neutral"
-          copy="We are proud that we produce more clean energy than we consume. However, we know that there is more work to be done"
+          copy="We are proud that we produce more clean energy than we consume. However, we know that there is more work to be done."
           cta="Explore solutions"
           link="/products"
           label="Go to products"
@@ -89,7 +89,7 @@ export default function Sustainability() {
         <Panel
           eyebrow="Operations"
           title="Clean energy  is no longer optional"
-          copy="OCI strives for a better society and believes that every person is equal. That is why we are proud to be a certified PSO 30+ company."
+          copy="Success is not about being the best, it's about always getting better. At OCI, we take this to heart and strive to improve every day."
           cta="Learn more"
           link="/about"
           label="Go to products"

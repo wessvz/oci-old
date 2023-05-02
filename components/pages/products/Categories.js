@@ -25,7 +25,7 @@ export default function Categories() {
       <div className={styles.top}>
         <section className={styles.connection}>
           <div className={styles.copyColumn}>
-            <div className={styles.copyWrapper}>
+            <div className={`${styles.copyWrapper} ${styles.extraPadding}`}>
               <h2 className={styles.eyebrow}>Connection systems</h2>
               <h3 className={styles.title}>Install meters without effort</h3>
               <p className={styles.desc}>
@@ -112,7 +112,7 @@ export default function Categories() {
       <div className={styles.bottom}>
         <section className={styles.piping}>
           <div className={styles.copyColumn}>
-            <div className={styles.copyWrapper}>
+            <div className={`${styles.copyWrapper} ${styles.extraPadding}`}>
               <h2 className={styles.eyebrow}>Piping systems</h2>
               <h3 className={styles.title}>
                 Flexibility as the guiding principle

@@ -1,12 +1,17 @@
 import styles from "./Main.module.css";
 import Player from "./Player";
 import LargeButton from "../button/LargeButton";
+import imageDesktop from "@/public/images/home/placeholder.jpg";
 
 export default function Main() {
   return (
     <section className={styles.container}>
       <div className={styles.mediaContainer}>
-        <Player />
+        <Player
+          imageDesktop={imageDesktop}
+          videoMobile="/video/home-mobile.mp4"
+          videoDesktop="/video/home-desktop.mp4"
+        />
         <div className={styles.overlay}></div>
       </div>
       <div className={styles.contentContainer}>

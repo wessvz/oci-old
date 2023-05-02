@@ -3,12 +3,15 @@ import dynamic from "next/dynamic";
 import styles from "./Player.module.css";
 import useMediaQuery from "@/lib/hooks/useMediaQuery";
 import Image from "next/image";
-import machine from "../../public/images/voorbeeld-5.jpg";
-import placeholder from "../../public/images/home/placeholder.jpg";
 
 const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 
-export default function Player() {
+export default function Player({
+  videoMobile,
+  videoDesktop,
+  imageDesktop,
+  imageMobile,
+}) {
   const isMobile = useMediaQuery("(max-width: 768px)");
   const [videoLoaded, setVideoLoaded] = useState(false);
 
@@ -16,17 +19,15 @@ export default function Player() {
     setVideoLoaded(true);
   };
 
+  const imageUrl = isMobile ? imageMobile : imageDesktop;
+  const videoUrl = isMobile ? videoMobile : videoDesktop;
+
   return (
     <div className={styles.videoContainer}>
-      <Image
-        alt="Voorbeeld"
-        src={placeholder}
-        className={styles.image}
-        priority
-      />
+      <Image alt="Voorbeeld" src={imageUrl} className={styles.image} priority />
 
       <ReactPlayer
-        url={isMobile ? "./video/home-mobile.mp4" : "./video/home-desktop.mp4"}
+        url={videoUrl}
         playing={videoLoaded}
         playsinline="true"
         muted={true}

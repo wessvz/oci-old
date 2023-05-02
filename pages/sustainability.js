@@ -62,9 +62,9 @@ export default function Sustainability() {
       </Section>
       <Flex style={1}>
         <Panel
-          eyebrow="Products"
-          title="Designed to perform"
-          copy="Connect and optimize energy and water systems with our trusted products. Integrated in almost every home connection in the Netherlands."
+          eyebrow="Company"
+          title="Closer to carbon neutral"
+          copy="We are proud that we produce more clean energy than we consume. However, we know that there is more work to be done"
           cta="Explore solutions"
           link="/products"
           label="Go to products"
@@ -74,9 +74,9 @@ export default function Sustainability() {
           height={600}
         />
         <Panel
-          eyebrow="Operations"
-          title="Guided by strong values"
-          copy="At OCI we exist to help our customers to work faster and smarter. Discover more about our values and how they shape everything we do."
+          eyebrow="Indutrade"
+          title="A plan designed for progress"
+          copy="As part of the internation business group Industrade, we have a shared ambition to be carbon neutral for scope 1 and 2 by 2030. Together we are developing a road map towards net zero emissions by 2050 at the latest."
           cta="Read more about OCI"
           link="/about"
           label="Go to about OCI"
@@ -87,8 +87,8 @@ export default function Sustainability() {
           order="reverse"
         />
         <Panel
-          eyebrow="Suppliers"
-          title="Diverse and inclusive workforce"
+          eyebrow="Operations"
+          title="Clean energy  is no longer optional"
           copy="OCI strives for a better society and believes that every person is equal. That is why we are proud to be a certified PSO 30+ company."
           cta="Learn more"
           link="/about"

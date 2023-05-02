@@ -3,6 +3,7 @@ import Image from "next/image";
 import device from "@/public/images/device.png";
 import film from "@/public/images/about/film-start.jpg";
 import Title from "../../shared/Title";
+import TourVideo from "@/components/video/VideoTour";
 
 export default function Film() {
   return (
@@ -19,6 +20,9 @@ export default function Film() {
           <picture className={styles.frame}>
             <Image alt="OCI" src={film} className={styles.img} />
           </picture>
+          <div className={styles.play}>
+            <TourVideo />
+          </div>
         </div>
       </div>
     </section>

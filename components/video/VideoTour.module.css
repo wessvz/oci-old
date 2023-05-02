@@ -1,0 +1,116 @@
+.button {
+  background-color: transparent;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+}
+
+.DialogOverlay {
+  background: var(--overlayMain);
+  backdrop-filter: blur(2px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  place-items: center;
+  overflow-y: auto;
+  z-index: 8;
+}
+
+.DialogContent {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  max-width: 1260px;
+  z-index: 9;
+}
+
+@media (min-width: 768px) {
+  .DialogContent {
+    width: 90vw;
+    margin: 80px 0px;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .modalWrapper {
+    overflow: hidden;
+  }
+}
+
+.DialogContent:focus {
+  outline: none;
+}
+
+.close {
+  position: absolute;
+  top: 24px;
+  left: 12px;
+  background-color: transparent;
+  padding: 0px;
+  opacity: 0;
+  animation: fadeIn 0.3s ease-in-out 0.8s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .close {
+    left: 32px;
+  }
+}
+
+.iconWrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+}
+
+@media (min-width: 768px) {
+  .iconWrapper {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.icon {
+  position: absolute;
+  color: var(--white);
+}
+
+.wrapper {
+  position: relative;
+  z-index: 1;
+  padding: 0 40px;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding: 0 112px;
+  }
+}
+
+@media (min-width: 768px) {
+  .modalCopy {
+    padding: 80px;
+  }
+}

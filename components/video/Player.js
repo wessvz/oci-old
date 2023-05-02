@@ -28,6 +28,7 @@ export default function Player() {
       <ReactPlayer
         url={isMobile ? "./video/home-mobile.mp4" : "./video/home-desktop.mp4"}
         playing={videoLoaded}
+        playsinline="true"
         muted={true}
         loop={true}
         width="100%"

@@ -1,13 +1,15 @@
 import styles from "./Main.module.css";
 import Player from "./Player";
 import LargeButton from "../button/LargeButton";
-import imageDesktop from "@/public/images/home/placeholder.jpg";
+import imageMobile from "@/public/images/home/placeholder-mobile.jpg";
+import imageDesktop from "@/public/images/home/placeholder-desktop.jpg";
 
 export default function Main() {
   return (
     <section className={styles.container}>
       <div className={styles.mediaContainer}>
         <Player
+          imageMobile={imageMobile}
           imageDesktop={imageDesktop}
           videoMobile="/video/home-mobile.mp4"
           videoDesktop="/video/home-desktop.mp4"

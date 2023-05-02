@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 
-export default function Company({ image, style, player }) {
+export default function Company({ image, style, player, width, height }) {
   return (
     <ReactPlayer
       url="./video/tourvideo.mp4"
@@ -39,6 +39,8 @@ export default function Company({ image, style, player }) {
           <Image
             src={image}
             alt="Placeholder Company Video of OCI"
+            width={width}
+            height={height}
             className={styles[style]}
           />
         </div>

@@ -30,7 +30,13 @@ export default function Proposition() {
         </div>
         <div className={styles.video}>
           <div className={styles.pictureWrapper}>
-            <Company image={overlay} player="home" style="radius" />
+            <Company
+              image={overlay}
+              player="home"
+              style="radius"
+              width={640}
+              height={408}
+            />
           </div>
         </div>
       </div>

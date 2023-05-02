@@ -18,7 +18,13 @@ export default function Film() {
         </div>
         <div className={styles.filmWrapper}>
           <picture className={styles.frame}>
-            <Company image={film} player="about" style="default" />
+            <Company
+              image={film}
+              player="about"
+              style="default"
+              width={2000}
+              height={616}
+            />
           </picture>
         </div>
       </div>

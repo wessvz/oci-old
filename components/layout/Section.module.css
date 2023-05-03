@@ -17,6 +17,10 @@
   background-color: var(--primaryDark);
 }
 
+.white {
+  background-color: var(--white);
+}
+
 .prop {
   padding: var(--height) var(--pageMargin);
 }
@@ -24,4 +28,17 @@
 .resources {
   composes: container;
   max-width: 800px;
+}
+
+.brand {
+  composes: container;
+  max-width: 480px;
+  padding: 80px 0px 112px 0px;
+}
+
+@media (min-width: 668px) {
+  .brand {
+    max-width: var(--layoutWidth);
+    padding: 112px 0px 224px 0px;
+  }
 }

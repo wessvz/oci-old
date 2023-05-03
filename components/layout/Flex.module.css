@@ -32,3 +32,24 @@
     width: 100%;
   }
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 18px;
+  align-items: center;
+  max-width: 560px;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+  }
+}

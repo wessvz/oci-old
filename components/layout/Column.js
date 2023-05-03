@@ -8,6 +8,12 @@ export default function Column({ style, children, order }) {
       );
     case "image":
       return <div className={styles.image}>{children}</div>;
+    case "card":
+      return (
+        <div className={styles.card}>
+          <div className={styles.wrapper}>{children}</div>
+        </div>
+      );
     default:
       throw Error("Unknown level: " + style);
   }

@@ -6,6 +6,8 @@ export default function Flex({ style, children }) {
       return <div className={styles.default}>{children}</div>;
     case 2:
       return <div className={styles.panel}>{children}</div>;
+    case 3:
+      return <div className={styles.card}>{children}</div>;
     default:
       throw Error("Unknown level: " + style);
   }

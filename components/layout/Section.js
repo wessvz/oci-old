@@ -34,6 +34,14 @@ export default function Section({ style, children }) {
           </div>
         </section>
       );
+    case 5:
+      return (
+        <section className={styles.white}>
+          <div className={styles.brand}>
+            <div className={styles.panel}>{children}</div>
+          </div>
+        </section>
+      );
     default:
       throw Error("Unknown level: " + style);
   }

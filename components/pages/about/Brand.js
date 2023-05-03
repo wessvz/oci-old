@@ -1,12 +1,12 @@
 import Image from "next/image";
-import styles from "./Mission.module.css";
+import styles from "./Brand.module.css";
 import Section from "@/components/layout/Section";
 import Modal from "./ModalBrand";
-import { mission, goal } from "./Copy";
 import products from "@/public/images/about/oci-products.jpg";
 import innovation from "@/public/images/about/products-big-2.jpg";
+import { mission, goal } from "./Copy";
 
-export default function Goal() {
+export default function Brand() {
   return (
     <Section style={5}>
       <div className={styles.flex}>

@@ -1,10 +1,9 @@
-import styles from "../styles/About.module.css";
 import Head from "next/head";
 import Hero from "../components/pages/about/Hero";
 import Film from "@/components/pages/about/Film";
 import Values from "@/components/pages/about/Values";
 import Headline from "@/components/pages/about/Headline";
-import Brand from "@/components/pages/about/Mission";
+import Brand from "@/components/pages/about/Brand";
 
 export default function AboutPage() {
   return (

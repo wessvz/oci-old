@@ -1,6 +1,6 @@
 import styles from "./Hero.module.css";
 import Image from "next/image";
-import oci from "@/public/images/contact/oci-productie.jpg";
+import oci from "@/public/images/contact/sustainable-living.jpg";
 
 export default function Main() {
   return (
@@ -8,7 +8,13 @@ export default function Main() {
       <div className={styles.imageWrapper}>
         <div className={styles.view}>
           <div className={styles.imageContainer}>
-            <Image alt="Voorbeeld" src={oci} className={styles.image} />
+            <Image
+              alt="Sustainable building"
+              src={oci}
+              className={styles.image}
+              width={1920}
+              height={560}
+            />
             <div className={styles.overlay}></div>
           </div>
         </div>

@@ -28,7 +28,7 @@ export default function Player({
 
       <ReactPlayer
         url={videoUrl}
-        playing={videoLoaded}
+        playing={true}
         playsinline="true"
         muted={true}
         loop={true}

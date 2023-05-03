@@ -1,7 +1,7 @@
 import { useState } from "react";
 import dynamic from "next/dynamic";
 import styles from "./Player.module.css";
-import useMediaQuery from "@/lib/hooks/useMediaQuery";
+import useWindowSize from "@/lib/hooks/useWindowSize";
 import Image from "next/image";
 
 const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
@@ -12,7 +12,7 @@ export default function Player({
   imageDesktop,
   imageMobile,
 }) {
-  const isMobile = useMediaQuery("(max-width: 768px)");
+  const { isMobile } = useWindowSize();
   const [videoLoaded, setVideoLoaded] = useState(false);
 
   const handleLoaded = () => {

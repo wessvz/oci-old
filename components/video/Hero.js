@@ -1,6 +1,6 @@
 import styles from "./Hero.module.css";
 import Player from "./Player";
-import placeholderMobile from "@/public/images/products/placeholder-mobile-products.jpg";
+import placeholderMobile from "@/public/images/products/placeholder-mobile.jpg";
 import placeholderDesktop from "@/public/images/products/placeholder-desktop.jpg";
 
 export default function Hero() {

@@ -34,7 +34,7 @@ export default function Company({ image, style, player, width, height }) {
         </button>
       }
       light={
-        <div>
+        <div className={styles.wrapper}>
           <div className={styles.overlay}></div>
           <Image
             src={image}

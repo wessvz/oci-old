@@ -76,7 +76,7 @@ export default function Sustainability() {
         <Panel
           eyebrow="Indutrade"
           title="A plan designed for progress"
-          copy="As part of the internation business group Industrade, we have a shared ambition to be carbon neutral for scope 1 and 2 by 2030. Together we are developing a road map towards net zero emissions by 2050 at the latest."
+          copy="As part of the internation business group Indutrade, we have a shared ambition to be carbon neutral for scope 1 and 2 by 2030. Together we are developing a road map towards net zero emissions by 2050 at the latest."
           cta="Read more about OCI"
           link="/about"
           label="Go to about OCI"

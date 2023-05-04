@@ -39,6 +39,8 @@ export default function Company({ image, style, player, width, height }) {
           <Image
             src={image}
             alt="Placeholder Company Video of OCI"
+            width={width}
+            height={height}
             className={styles[style]}
           />
         </div>

@@ -21,11 +21,13 @@
 }
 
 .default {
+  height: auto;
   width: 100%;
   margin: 0 auto;
 }
 
 .radius {
+  height: auto;
   width: 100%;
   margin: 0 auto;
   border-radius: 8px;

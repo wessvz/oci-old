@@ -10,6 +10,10 @@ export default function Wrapper({ style, children, space }) {
           {children}
         </div>
       );
+    case 3:
+      return <div className={styles.accordion}>{children}</div>;
+    case 4:
+      return <div className={styles.resources}>{children}</div>;
     default:
       throw Error("Unknown level: " + style);
   }

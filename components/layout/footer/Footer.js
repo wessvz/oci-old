@@ -34,10 +34,7 @@ export default function Footer() {
                   <Link href="/terms">Terms & Conditions</Link>
                 </li>
                 <li>
-                  <Link href="/privacy">Privacy Statement</Link>
-                </li>
-                <li>
-                  <Link href="/cookies">Cookie Policy</Link>
+                  <Link href="/privacy">Privacy & Cookies</Link>
                 </li>
               </ul>
             </li>

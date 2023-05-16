@@ -26,6 +26,10 @@ export default function Title({ style, children, width, size, color }) {
           {children}
         </h3>
       );
+    case 4:
+      return <h2 className={styles.resources}>{children}</h2>;
+    case 5:
+      return <h3 className={styles.sub}>{children}</h3>;
     default:
       throw Error("Unknown level: " + style);
   }

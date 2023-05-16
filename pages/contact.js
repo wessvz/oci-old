@@ -5,11 +5,13 @@ import Hero from "../components/pages/contact/Hero";
 import ContactForm from "@/components/pages/contact/ContactForm";
 import Item from "@/components/pages/contact/Item";
 import { Phone, Envelope } from "@/public/icons/General";
-import logo from "@/public/images/oci-dark.svg";
+import logo from "@/public/images/logo-oci-dark.svg";
 import productPlaceholder1 from "@/public/images/about/product-placeholder.webp";
 import productPlaceholder6 from "@/public/images/about/product-placeholder-6.webp";
 import Headline from "@/components/pages/contact/Headline";
 import Container from "@/components/layout/Container";
+import products1 from "@/public/images/home/products-oci-1.jpg";
+import products2 from "@/public/images/home/products-oci-2.jpg";
 
 export default function ContactPage() {
   return (
@@ -66,7 +68,7 @@ export default function ContactPage() {
               <div className={styles.imageWrapper}>
                 <Image
                   alt="OCI BV, De Hoge Brug 14, 6581 AJ Malden"
-                  src={productPlaceholder6}
+                  src={products1}
                   className={styles.image}
                 />
                 <div className={styles.overlay}></div>
@@ -79,7 +81,7 @@ export default function ContactPage() {
               <div className={styles.imageWrapper}>
                 <Image
                   alt="OCI BV, De Hoge Brug 14, 6581 AJ Malden"
-                  src={productPlaceholder1}
+                  src={products2}
                   className={styles.image}
                 />
                 <div className={styles.overlay}></div>

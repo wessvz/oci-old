@@ -7,7 +7,7 @@ import Title from "@/components/layout/Title";
 import Wrapper from "@/components/layout/Wrapper";
 import Accordion from "@/components/pages/resources/TermsAccordion";
 
-export default function Home() {
+export default function Terms() {
   return (
     <>
       <Head>
@@ -45,17 +45,16 @@ export default function Home() {
 
       <Section style={4}>
         <Wrapper style={1}>
-          <Title style={2}>Introduction</Title>
+          <Title style={4}>Introduction</Title>
           <Copy style={1}>
             These general terms and conditions were filed with the Chamber of
             Commerce on October 31, 2019 and apply to the sales and deliveries
             of OCI B.V.
           </Copy>
         </Wrapper>
-      </Section>
-      <Section style={4}>
-        <Wrapper style={1}></Wrapper>
-        <Accordion />
+        <Wrapper style={3}>
+          <Accordion />
+        </Wrapper>
       </Section>
     </>
   );

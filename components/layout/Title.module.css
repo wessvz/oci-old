@@ -56,3 +56,12 @@
 .light {
   color: var(--white);
 }
+
+.resources {
+  font-size: 40px;
+}
+
+.sub {
+  composes: title;
+  font-size: 28px;
+}

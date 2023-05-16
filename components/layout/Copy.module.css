@@ -17,6 +17,14 @@
   }
 }
 
+.description a {
+  color: var(--primaryRed);
+}
+
+.description a:hover {
+  text-decoration: underline;
+}
+
 .intro {
   composes: text;
   font-size: 20px;

@@ -30,7 +30,7 @@ export default function Section({ style, children }) {
       return (
         <section className={styles.default}>
           <div className={styles.resources}>
-            <div className={styles.prop}>{children}</div>
+            <div className={styles.padding}>{children}</div>
           </div>
         </section>
       );

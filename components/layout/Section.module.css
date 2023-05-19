@@ -22,7 +22,7 @@
 }
 
 .prop {
-  padding: 56px 48px;
+  padding: var(--height) var(--pageMargin);
 }
 
 .resources {
@@ -31,6 +31,10 @@
   background-color: var(--white);
   border-radius: 18px;
   margin: 96px auto;
+}
+
+.padding {
+  padding: 56px 48px;
 }
 
 .brand {

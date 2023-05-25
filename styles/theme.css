@@ -45,8 +45,8 @@
 }
 
 :root {
-  --width: 16px;
   --height: 56px;
+  --width: 16px;
   --layoutWidth: 1320px;
   --sectionHeight: 80px;
   --pageMin: 16px;

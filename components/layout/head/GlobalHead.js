@@ -1,6 +1,13 @@
 import Head from "next/head";
 
-export default function GlobalHead({ title, description, keywords }) {
+export default function GlobalHead({
+  title,
+  description,
+  keywords,
+  type = "WebPage",
+  name,
+  url,
+}) {
   return (
     <Head>
       <title>{title}</title>
@@ -39,15 +46,15 @@ export default function GlobalHead({ title, description, keywords }) {
         property="og:image"
         content="https://www.ocibv.nl/images/og-image-oci.webp"
       />
-      <meta property="og:url" content="https://www.ocibv.nl" />
+      <meta property="og:url" content={url} />
       <meta property="og:type" content="website" />
 
       <script type="application/ld+json">
         {JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "Organization",
-          name: "OCI BV",
-          url: "https://www.ocibv.nl",
+          "@type": type,
+          name: name,
+          url: url,
           logo: "https://www.ocibv.nl/images/logo-oci-dark.svg",
         })}
       </script>

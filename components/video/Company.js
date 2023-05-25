@@ -18,7 +18,7 @@ export default function Company({ image, style, player, width, height }) {
         objectFit: "cover",
       }}
       playIcon={
-        <button className={styles.play}>
+        <button className={styles.play} type="button" aria-label="play video">
           <svg
             width="240"
             height="240"

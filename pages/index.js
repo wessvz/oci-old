@@ -20,6 +20,9 @@ export default function Home() {
         title="OCI | Smart solutions for energy and water networks"
         description="OCI specializes in custom assemblies. We create smart solutions for connecting energy and water grids in domestic homes, office buildings, and industrial sites."
         keywords="OCI, smart solutions, energy networks, water networks"
+        type="Organization"
+        name="OCI BV"
+        url="https://www.ocibv.nl/"
       />
       <Hero />
       <Section style={1}>
@@ -43,7 +46,7 @@ export default function Home() {
           link="/products"
           label="Go to products"
           image={products1}
-          alt="Ball valves, fittings and other products from product range of OCI."
+          alt="OCI - Ball valves, fittings and other products."
           width={800}
           height={600}
         />
@@ -55,7 +58,7 @@ export default function Home() {
           link="/about"
           label="Go to about OCI"
           image={products2}
-          alt="Fitting, ball valve and rubber products from OCI."
+          alt="OCI - Fitting, ball valve and rubber products."
           width={800}
           height={600}
           order="reverse"
@@ -79,11 +82,11 @@ export default function Home() {
           eyebrow="People"
           title="Social entrepreneurship"
           copy="OCI strives for a better society and believes that every person is equal. That is why we are proud to be a certified PSO 30+ company."
-          cta="Learn more"
+          cta="Find out what drives us"
           link="/about"
-          label="Go to products"
+          label="Learn about our values"
           image={products3}
-          alt="Metal hose, ball valve and other products from OCI BV."
+          alt="OCI - Metal hose, ball valve and other products"
           width={800}
           height={600}
           order="reverse"
@@ -93,12 +96,12 @@ export default function Home() {
           title="Together we create change"
           copy="The transition to sustainability will inevitably impact all of our clients and partners. We are dedicated to providing support and guidance to navigate this transformative period."
           cta="Learn more"
-          link="/about"
-          label="Go to about OCI"
+          link="/sustainability"
+          label="Go to sustainability"
           image={products4}
           width={800}
           height={600}
-          alt="Ball valves and metal hose from the product range of OCI."
+          alt="OCI - Ball valves and metal hose from the product range of OCI BV."
         />
       </Flex>
     </>

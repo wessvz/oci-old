@@ -1,6 +1,5 @@
-import styles from "../styles/Home.module.css";
-import Head from "next/head";
-import Main from "../components/hero/Main";
+import GlobalHead from "@/components/layout/head/GlobalHead";
+import Hero from "@/components/video/Main";
 import Section from "@/components/layout/Section";
 import Copy from "@/components/layout/Copy";
 import Title from "@/components/layout/Title";
@@ -14,45 +13,15 @@ import products2 from "@/public/images/home/products-oci-2.jpg";
 import products3 from "@/public/images/home/products-oci-3.jpg";
 import products4 from "@/public/images/home/products-oci-4.jpg";
 
-import Hero from "@/components/video/Main";
-
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>OCI | Smart solutions for energy and water networks</title>
-        <meta
-          name="description"
-          content="OCI specializes in custom assemblies. We create smart solutions for connecting energy and water grids in domestic homes, office buildings and industrial sites."
-        />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="logo/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="logo/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="logo/favicon-16x16.png"
-        />
-        <link rel="manifest" href="logo/site.webmanifest" />
-        <link
-          rel="mask-icon"
-          href="logo/safari-pinned-tab.svg"
-          color="#db0a40"
-        />
-        <meta name="msapplication-TileColor" content="#ff0000" />
-        <meta name="theme-color" content="#ffffff" />
-      </Head>
+      <GlobalHead
+        title="OCI | Smart solutions for energy and water networks"
+        description="OCI specializes in custom assemblies. We create smart solutions for connecting energy and water grids in domestic homes, office buildings, and industrial sites."
+        keywords="OCI, smart solutions, energy networks, water networks"
+      />
       <Hero />
-
       <Section style={1}>
         <Wrapper style={2} space="extra">
           <Eyebrow style={1}>Expertise</Eyebrow>
@@ -93,7 +62,6 @@ export default function Home() {
         />
       </Flex>
       <Proposition />
-
       <Section style={1}>
         <Wrapper style={2} space="extra">
           <Eyebrow style={1}>Commitment</Eyebrow>

@@ -70,11 +70,11 @@
 
 .copyWrapper {
   margin: 0 auto;
-  max-width: 720px;
+  max-width: 560px;
 }
 
-@media (min-width: 768px) {
-  .copy {
-    font-size: 24px;
+@media (min-width: 1024px) {
+  .copyWrapper {
+    max-width: 720px;
   }
 }

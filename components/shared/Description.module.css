@@ -9,6 +9,12 @@
 
 @media (min-width: 768px) {
   .copy {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .copy {
     font-size: 24px;
   }
 }

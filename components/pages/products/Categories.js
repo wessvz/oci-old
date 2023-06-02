@@ -64,7 +64,7 @@ export default function Categories() {
           </div>
         </section>
         <section className={styles.fitting}>
-          <div className={styles.copyColumn}>
+          <div className={`${styles.copyColumn} ${styles.reverse}`}>
             <div className={styles.copyWrapper}>
               <h2 className={styles.eyebrow}>Fittings</h2>
               <h3 className={styles.title}>More than 2000 products</h3>
@@ -111,7 +111,7 @@ export default function Categories() {
 
       <div className={styles.bottom}>
         <section className={styles.piping}>
-          <div className={styles.copyColumn}>
+          <div className={`${styles.copyColumn} ${styles.reverse}`}>
             <div className={`${styles.copyWrapper} ${styles.extraPadding}`}>
               <h2 className={styles.eyebrow}>Piping systems</h2>
               <h3 className={styles.title}>
@@ -172,7 +172,7 @@ export default function Categories() {
         </section>
 
         <section className={styles.plastics}>
-          <div className={styles.copyColumn}>
+          <div className={`${styles.copyColumn} ${styles.reverse}`}>
             <div className={styles.copyWrapper}>
               <h2 className={styles.eyebrow}>Plastics and rubber</h2>
               <h3 className={styles.title}>From idea to realized product</h3>

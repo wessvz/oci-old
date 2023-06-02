@@ -9,11 +9,10 @@ export default function ProductsPage() {
   return (
     <>
       <GlobalHead
-        title="OCI | Smart solutions for energy and water networks"
-        description="Explore our range of products for energy and water networks."
-        keywords="OCI products, connection systems, fittings, ball valves, piping systems, metal hoses"
+        title="OCI Products | Ball valves, fittings, piping systems & more"
+        description="Discover our extensive range of ball valves, fittings, pipelines and a sophisticated range of plastic products and installation materials."
+        keywords="OCI products, piping systems, fittings, ball valves, connection systems, metal hoses"
         name="OCI Products"
-        type="WebPage"
         url="https://www.ocibv.nl/products"
       />
       <Hero />

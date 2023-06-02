@@ -25,6 +25,9 @@ export default function Modal({ category, description }) {
                 strokeWidth="1.5"
               />
             </g>
+            <g className={styles.arrowBody}>
+              <path d="M3.5 4.5H0" stroke="currentColor" strokeWidth="2" />
+            </g>
           </svg>
         </button>
       </Dialog.Trigger>

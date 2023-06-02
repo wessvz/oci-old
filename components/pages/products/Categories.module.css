@@ -174,7 +174,7 @@
     justify-content: flex-start;
     flex-basis: 55%;
     max-width: 55%;
-    padding: 40px 0px 40px 40px;
+    padding: 32px;
     text-align: left;
   }
 }
@@ -243,4 +243,20 @@
 .pipingDesk {
   composes: image;
   margin-right: 0;
+}
+
+.reverse {
+  order: 0;
+}
+
+@media (min-width: 768px) {
+  .reverse {
+    order: 1;
+  }
+}
+
+@media (min-width: 936px) {
+  .reverse {
+    order: 0;
+  }
 }

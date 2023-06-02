@@ -53,3 +53,16 @@
     width: 100%;
   }
 }
+
+.sustainable {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-bottom: var(--height);
+}
+
+@media (min-width: 768px) {
+  .sustainable {
+    gap: 56px;
+  }
+}

@@ -8,6 +8,8 @@ export default function Flex({ style, children }) {
       return <div className={styles.panel}>{children}</div>;
     case 3:
       return <div className={styles.card}>{children}</div>;
+    case 4:
+      return <div className={styles.sustainable}>{children}</div>;
     default:
       throw Error("Unknown level: " + style);
   }

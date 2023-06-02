@@ -60,7 +60,7 @@ export default function Sustainability() {
           </Copy>
         </Wrapper>
       </Section>
-      <Flex style={1}>
+      <Flex style={4}>
         <Panel
           eyebrow="Company"
           title="Closer to carbon neutral"

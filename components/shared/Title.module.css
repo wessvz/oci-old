@@ -31,11 +31,17 @@
 
 @media (min-width: 768px) {
   .title {
-    font-size: 48px;
+    font-size: 56px;
   }
 }
 
 @media (min-width: 1024px) {
+  .title {
+    font-size: 64px;
+  }
+}
+
+@media (min-width: 1280px) {
   .title {
     font-size: 72px;
     line-height: 80px;

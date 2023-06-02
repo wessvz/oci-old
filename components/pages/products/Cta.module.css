@@ -31,6 +31,12 @@
 
 @media (min-width: 768px) {
   .desc {
+    max-width: 560px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .desc {
     max-width: 600px;
   }
 }

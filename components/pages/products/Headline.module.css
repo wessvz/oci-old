@@ -52,18 +52,18 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .title {
-    max-width: 560px;
+    font-size: 64px;
+    max-width: 100%;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .title {
     font-size: 72px;
     line-height: 80px;
     margin: 0 auto 32px;
-    max-width: 100%;
   }
 }
 

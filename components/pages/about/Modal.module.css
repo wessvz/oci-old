@@ -146,12 +146,18 @@
 
 .modalTop {
   background: #e8e8ed;
-  padding: 112px 0 64px;
+  padding: 80px 0 40px;
   position: relative;
   overflow: hidden;
 }
 
 @media (min-width: 768px) {
+  .modalTop {
+    padding: 112px 0 80px;
+  }
+}
+
+@media (min-width: 1024px) {
   .modalTop {
     padding: 136px 0 88px;
   }
@@ -165,43 +171,37 @@
 
 @media (min-width: 768px) {
   .wrapper {
+    padding: 0 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
     padding: 0 112px;
   }
 }
 
 .headline {
-  font-size: 36px;
+  font-size: 40px;
   color: var(--title);
+}
+
+@media (min-width: 640px) {
+  .headline {
+    font-size: 48px;
+  }
 }
 
 @media (min-width: 768px) {
   .headline {
-    font-size: 64px;
+    font-size: 56px;
   }
 }
 
-.green .modalTop {
-  background: rgba(3, 109, 78, 0.1);
-}
-
-.green .headline {
-  color: rgb(3, 109, 78);
-}
-
-.blue .modalTop {
-  background: rgba(0, 115, 230, 0.16);
-}
-
-.blue .headline {
-  color: #0071e3;
-}
-
-.red .modalTop {
-  background: rgba(196, 35, 62, 0.16);
-}
-
-.red .headline {
-  color: #c4233d;
+@media (min-width: 1024px) {
+  .headline {
+    font-size: 64px;
+  }
 }
 
 .modalCopy {
@@ -210,6 +210,12 @@
 }
 
 @media (min-width: 768px) {
+  .modalCopy {
+    padding: 80px;
+  }
+}
+
+@media (min-width: 1024px) {
   .modalCopy {
     padding: 80px 112px 112px 112px;
   }

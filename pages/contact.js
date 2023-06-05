@@ -1,50 +1,26 @@
 import styles from "../styles/Contact.module.css";
+import GlobalHead from "@/components/layout/head/GlobalHead";
 import Image from "next/image";
-import Head from "next/head";
 import Hero from "../components/pages/contact/Hero";
 import ContactForm from "@/components/pages/contact/ContactForm";
 import Item from "@/components/pages/contact/Item";
 import { Phone, Envelope } from "@/public/icons/General";
 import logo from "@/public/images/logo-oci-dark.svg";
-import productPlaceholder1 from "@/public/images/about/product-placeholder.webp";
-import productPlaceholder6 from "@/public/images/about/product-placeholder-6.webp";
 import Headline from "@/components/pages/contact/Headline";
 import Container from "@/components/layout/Container";
 import products1 from "@/public/images/home/products-oci-1.jpg";
-import products2 from "@/public/images/home/products-oci-2.jpg";
+import products2 from "@/public/images/contact/oci-connection-system.jpg";
 
 export default function ContactPage() {
   return (
     <>
-      <Head>
-        <title>OCI BV | Smart solutions for energy and water networks</title>
-        <meta name="description" content="Welkom bij OCI BV" />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="logo/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="logo/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="logo/favicon-16x16.png"
-        />
-        <link rel="manifest" href="logo/site.webmanifest" />
-        <link
-          rel="mask-icon"
-          href="logo/safari-pinned-tab.svg"
-          color="#db0a40"
-        />
-        <meta name="msapplication-TileColor" content="#ff0000" />
-        <meta name="theme-color" content="#ffffff" />
-      </Head>
+      <GlobalHead
+        title="Contact OCI | Smart solutions for energy and water grids"
+        description="Contact OCI today to explore smart solutions for connecting energy and water grids. We are here to assist you with our expertise and innovative products."
+        keywords="OCI contact "
+        name="Contact OCI"
+        url="https://www.ocibv.nl/contact"
+      />
 
       <Hero />
       <Container>

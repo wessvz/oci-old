@@ -2,7 +2,7 @@
   background: var(--secundaryDark);
   overflow: hidden;
   position: relative;
-  height: 240px;
+  height: 320px;
 }
 
 @media (min-width: 1024px) {

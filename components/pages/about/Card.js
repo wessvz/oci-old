@@ -2,12 +2,12 @@ import styles from "./Card.module.css";
 import Image from "next/image";
 import Modal from "./ModalValues";
 
-export default function Card({ title, desc, copy, headline, image }) {
+export default function Card({ title, desc, copy, headline, image, alt }) {
   return (
     <div className={styles.wrapper}>
       <div className={styles.imageWrapper}>
         <picture className={styles.picture}>
-          <Image alt="Voorbeeld" src={image} className={styles.img} />
+          <Image alt={alt} src={image} className={styles.img} />
         </picture>
       </div>
       <div className={styles.copyWrapper}>

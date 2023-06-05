@@ -24,6 +24,7 @@ export default function Values() {
             headline="Creating positive impact"
             copy={environment}
             image={valueEnvironment}
+            alt="OCI - Creating positive impact on environment"
           />
           <Card
             title="Innovation"
@@ -31,6 +32,7 @@ export default function Values() {
             headline="Unlocking new possibilities"
             copy={innovation}
             image={valueInnovation}
+            alt="OCI - Developing innovative and sustainable products"
           />
           <Card
             title="Quality"
@@ -38,6 +40,7 @@ export default function Values() {
             headline="The highest standards"
             copy={quality}
             image={valueQuality}
+            alt="OCI - Products and solutions of the highest quality"
           />
         </div>
       </div>

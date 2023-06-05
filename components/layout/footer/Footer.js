@@ -1,7 +1,7 @@
 import styles from "./Footer.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/images/logo-oci-white.svg";
+import logo from "@/public/logo/oci-white.svg";
 
 export default function Footer() {
   return (

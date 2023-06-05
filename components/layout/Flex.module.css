@@ -1,6 +1,10 @@
-.default {
+.flex {
   display: flex;
   flex-direction: column;
+}
+
+.default {
+  composes: flex;
   gap: 40px;
   padding-bottom: 40px;
 }
@@ -13,8 +17,7 @@
 }
 
 .panel {
-  display: flex;
-  flex-direction: column;
+  composes: flex;
   width: 100%;
   overflow: hidden;
   margin: 0 auto;
@@ -34,8 +37,7 @@
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
+  composes: flex;
   width: 100%;
   overflow: hidden;
   margin: 0 auto;
@@ -55,8 +57,7 @@
 }
 
 .sustainable {
-  display: flex;
-  flex-direction: column;
+  composes: flex;
   gap: 40px;
   padding-bottom: var(--height);
 }
@@ -65,4 +66,9 @@
   .sustainable {
     gap: 56px;
   }
+}
+
+.contact {
+  composes: flex;
+  gap: 56px;
 }

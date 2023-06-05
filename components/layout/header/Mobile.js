@@ -3,7 +3,7 @@ import { useState } from "react";
 import navLinks from "@/data/navLinks";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/images/logo-oci-white.svg";
+import logo from "@/public/logo/oci-white.svg";
 
 export default function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);

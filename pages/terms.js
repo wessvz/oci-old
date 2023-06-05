@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Hero from "@/components/hero/Resources";
+import Hero from "@/components/pages/resources/Hero";
 import Section from "@/components/layout/Section";
 import Copy from "@/components/layout/Copy";
 import Title from "@/components/layout/Title";

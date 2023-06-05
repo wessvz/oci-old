@@ -1,5 +1,5 @@
 import Copy from "@/components/layout/Copy";
-import { Check } from "@/public/icons/Outline";
+import { Check } from "@/public/icons/General";
 import styles from "./Item.module.css";
 
 export default function Item({ title, description }) {

@@ -24,8 +24,12 @@ export default function Player({
 
   return (
     <div className={styles.videoContainer}>
-      <Image alt="Voorbeeld" src={imageUrl} className={styles.image} priority />
-
+      <Image
+        alt="Placeholder Company Video of OCI"
+        src={imageUrl}
+        className={styles.image}
+        priority
+      />
       <ReactPlayer
         url={videoUrl}
         playing={true}

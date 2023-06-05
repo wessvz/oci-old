@@ -1,6 +1,6 @@
 const navLinks = [
-  { href: "/about", title: "About us" },
   { href: "/products", title: "Products" },
+  { href: "/about", title: "About us" },
   { href: "/sustainability", title: "Sustainability" },
   { href: "/contact", title: "Contact" },
 ];

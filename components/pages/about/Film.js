@@ -1,6 +1,6 @@
 import styles from "./Film.module.css";
 import Image from "next/image";
-import device from "@/public/images/device.png";
+import device from "@/public/images/about/device.png";
 import film from "@/public/images/about/film-start.jpg";
 import Title from "../../shared/Title";
 import Company from "@/components/video/Company";

@@ -1,4 +1,4 @@
-import Head from "next/head";
+import GlobalHead from "@/components/layout/head/GlobalHead";
 import Hero from "../components/pages/sustainability/Hero";
 import Section from "@/components/layout/Section";
 import Title from "@/components/layout/Title";
@@ -15,38 +15,13 @@ import family from "@/public/images/sustainability/family.jpg";
 export default function Sustainability() {
   return (
     <>
-      <Head>
-        <title>OCI | Smart solutions for energy and water networks</title>
-        <meta
-          name="description"
-          content="OCI specializes in custom assemblies. We create smart solutions for connecting energy and water grids in domestic homes, office buildings and industrial sites."
-        />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="logo/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="logo/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="logo/favicon-16x16.png"
-        />
-        <link rel="manifest" href="logo/site.webmanifest" />
-        <link
-          rel="mask-icon"
-          href="logo/safari-pinned-tab.svg"
-          color="#db0a40"
-        />
-        <meta name="msapplication-TileColor" content="#ff0000" />
-        <meta name="theme-color" content="#ffffff" />
-      </Head>
+      <GlobalHead
+        title="OCI and sustainability"
+        description="Environmental responsibility is a core value at OCI. Read more about our goals and how we are creating a positive impact."
+        keywords="sustainability, environmental responsibility, sustainable solutions"
+        name="OCI and sustainability"
+        url="https://www.ocibv.nl/sustainability"
+      />
       <Hero />
       <Section style={1}>
         <Wrapper style={2} space="medium">

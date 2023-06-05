@@ -5,6 +5,7 @@ export default function GlobalHead({
   description,
   keywords,
   type = "WebPage",
+  robots = "index, follow",
   name,
   url,
 }) {
@@ -17,7 +18,7 @@ export default function GlobalHead({
         name="author"
         content="Full Stacks Digital Agency (https://fullstacks.nl)"
       />
-      <meta name="robots" content="index, follow" />
+      <meta name="robots" content={robots} />
       <link
         rel="apple-touch-icon"
         sizes="180x180"

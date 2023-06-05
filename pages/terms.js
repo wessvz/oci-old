@@ -1,4 +1,4 @@
-import Head from "next/head";
+import GlobalHead from "@/components/layout/head/GlobalHead";
 import Hero from "@/components/pages/resources/Hero";
 import Section from "@/components/layout/Section";
 import Copy from "@/components/layout/Copy";
@@ -9,36 +9,14 @@ import Accordion from "@/components/pages/resources/TermsAccordion";
 export default function Terms() {
   return (
     <>
-      <Head>
-        <title>OCI BV | Smart solutions for energy and water networks</title>
-        <meta name="description" content="Welkom bij OCI BV" />
-
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="logo/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="logo/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="logo/favicon-16x16.png"
-        />
-        <link rel="manifest" href="logo/site.webmanifest" />
-        <link
-          rel="mask-icon"
-          href="logo/safari-pinned-tab.svg"
-          color="#db0a40"
-        />
-        <meta name="msapplication-TileColor" content="#ff0000" />
-        <meta name="theme-color" content="#ffffff" />
-      </Head>
+      <GlobalHead
+        title="Terms and Conditions - OCI"
+        description="Read and understand the terms and conditions that govern the relationship between us and our customers."
+        keywords="terms and conditions, legal"
+        name="Terms and Conditions - OCI"
+        url="https://www.ocibv.nl/terms"
+        robots="noindex, nofollow"
+      />
 
       <Hero title="Terms and Conditions" />
 

@@ -10,7 +10,7 @@ export default function ContactPage() {
   return (
     <>
       <GlobalHead
-        title="Contact OCI | Smart solutions for energy and water grids"
+        title="Contact OCI - Smart solutions for energy and water grids"
         description="Contact OCI today to explore smart solutions for connecting energy and water grids. We are here to assist you with our expertise and innovative products."
         keywords="OCI contact "
         name="Contact OCI"

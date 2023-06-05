@@ -8,7 +8,11 @@ export default function Hero() {
       <div className={styles.imageWrapper}>
         <div className={styles.view}>
           <div className={styles.imageContainer}>
-            <Image alt="Voorbeeld" src={oci} className={styles.image} />
+            <Image
+              alt="OCI bv location in Malden, the Netherlands"
+              src={oci}
+              className={styles.image}
+            />
             <div className={styles.overlay}></div>
           </div>
         </div>

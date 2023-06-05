@@ -142,7 +142,7 @@ const environment = (
       frontrunners for employment opportunities for the PSO target group in the
       Netherlands.
     </p>
-    <h3>Carbon neutral since 2020</h3>
+    <h3>Producing clean energy</h3>
     <p>
       In our opinion businesses have a responsibility to be good stewards of
       planet earth. We are proud that we produce more clean energy than we

@@ -38,6 +38,12 @@
 
 @media (min-width: 1024px) {
   .title {
+    font-size: 64px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .title {
     font-size: 72px;
     line-height: 80px;
     margin: 0 auto 32px;

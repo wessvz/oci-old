@@ -17,11 +17,11 @@ export default function Home() {
   return (
     <>
       <GlobalHead
-        title="OCI - Smart solutions for energy and water networks"
+        title="OCI bv - Smart solutions for energy and water networks"
         description="OCI specializes in custom assemblies. Discover our solutions for connecting energy and water grids in domestic homes, office buildings, and industrial sites."
-        keywords="OCI, smart solutions, energy networks, water networks"
+        keywords="OCI bv, smart solutions, energy networks, water networks"
         type="Organization"
-        name="OCI BV"
+        name="OCI bv"
         url="https://www.ocibv.nl/"
       />
       <Hero />

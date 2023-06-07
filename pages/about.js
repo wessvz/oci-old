@@ -12,7 +12,7 @@ export default function AboutPage() {
         title="About OCI - Connecting energy and water grids with smart solutions"
         description="OCI is dedicated to connect energy and water grids through sustainable solutions and innovative products. Let's shape a greener future together."
         keywords="OCI, sustainable solutions, innovative products water, energy"
-        name="About OCI"
+        name="About OCI bv"
         url="https://www.ocibv.nl/about"
       />
       <Hero />

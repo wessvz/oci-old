@@ -53,9 +53,9 @@ export default function GlobalHead({
       <script type="application/ld+json">
         {JSON.stringify({
           "@context": "https://schema.org",
-          "@type": type,
-          name: name,
-          url: url,
+          "@type": "${type}",
+          name: "${name}",
+          url: "${url}",
           logo: "https://www.ocibv.nl/_next/static/media/oci-dark.10dc46ff.svg",
         })}
       </script>

@@ -56,7 +56,7 @@ export default function GlobalHead({
           "@type": type,
           name: name,
           url: url,
-          logo: "https://www.ocibv.nl/images/logo-oci-dark.svg",
+          logo: "https://www.ocibv.nl/images/logo/oci-dark.svg",
         })}
       </script>
     </Head>

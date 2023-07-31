@@ -20,7 +20,7 @@ export default function Terms() {
 
       <Hero title="Terms and Conditions" />
 
-      <Section style={4}>
+      <Section style={6}>
         <Wrapper style={1}>
           <Title style={4}>Introduction</Title>
           <Copy style={1}>

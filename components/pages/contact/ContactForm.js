@@ -62,13 +62,13 @@ export default function ContactForm() {
                   ></input>
                   {errors.firstname && errors.firstname.type === "required" && (
                     <span className={styles.alert} role="alert">
-                      Er is geen voornaam ingevuld
+                      No first name filled in.
                     </span>
                   )}
                   {errors.firstname &&
                     errors.firstname.type === "maxLength" && (
                       <span className={styles.alert} role="alert">
-                        Maximale lengte is 20 karakters
+                        Maximum length is 20 characters
                       </span>
                     )}
                 </div>
@@ -90,12 +90,12 @@ export default function ContactForm() {
                   ></input>
                   {errors.lastname && errors.lastname.type === "required" && (
                     <span className={styles.alert} role="alert">
-                      Er is geen achternaam ingevuld
+                      No last name filled in.
                     </span>
                   )}
                   {errors.lastname && errors.lastname.type === "maxLength" && (
                     <span className={styles.alert} role="alert">
-                      Maximale lengte is 20 karakters
+                      Maximum length is 20 characters
                     </span>
                   )}
                 </div>
@@ -123,13 +123,13 @@ export default function ContactForm() {
                   />
                   {errors.email && errors.email.type === "required" && (
                     <span className={styles.alert} role="alert">
-                      Er is geen e-mailadres ingevuld
+                      No email address filled in.
                     </span>
                   )}
                   {errors.email && errors.email.type === "pattern" && (
                     <span className={styles.alert} role="alert">
-                      Er is geen geldig e-mailadres ingevuld. Controleer of het
-                      e-mailadres een @ en een punt bevat.
+                      No valid email address filled in. Please check if the
+                      email address contains an @ and a dot.
                     </span>
                   )}
                 </div>
@@ -154,12 +154,12 @@ export default function ContactForm() {
                   />
                   {errors.phone && errors.phone.type === "required" && (
                     <span className={styles.alert} role="alert">
-                      Er is geen telefoonnummer ingevuld
+                      No phone number filled in.
                     </span>
                   )}
                   {errors.phone && errors.phone.type === "pattern" && (
                     <span className={styles.alert} role="alert">
-                      Er is geen geldig telefoonnummer ingevuld
+                      No valid phone number filled in.
                     </span>
                   )}
                 </div>

@@ -20,7 +20,7 @@ export default function Privacy() {
 
       <Hero title="Privacy Policy" />
 
-      <Section style={4}>
+      <Section style={6}>
         <Title style={4}>Personal data and cookies</Title>
         <Copy style={1}>
           On this page, you will find information about how OCI handles personal

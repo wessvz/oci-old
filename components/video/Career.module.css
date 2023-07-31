@@ -1,0 +1,52 @@
+.play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  border: 1px solid hsla(0, 0%, 100%, 0.4);
+  background: hsla(0, 0%, 100%, 0.1);
+  color: #fff;
+  border-radius: 100%;
+  transition: background-color 0.2s ease;
+}
+
+.play:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.default {
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.radius {
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000f1e20;
+}
+
+.home video {
+  border-radius: 8px;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+}

@@ -29,7 +29,7 @@ export default function Section({ style, children }) {
     case 4:
       return (
         <section className={styles.default}>
-          <div className={styles.resources}>
+          <div className={styles.content}>
             <div className={styles.padding}>{children}</div>
           </div>
         </section>
@@ -39,6 +39,14 @@ export default function Section({ style, children }) {
         <section className={styles.white}>
           <div className={styles.brand}>
             <div className={styles.panel}>{children}</div>
+          </div>
+        </section>
+      );
+    case 6:
+      return (
+        <section className={styles.default}>
+          <div className={styles.resources}>
+            <div className={styles.padding}>{children}</div>
           </div>
         </section>
       );

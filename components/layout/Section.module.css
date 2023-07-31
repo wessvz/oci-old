@@ -25,6 +25,14 @@
   padding: var(--height) var(--pageMargin);
 }
 
+.content {
+  composes: container;
+  max-width: 880px;
+  background-color: var(--white);
+  border-radius: 18px;
+  margin: 0px auto;
+}
+
 .resources {
   composes: container;
   max-width: 880px;

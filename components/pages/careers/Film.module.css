@@ -1,0 +1,67 @@
+.section {
+  padding: var(--sectionHeight) 0px;
+}
+
+.copyContainer {
+  max-width: var(--pageWidth);
+  margin: 0 auto;
+  padding: 0px var(--width) 0px var(--width);
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 560px;
+}
+
+@media (min-width: 768px) {
+  .copyContainer {
+    margin-bottom: 56px;
+    max-width: 800px;
+  }
+}
+
+.filmContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.deviceWrapper {
+  position: relative;
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+  max-height: 86%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.device {
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+}
+
+.filmWrapper {
+  height: auto;
+  position: absolute;
+  top: 2px;
+  left: 50%;
+  max-width: 1301px;
+  width: 100%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .filmWrapper {
+    top: 4px;
+  }
+}
+
+.frame {
+  width: 83.8%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}

@@ -23,7 +23,7 @@ export default function Main() {
           </h1>
           <p className={styles.subtitle}>
             Innovative and sustainable thinking is the driving force behind
-            OCI's production and development
+            OCI's production and development.
           </p>
           <div className={styles.buttons}>
             <LargeButton buttonText="What we do" link="/products" />

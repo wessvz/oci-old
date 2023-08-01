@@ -1,8 +1,8 @@
 .text {
-  color: #666;
   font-weight: 400;
-  letter-spacing: -0.5px;
-  line-height: 1.5;
+  color: var(--text);
+  line-height: var(--line-height-2);
+  letter-spacing: var(--letter-spacing-1);
 }
 
 .description {

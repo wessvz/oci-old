@@ -1,7 +1,7 @@
 .container {
   overflow: hidden;
   position: relative;
-  height: 240px;
+  height: 360px;
 }
 
 @media (min-width: 1024px) {
@@ -47,30 +47,21 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 22, 43, 0.55),
-    var(--primaryDark)
-  );
+  background: linear-gradient(180deg, rgba(0, 22, 43, 0.4), var(--primaryDark));
 }
 
 .wrapper {
   height: 100%;
   margin: 0 auto;
   max-width: var(--pageWidth);
-  padding: 80px var(--pageMargin) 32px;
+  padding: 80px var(--pageMargin);
   position: relative;
   z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-@media (min-width: 768px) {
-  .wrapper {
-    padding: 80px var(--pageMargin) 80px;
-  }
+  text-align: center;
 }
 
 .title {

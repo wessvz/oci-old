@@ -35,14 +35,33 @@
 
 .resources {
   composes: container;
-  max-width: 880px;
-  background-color: var(--white);
-  border-radius: 18px;
-  margin: 96px auto;
+  max-width: 920px;
+  margin-top: -40px;
+}
+
+@media (min-width: 768px) {
+  .resources {
+    padding: 0 40px;
+    margin: 96px auto;
+  }
 }
 
 .padding {
-  padding: 56px 48px;
+  background-color: var(--white);
+  border-radius: 18px;
+  padding: 40px var(--pageMargin) 80px var(--pageMargin);
+}
+
+@media (min-width: 768px) {
+  .padding {
+    padding: 56px 48px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .padding {
+    padding: 56px 48px;
+  }
 }
 
 .brand {

@@ -69,3 +69,21 @@
     --sectionHeight: 140px;
   }
 }
+
+/* Typography  */
+:root {
+  --text: var(--grey-1);
+  --title: var(--dark-1);
+  --line-height-1: 1.25em;
+  --line-height-2: 1.5em;
+  --letter-spacing-1: -0.02em;
+  --letter-spacing-2: -0.04em;
+}
+
+:root {
+  --dark-1: #1d1d1f;
+}
+
+:root {
+  --grey-1: #666;
+}

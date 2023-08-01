@@ -1,0 +1,21 @@
+.default {
+  color: var(--text);
+  margin-bottom: var(--spaceGap);
+  line-height: var(--line-height-2);
+  letter-spacing: var(--letter-spacing-1);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .default {
+    font-size: 20px;
+  }
+}
+
+.copyright {
+  composes: default;
+  font-size: 14px;
+  color: #94a3b8;
+  margin-bottom: 0;
+}

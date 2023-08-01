@@ -3,18 +3,19 @@
 }
 
 .AccordionTrigger {
+  line-height: var(--line-height-1);
+  letter-spacing: var(--letter-spacing-1);
+  color: var(--title);
   font-family: inherit;
   background-color: transparent;
-  padding: 0px;
-  height: 48px;
+  padding: 16px 0;
   flex: 1;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   font-size: 20px;
-  line-height: 1;
-  color: var(--title);
   font-weight: 600;
+  text-align: left;
 }
 
 .AccordionItem {
@@ -27,32 +28,8 @@
   z-index: 1;
 }
 
-.AccordionContent {
-  overflow: hidden;
-  font-size: 16px;
-  color: var(--text);
-}
-
-.AccordionContent li {
-  padding: 6px 0;
-}
-
-.AccordionContent a {
-  color: var(--text);
-}
-
 .AccordionContentText {
   padding: 4px 8px 8px 8px;
-}
-
-.AccordionContentText p,
-.AccordionContentText ul {
-  color: #666;
-  font-weight: 400;
-  letter-spacing: -0.5px;
-  line-height: 1.5;
-  margin-bottom: 6px;
-  font-size: 20px;
 }
 
 .AccordionContent[data-state="open"] {
@@ -63,10 +40,11 @@
 }
 
 .AccordionChevron {
-  color: var(--violet10);
+  color: #1d1d1f;
   transition: transform 500ms cubic-bezier(0.87, 0, 0.13, 1);
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
 }
 .AccordionTrigger[data-state="open"] > .AccordionChevron {
   transform: rotate(180deg);
@@ -88,10 +66,4 @@
   to {
     height: 0;
   }
-}
-
-ul.circle {
-  list-style: inside;
-  list-style-type: circle;
-  padding-left: 24px;
 }

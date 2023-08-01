@@ -5,3 +5,10 @@
   color: var(--text);
   margin-bottom: var(--spaceGap);
 }
+
+.copyright {
+  composes: default;
+  font-size: 14px;
+  color: #94a3b8;
+  margin-bottom: 0;
+}

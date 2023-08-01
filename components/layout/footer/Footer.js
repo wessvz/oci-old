@@ -2,6 +2,7 @@ import styles from "./Footer.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "@/public/logo/oci-white.svg";
+import Paragraph from "@/components/typography/Paragraph";
 
 export default function Footer() {
   return (
@@ -31,10 +32,10 @@ export default function Footer() {
               <div className={styles.title}>Resources</div>
               <ul className={styles.list}>
                 <li>
-                  <Link href="/terms">Terms & Conditions</Link>
+                  <Link href="/terms">Terms</Link>
                 </li>
                 <li>
-                  <Link href="/privacy">Privacy & Cookies</Link>
+                  <Link href="/privacy">Privacy</Link>
                 </li>
               </ul>
             </li>
@@ -49,9 +50,9 @@ export default function Footer() {
           </ul>
         </nav>
         <section className={styles.section}>
-          <p className={styles.copyright}>
-            © {new Date().getFullYear()} OCI B.V. Alle rechten voorbehouden.
-          </p>
+          <Paragraph style="copyright">
+            © {new Date().getFullYear()} OCI B.V.
+          </Paragraph>
         </section>
       </div>
     </footer>

@@ -58,10 +58,18 @@
 }
 
 .resources {
-  font-size: 40px;
+  font-size: 30px;
+  letter-spacing: var(--letter-spacing-1);
+}
+
+@media (min-width: 768px) {
+  .default {
+    font-size: 36px;
+  }
 }
 
 .sub {
   composes: title;
-  font-size: 28px;
+  font-size: 24px;
+  letter-spacing: -0.8px;
 }

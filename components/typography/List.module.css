@@ -1,13 +1,14 @@
-.default {
-  color: #666;
+.default li {
+  color: var(--text);
+  letter-spacing: var(--letter-spacing-1);
+  line-height: var(----line-height-2);
   font-size: 18px;
   font-weight: 400;
-  letter-spacing: -0.5px;
-  line-height: 1.5;
+  padding: 6px 0;
 }
 
 @media (min-width: 768px) {
-  .default {
+  .default li {
     font-size: 20px;
   }
 }
@@ -23,5 +24,19 @@
   position: absolute;
   font-size: 24px;
   left: -24px;
-  top: -2px;
+}
+
+.terms li {
+  color: var(--text);
+  letter-spacing: var(--letter-spacing-1);
+  line-height: var(--line-height-2);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 6px 0;
+}
+
+@media (min-width: 768px) {
+  .terms li {
+    font-size: 20px;
+  }
 }

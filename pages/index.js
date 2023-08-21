@@ -33,7 +33,7 @@ export default function Home() {
           </Title>
           <Copy style={2} width="normal">
             Smart solutions for connecting energy and water grids in domestic
-            homes, office buildings and industrial sites.
+            homes, office buildings and industrial sites
           </Copy>
         </Wrapper>
       </Section>
